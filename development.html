@@ -1,0 +1,2020 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web & App Development Services | Ranknix Online</title>
+  <meta name="description" content="High-converting Shopify & WordPress platforms, custom React/Next.js web applications, and production-ready iOS & Android apps built for extreme speed, conversion optimization, and enterprise scalability.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0284c7',
+            secondary: '#2563eb',
+            dark: '#0f172a',
+            surface: '#f8fafc',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Font Awesome 6 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Smart Geo-Location Multi-Currency Engine -->
+  <script src="assets/js/currency.js"></script>
+</head>
+<body class="bg-white text-slate-800 antialiased font-sans selection:bg-blue-600 selection:text-white">
+
+      <!-- TOP ANNOUNCEMENT BAR (SLIMLINE - HEIGHT REDUCED) -->
+  <div class="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white text-[11px] py-1 px-3 border-b border-blue-900/40">
+    <div class="w-full max-w-[1536px] mx-auto flex items-center justify-between gap-2">
+      <div class="flex items-center gap-1.5 overflow-hidden text-ellipsis whitespace-nowrap">
+        <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9px] font-black bg-blue-500/20 text-blue-300 border border-blue-400/30 uppercase tracking-wider">
+          Official Division
+        </span>
+        <span class="text-slate-300 text-[11px] truncate">
+          Division 01: Engineering &amp; Design &bull; Muhammad Abdullah
+        </span>
+      </div>
+      <div class="flex items-center gap-3 text-slate-300 ml-auto shrink-0 text-[11px]">
+        <a href="https://wa.me/923088163940" target="_blank" class="hover:text-emerald-400 transition flex items-center gap-1">
+          <i class="fa-brands fa-whatsapp text-emerald-400 text-xs"></i>
+          <span>+92 308 8163940</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR (SLIMLINE: HEIGHT ~46px, ABSOLUTE ZERO OVERLAP) -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all shadow-2xs">
+    <div class="w-full max-w-[1536px] mx-auto px-3 sm:px-4 lg:px-6">
+      <div class="flex items-center justify-between h-11 sm:h-[46px] gap-2">
+
+        <!-- 1. Left: Brand Logo Lockup (STRICTLY NON-COLLAPSING, SAFE SPACING) -->
+        <a href="index.html" class="flex items-center gap-2 group shrink-0 min-w-max select-none z-10 mr-2">
+          <img src="assets/images/logo.png" alt="Ranknix Online Logo" class="h-7 sm:h-7.5 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col justify-center -space-y-0.5">
+            <div class="flex items-center gap-1 leading-none">
+              <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 font-heading">Ranknix</span>
+              <span class="text-sm sm:text-base font-black tracking-tight text-blue-600 font-heading">Online</span>
+            </div>
+            <span class="text-[7.5px] font-extrabold tracking-widest text-slate-400 uppercase leading-none">DIGITAL AGENCY</span>
+          </div>
+        </a>
+
+        <!-- 2. Center: Navigation Links (Never overlap, all requested links visible) -->
+        <nav class="hidden lg:flex items-center justify-center gap-0.5 xl:gap-1.5 shrink min-w-0">
+          <!-- Home -->
+          <a href="index.html" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-house text-slate-400"></i>
+            <span>Home</span>
+          </a>
+
+          <!-- Development Dropdown -->
+          <div class="relative group">
+            <a href="development.html" class="nav-link-item flex items-center gap-1 bg-blue-50 text-blue-700 font-bold border border-blue-200/90 rounded-lg">
+              <i class="fa-solid fa-code text-blue-600"></i>
+              <span>Development</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Web &amp; App Dev (01â€“08)</span>
+                <span class="text-blue-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/web-development.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-code text-blue-600 w-4"></i> Web Development
+              </a>
+              <a href="services/app-development.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-mobile-screen-button text-blue-600 w-4"></i> App Development
+              </a>
+              <a href="services/ui-ux-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-pen-nib text-blue-600 w-4"></i> UI/UX Design
+              </a>
+              <a href="services/graphic-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-palette text-blue-600 w-4"></i> Graphic Design
+              </a>
+              <a href="services/e-commerce-solutions.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-bag-shopping text-blue-600 w-4"></i> E-Commerce Solutions
+              </a>
+              <a href="services/video-editing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-video text-blue-600 w-4"></i> Video Editing
+              </a>
+              <a href="services/content-writing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-feather text-blue-600 w-4"></i> Content Writing
+              </a>
+              <a href="services/landing-page-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-rocket text-blue-600 w-4"></i> Landing Page Design
+              </a>
+            </div>
+          </div>
+
+          <!-- Marketing Dropdown -->
+          <div class="relative group">
+            <a href="marketing.html" class="nav-link-item flex items-center gap-1 text-slate-700 hover:text-slate-900 px-2 py-1">
+              <i class="fa-solid fa-chart-line text-indigo-600"></i>
+              <span>Marketing</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Marketing &amp; Growth (09â€“16)</span>
+                <span class="text-indigo-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/digital-marketing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-chart-line text-indigo-600 w-4"></i> Digital Marketing
+              </a>
+              <a href="services/seo-services.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-magnifying-glass-chart text-indigo-600 w-4"></i> SEO Services
+              </a>
+              <a href="services/google-ads-bing-ads.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-brands fa-google text-indigo-600 w-4"></i> Google &amp; Bing Ads
+              </a>
+              <a href="services/meta-ads.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-brands fa-meta text-indigo-600 w-4"></i> Meta Ads (FB &amp; IG)
+              </a>
+              <a href="services/social-media-management.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-share-nodes text-indigo-600 w-4"></i> Social Media Management
+              </a>
+              <a href="services/web-analytics.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-chart-pie text-indigo-600 w-4"></i> Web Analytics (GA4)
+              </a>
+              <a href="services/cro-conversion-optimization.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-arrow-trend-up text-indigo-600 w-4"></i> CRO Optimization
+              </a>
+              <a href="services/email-marketing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-envelope-open-text text-indigo-600 w-4"></i> Email Marketing
+              </a>
+            </div>
+          </div>
+
+          <!-- Automation Dropdown -->
+          <div class="relative group">
+            <a href="automation.html" class="nav-link-item flex items-center gap-1 text-slate-700 hover:text-slate-900 px-2 py-1">
+              <i class="fa-solid fa-gears text-amber-600"></i>
+              <span>Automation</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Data &amp; CRM (17â€“24)</span>
+                <span class="text-amber-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/legal-data-entry-data-analysis.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-scale-balanced text-amber-600 w-4"></i> Legal Data Entry
+              </a>
+              <a href="services/gohighlevel-migration-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-arrows-rotate text-amber-600 w-4"></i> GoHighLevel Automation
+              </a>
+              <a href="services/zoho-setup-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-cloud text-amber-600 w-4"></i> Zoho Setup &amp; Sync
+              </a>
+              <a href="services/crm-data-management-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-database text-amber-600 w-4"></i> CRM Data Management
+              </a>
+              <a href="services/lead-generation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-bullseye text-amber-600 w-4"></i> Lead Generation
+              </a>
+              <a href="services/web-research.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-globe text-amber-600 w-4"></i> Web Research
+              </a>
+              <a href="services/excel-cleaning-formatting.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-file-excel text-amber-600 w-4"></i> Excel Cleanup
+              </a>
+              <a href="services/social-media-data-collection.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-users text-amber-600 w-4"></i> Social Data Collection
+              </a>
+            </div>
+          </div>
+
+          <!-- Pricing Plans Link -->
+          <a href="pricing.html" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-tags text-emerald-600"></i>
+            <span>Pricing Plans</span>
+          </a>
+
+          <!-- Reviews Link -->
+          <a href="index.html#testimonials" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-star text-amber-400"></i>
+            <span>Reviews</span>
+          </a>
+
+          <!-- Contact Link -->
+          <a href="#contact" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-phone text-blue-500"></i>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- 3. Right Side: Currency, WhatsApp & Free Consultation (STRICTLY NON-COLLAPSING) -->
+        <div class="hidden md:flex items-center gap-1 sm:gap-1.5 shrink-0 min-w-max ml-auto pl-1.5 sm:pl-2 border-l border-slate-200 z-10">
+          
+          <!-- Currency Selector Dropdown (Worldwide Auto-Detected & Multi-Region) -->
+          <div class="relative group shrink-0">
+            <button class="flex items-center gap-1 px-2 py-1 rounded-lg bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold hover:bg-slate-100 transition shadow-xs whitespace-nowrap shrink-0">
+              <i class="fa-solid fa-globe text-blue-600 text-xs"></i>
+              <span id="active-currency-label">&#x1F1F5;&#x1F1F0; PKR</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </button>
+            <div class="absolute right-0 mt-1 w-56 max-h-80 overflow-y-auto bg-white border border-slate-200 rounded-xl shadow-2xl py-1 hidden group-hover:block z-50 divide-y divide-slate-100">
+              <div class="px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 bg-slate-50 sticky top-0 flex items-center justify-between">
+                <span>Select Currency</span>
+                <span class="text-[9px] text-blue-600 font-bold">Auto-Detect</span>
+              </div>
+              <div class="py-1">
+                <button onclick="setGlobalCurrency('PKR', true)" data-set-currency="PKR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F5;&#x1F1F0; Pakistan (PKR)</span><span class="font-bold text-slate-500">&#x20A8;</span></button>
+                <button onclick="setGlobalCurrency('AED', true)" data-set-currency="AED" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1EA; UAE / Dubai (AED)</span><span class="font-bold text-slate-500">AED</span></button>
+                <button onclick="setGlobalCurrency('SAR', true)" data-set-currency="SAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F8;&#x1F1E6; Saudi Arabia (SAR)</span><span class="font-bold text-slate-500">SAR</span></button>
+                <button onclick="setGlobalCurrency('GBP', true)" data-set-currency="GBP" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EC;&#x1F1E7; United Kingdom (GBP)</span><span class="font-bold text-slate-500">&pound;</span></button>
+                <button onclick="setGlobalCurrency('USD', true)" data-set-currency="USD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1FA;&#x1F1F8; United States (USD)</span><span class="font-bold text-slate-500">$</span></button>
+                <button onclick="setGlobalCurrency('EUR', true)" data-set-currency="EUR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EA;&#x1F1FA; Europe (EUR)</span><span class="font-bold text-slate-500">&euro;</span></button>
+                <button onclick="setGlobalCurrency('CAD', true)" data-set-currency="CAD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1E6; Canada (CAD)</span><span class="font-bold text-slate-500">CA$</span></button>
+                <button onclick="setGlobalCurrency('AUD', true)" data-set-currency="AUD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1FA; Australia (AUD)</span><span class="font-bold text-slate-500">A$</span></button>
+                <button onclick="setGlobalCurrency('JPY', true)" data-set-currency="JPY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EF;&#x1F1F5; Japan (JPY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('CNY', true)" data-set-currency="CNY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1F3; China (CNY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('RUB', true)" data-set-currency="RUB" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F7;&#x1F1FA; Russia (RUB)</span><span class="font-bold text-slate-500">&#x20BD;</span></button>
+                <button onclick="setGlobalCurrency('INR', true)" data-set-currency="INR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EE;&#x1F1F3; India (INR)</span><span class="font-bold text-slate-500">&#x20B9;</span></button>
+                <button onclick="setGlobalCurrency('TRY', true)" data-set-currency="TRY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F9;&#x1F1F7; Turkey (TRY)</span><span class="font-bold text-slate-500">&#x20BA;</span></button>
+                <button onclick="setGlobalCurrency('QAR', true)" data-set-currency="QAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F6;&#x1F1E6; Qatar (QAR)</span><span class="font-bold text-slate-500">QR</span></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20your%20services." target="_blank" class="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-800 text-xs font-bold transition flex items-center gap-1 shrink-0 whitespace-nowrap">
+            <i class="fa-brands fa-whatsapp text-emerald-600 text-sm"></i>
+            <span>WhatsApp</span>
+          </a>
+
+          <!-- Free Consultation CTA -->
+          <button onclick="openModal()" class="px-3 py-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold transition shadow-xs flex items-center gap-1 shrink-0 whitespace-nowrap">
+            <span>Free Consultation</span>
+            <i class="fa-solid fa-arrow-right text-[9px]"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Toggle Button -->
+        <div class="md:hidden flex items-center gap-1.5 shrink-0">
+          <button onclick="openModal()" class="px-2.5 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold">
+            Audit
+          </button>
+          <button id="mobile-toggle-btn" class="p-1.5 rounded-lg bg-slate-100 text-slate-800 hover:bg-slate-200">
+            <i class="fa-solid fa-bars text-base"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-drawer" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-4 shadow-lg space-y-3 text-sm font-semibold">
+    <a href="index.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-house mr-2"></i> Home</a>
+    <a href="development.html" class="block py-2 text-blue-600 font-bold"><i class="fa-solid fa-code mr-2"></i> Development Services (8)</a>
+    <a href="marketing.html" class="block py-2 text-indigo-600 font-bold"><i class="fa-solid fa-chart-line mr-2"></i> Marketing &amp; Ads (8)</a>
+    <a href="automation.html" class="block py-2 text-amber-600 font-bold"><i class="fa-solid fa-gears mr-2"></i> CRM &amp; Automation (8)</a>
+    <a href="pricing.html" class="block py-2 text-emerald-600 font-bold"><i class="fa-solid fa-tags mr-2"></i> Pricing Plans</a>
+    
+    <a href="index.html#testimonials" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-star mr-2"></i> Client Reviews</a>
+    <a href="#contact" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-phone mr-2"></i> Contact</a>
+  </div>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-10 pb-16 md:pt-16 md:pb-20 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <a href="index.html" class="hover:text-blue-600 transition flex items-center gap-1">
+          <i class="fa-solid fa-house text-[10px]"></i>
+          <span>Home</span>
+        </a>
+        <i class="fa-solid fa-chevron-right text-[9px] text-slate-300"></i>
+        <span class="text-blue-600 font-bold">Division 01: Engineering & Design</span>
+      </nav>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left: Hero Copy -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-blue-100/80 text-blue-800 text-xs font-extrabold uppercase tracking-wider mb-4 border border-blue-200/60 shadow-2xs">
+            <i class="fa-solid fa-shield-check text-blue-600"></i>
+            <span>Division 01: Engineering & Design</span>
+          </div>
+          
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight leading-[1.15] mb-5">
+            Custom Web & Mobile App <span class="text-gradient-blue">Engineering &amp; Design</span>
+          </h1>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl">
+            High-converting Shopify & WordPress platforms, custom React/Next.js web applications, and production-ready iOS & Android apps built for extreme speed, conversion optimization, and enterprise scalability.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center gap-3.5 mb-8">
+            <a href="#services-grid" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-sm shadow-md shadow-blue-500/25 transition flex items-center gap-2">
+              <i class="fa-solid fa-grid-2"></i>
+              <span>Explore 8 Services Below &darr;</span>
+            </a>
+            <a href="#division-pricing" class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 border-2 border-slate-200 text-slate-800 font-bold text-sm shadow-2xs transition flex items-center gap-2">
+              <i class="fa-solid fa-tags text-blue-600"></i>
+              <span>View Packages</span>
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20ready%20to%20discuss%20a%20development%20project." target="_blank" class="px-4 py-3.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-700 font-bold text-sm transition flex items-center gap-1.5 shadow-2xs">
+              <i class="fa-brands fa-whatsapp text-emerald-600 text-lg"></i>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-3 text-xs text-slate-500">
+            <div class="flex -space-x-2">
+              <span class="w-7 h-7 rounded-full bg-blue-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">UK</span>
+              <span class="w-7 h-7 rounded-full bg-emerald-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">US</span>
+              <span class="w-7 h-7 rounded-full bg-amber-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">UAE</span>
+              <span class="w-7 h-7 rounded-full bg-indigo-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">PK</span>
+            </div>
+            <span class="font-semibold text-slate-700">Trusted by Ambitious Brands Across 60+ Countries</span>
+          </div>
+        </div>
+
+        <!-- Right: 4 Stat Cards Grid -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-3.5">
+          
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">100+</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Websites & Apps Delivered</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Custom code & theme builds</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">99</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Google PageSpeed Score</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Mobile Core Web Vitals</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">7 Days</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Avg. Turnaround Time</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Strict milestone delivery</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">4.9★</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Verified Client Rating</div>
+          <div class="text-[11px] text-slate-500 leading-snug">50+ 5-star reviews</div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGIES TICKER -->
+  <div class="py-4 bg-slate-900 text-white overflow-hidden border-y border-slate-800">
+    <div class="marquee-wrapper relative w-full overflow-hidden">
+      <div class="marquee-content flex gap-8 items-center text-xs font-mono font-bold tracking-wider" style="animation: scrollInfinite 35s linear infinite; width: max-content;">
+        <span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WordPress</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Shopify Plus</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Next.js</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React Native</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Flutter</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Figma</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Tailwind CSS</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WooCommerce</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Node.js</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WordPress</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Shopify Plus</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Next.js</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React Native</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Flutter</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Figma</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Tailwind CSS</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WooCommerce</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Node.js</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WordPress</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Shopify Plus</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Next.js</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> React Native</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Flutter</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Figma</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Tailwind CSS</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> WooCommerce</span><span class="flex items-center gap-2 text-slate-300"><i class="fa-solid fa-cube text-blue-400"></i> Node.js</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- THE 8 SERVICES GRID (THE ACTUAL CARDS PREVIOUSLY ON LANDING PAGE) -->
+  <section id="services-grid" class="py-20 sm:py-24 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14" data-aos="fade-up">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Specialized Capabilities</span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          8 Core Specializations <span class="text-gradient-blue">In This Division</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Every service is managed with dedicated technical mastery, direct supervision by Founder Muhammad Abdullah, and clear milestone deliverables.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#01</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/web-development.html">Web Development</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Slow, generic templates destroy ad ROI. At Ranknix Online, we write clean, bespoke code optimized for 99 PageSpeed scores, sub-second load t...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">WordPress</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Shopify Plus</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Next.js</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/web-development.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=web-dev" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Web%20Development" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#02</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-mobile-screen"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/app-development.html">App Development</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Launch production-grade mobile applications for Apple iOS and Google Android simultaneously. Using React Native and Flutter, Ranknix Online ...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">React Native</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Flutter</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">iOS (Swift)</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/app-development.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=app-dev" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20App%20Development" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#03</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/ui-ux-design.html">UI/UX Design</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Good design looks pretty; great design generates massive sales. We conduct user research, wireframe intuitive navigation journeys, and produ...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Figma</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">FigJam</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Adobe XD</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/ui-ux-design.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=ui-ux" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20UI/UX%20Design" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#04</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-paintbrush"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/graphic-design.html">Graphic Design & Branding</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Your brand identity is the difference between a high-ticket market leader and a cheap commodity. We create memorable logos, brand identity g...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Adobe Illustrator</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Photoshop</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">InDesign</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/graphic-design.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=graphic" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Graphic%20Design%20%26%20Branding" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#05</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/e-commerce-solutions.html">E-Commerce Solutions</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Building a store is easy; building an online store that converts paid traffic at 3%+ is an art form. We build high-converting Shopify Plus a...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Shopify Plus</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">WooCommerce</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Next.js Commerce</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/e-commerce-solutions.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=ecommerce" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20E-Commerce%20Solutions" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#06</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-film"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/video-editing.html">Video Editing & Motion Ads</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              The first 3 seconds of your video decide whether your ad prints profit or burns cash. We edit high-retention TikTok, Instagram Reel, and You...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Adobe Premiere Pro</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">After Effects</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">DaVinci Resolve</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/video-editing.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=video" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Video%20Editing%20%26%20Motion%20Ads" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#07</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-pen-fancy"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/content-writing.html">Content Writing & Copywriting</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Content without strategy is a waste of time. At Ranknix Online, we combine deep SEO keyword research with direct-response psychological copy...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">SurferSEO</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Google Search Console</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Semrush</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/content-writing.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=content" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Content%20Writing%20%26%20Copywriting" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-xl hover:border-blue-400 transition-all duration-300 group">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono font-black text-slate-300 group-hover:text-blue-500 transition-colors">#08</span>
+              <div class="w-11 h-11 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-lg group-hover:bg-blue-600 group-hover:text-white transition-all shadow-2xs">
+                <i class="fa-solid fa-laptop-code"></i>
+              </div>
+            </div>
+
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2 group-hover:text-blue-600 transition-colors">
+              <a href="services/landing-page-design.html">Landing Page Design & CRO</a>
+            </h3>
+
+            <p class="text-xs sm:text-[13px] text-slate-500 leading-relaxed mb-4">
+              Sending paid ad traffic to a generic homepage is burning money. We design high-converting, single-purpose landing pages engineered with irre...
+            </p>
+
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Tailwind CSS</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Next.js</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 text-[10px] font-bold">Webflow</span>
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-2">
+            <a href="services/landing-page-design.html" class="flex-1 py-2 px-2.5 rounded-xl bg-blue-50 hover:bg-blue-600 text-blue-700 hover:text-white text-xs font-bold text-center transition flex items-center justify-center gap-1 shadow-2xs">
+              <span>View Details</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+            <a href="pricing.html?service=landing" class="flex-1 py-2 px-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 hover:text-slate-900 text-xs font-bold text-center transition shadow-2xs">
+              View Pricing
+            </a>
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Landing%20Page%20Design%20%26%20CRO" target="_blank" class="p-2 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-600 transition flex items-center justify-center shrink-0" title="Chat on WhatsApp">
+              <i class="fa-brands fa-whatsapp text-base"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DIVISION PRICING SHOWCASE (MARQUEE TRACK FOR THIS DIVISION) -->
+  <section id="division-pricing" class="py-24 bg-slate-50/70 relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-10" data-aos="fade-up">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-bold mb-3 shadow-2xs">
+          <i class="fa-solid fa-tags text-blue-600"></i>
+          <span>Transparent Pricing &bull; Fixed Turnaround Times</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Packages &amp; Rates <span class="text-gradient-blue">For Every Need</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
+          Click any service in the track below to view complete 3-tier packages (Starter, Growth, Enterprise). All prices switch dynamically to your local currency.
+        </p>
+
+        <!-- Dynamic Currency Selector Pills -->
+        <div class="inline-flex flex-wrap items-center justify-center gap-2 px-4 py-2 rounded-2xl bg-white border border-slate-200/90 shadow-2xs text-xs">
+          <span class="text-slate-500 font-semibold flex items-center gap-1.5">
+            <i class="fa-solid fa-globe text-blue-600"></i> Active Currency:
+          </span>
+          <div class="inline-flex gap-1">
+            <button onclick="changeGlobalCurrency('PKR')" class="curr-pill px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-slate-100 transition" data-curr-pill="PKR">🇵🇰 ₨ PKR</button>
+            <button onclick="changeGlobalCurrency('GBP')" class="curr-pill px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-slate-100 transition" data-curr-pill="GBP">🇬🇧 £ GBP</button>
+            <button onclick="changeGlobalCurrency('USD')" class="curr-pill px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-slate-100 transition" data-curr-pill="USD">🇺🇸 $ USD</button>
+            <button onclick="changeGlobalCurrency('EUR')" class="curr-pill px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-slate-100 transition" data-curr-pill="EUR">🇪🇺 € EUR</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee Track for the 8 Services of this Division -->
+      <div class="relative mb-8" data-aos="fade-up">
+        <div class="marquee-wrapper relative w-full overflow-hidden py-3 bg-white/70 backdrop-blur-sm rounded-2xl border border-slate-200/90 shadow-2xs">
+          <div class="marquee-content flex gap-3 hover:[animation-play-state:paused]" style="animation: scrollInfinite 40s linear infinite; width: max-content;">
+            
+        <button id="cat-pill-web-dev" onclick="selectCatPricingService('web-dev')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-blue-600 bg-blue-50/80 text-blue-700 shadow-xs">
+          <i class="fa-solid fa-code text-xs text-blue-600"></i>
+          <span>Web Development</span>
+        </button>
+        <button id="cat-pill-app-dev" onclick="selectCatPricingService('app-dev')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-mobile-screen-button text-xs text-blue-600"></i>
+          <span>App Development</span>
+        </button>
+        <button id="cat-pill-ui-ux" onclick="selectCatPricingService('ui-ux')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-pen-nib text-xs text-blue-600"></i>
+          <span>UI/UX Design</span>
+        </button>
+        <button id="cat-pill-graphic" onclick="selectCatPricingService('graphic')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-palette text-xs text-blue-600"></i>
+          <span>Graphic Design</span>
+        </button>
+        <button id="cat-pill-ecommerce" onclick="selectCatPricingService('ecommerce')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-bag-shopping text-xs text-blue-600"></i>
+          <span>E-Commerce Solutions</span>
+        </button>
+        <button id="cat-pill-video" onclick="selectCatPricingService('video')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-video text-xs text-blue-600"></i>
+          <span>Video Editing</span>
+        </button>
+        <button id="cat-pill-content" onclick="selectCatPricingService('content')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-feather text-xs text-blue-600"></i>
+          <span>Content Writing</span>
+        </button>
+        <button id="cat-pill-landing" onclick="selectCatPricingService('landing')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-rocket text-xs text-blue-600"></i>
+          <span>Landing Page Design</span>
+        </button>
+        <button id="cat-pill-web-dev" onclick="selectCatPricingService('web-dev')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-blue-600 bg-blue-50/80 text-blue-700 shadow-xs">
+          <i class="fa-solid fa-code text-xs text-blue-600"></i>
+          <span>Web Development</span>
+        </button>
+        <button id="cat-pill-app-dev" onclick="selectCatPricingService('app-dev')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-mobile-screen-button text-xs text-blue-600"></i>
+          <span>App Development</span>
+        </button>
+        <button id="cat-pill-ui-ux" onclick="selectCatPricingService('ui-ux')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-pen-nib text-xs text-blue-600"></i>
+          <span>UI/UX Design</span>
+        </button>
+        <button id="cat-pill-graphic" onclick="selectCatPricingService('graphic')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-palette text-xs text-blue-600"></i>
+          <span>Graphic Design</span>
+        </button>
+        <button id="cat-pill-ecommerce" onclick="selectCatPricingService('ecommerce')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-bag-shopping text-xs text-blue-600"></i>
+          <span>E-Commerce Solutions</span>
+        </button>
+        <button id="cat-pill-video" onclick="selectCatPricingService('video')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-video text-xs text-blue-600"></i>
+          <span>Video Editing</span>
+        </button>
+        <button id="cat-pill-content" onclick="selectCatPricingService('content')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-feather text-xs text-blue-600"></i>
+          <span>Content Writing</span>
+        </button>
+        <button id="cat-pill-landing" onclick="selectCatPricingService('landing')" class="cat-track-pill flex-shrink-0 flex items-center gap-2 px-4 py-2.5 rounded-2xl border text-xs font-bold transition-all cursor-pointer border-slate-200/90 bg-white text-slate-700 hover:border-blue-400 hover:bg-slate-50 shadow-2xs">
+          <i class="fa-solid fa-rocket text-xs text-blue-600"></i>
+          <span>Landing Page Design</span>
+        </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- The 8 Service Panels -->
+      <div id="cat-panels-container">
+        
+        <div id="cat-panel-web-dev" class="cat-pricing-panel ">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">Web Development Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">WordPress, Shopify & WIX websites built fast, SEO-ready, and designed to convert visitors into customers. Every site is mobile-first, optimised for Core Web Vitals, and delivered with full source access.</p>
+              </div>
+            </div>
+            <a href="services/web-development.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter Website</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 7-day delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Perfect for new businesses & personal brands</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Theme-based WordPress, Shopify or WIX — up to 5 pages, brand-matched and mobile-ready.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 83,700" data-usd="$299" data-gbp="£233" data-eur="€275">₨ 83,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">WordPress / Shopify / WIX</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 5 pages</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Premium theme + brand customisation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Mobile-responsive</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Basic on-page SEO + sitemap</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Contact form + Google Maps</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + Search Console setup</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">7-day delivery · 2 revisions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom design (theme only)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">E-commerce / payments</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Web%20Development%20-%20Starter%20Website%20package%20%28%E2%82%A8%2083%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/web-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Business Website</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 14-day delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Custom-designed to convert visitors into leads</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Fully custom Figma-to-WordPress build — your brand, your layout, conversion-optimised.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 223,700" data-usd="$799" data-gbp="£623" data-eur="€735">₨ 223,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom Figma design → WordPress build</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 10 pages</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom UI (not a template)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Mobile-first · 90+ PageSpeed</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full on-page SEO + schema markup</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Blog / news section</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + Meta Pixel + GTM</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Lead forms + CRM connection</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">30-day post-launch support</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">14-day delivery · 5 revisions</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Web%20Development%20-%20Business%20Website%20package%20%28%E2%82%A8%20223%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/web-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Enterprise Website</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ Timeline by scope</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Complex multi-page platforms & custom builds</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Large-scale, custom plugins, membership systems, multi-language & advanced integrations.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Everything in Business Website</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited pages</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom WordPress plugin development</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Membership / login portal</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Multi-language (WPML)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Advanced API integrations</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated dev team</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">90-day support + SLA</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Web%20Development%20-%20Enterprise%20Website%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/web-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-app-dev" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">App Development Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">iOS & Android mobile apps using React Native and Flutter — one codebase, two platforms, production-ready. Delivered to App Store and Google Play.</p>
+              </div>
+            </div>
+            <a href="services/app-development.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter MVP</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 6-week delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Validate your idea fast with a lean app</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">React Native or Flutter — up to 8 screens, Firebase backend, both platform submissions.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 839,700" data-usd="$2,999" data-gbp="£2,339" data-eur="€2,759">₨ 839,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">iOS + Android (React Native / Flutter)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 8 screens</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full UI/UX design (Figma)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Firebase backend (auth + DB)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Push notifications</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">App Store + Google Play submission</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">6-week delivery · 30-day support</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom backend / REST API</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">In-app payments</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20App%20Development%20-%20Starter%20MVP%20package%20%28%E2%82%A8%20839%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/app-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Growth App</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 8–10 weeks</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Full-featured production app with custom backend</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Complete app — custom Node.js backend, payments, real-time features and full App Store launch.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 1,959,700" data-usd="$6,999" data-gbp="£5,459" data-eur="€6,439">₨ 1,959,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">iOS + Android (React Native / Flutter)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 20 screens</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Premium UI/UX + design system</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom backend (Node.js + PostgreSQL)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">In-app payments (Stripe / bKash)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Real-time features (chat, notifications)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Google Maps integration</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">App Store + Google Play + ASO</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">8–10 weeks · 60-day support</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20App%20Development%20-%20Growth%20App%20package%20%28%E2%82%A8%201%2C959%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/app-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Enterprise App</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 12–20 weeks</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Complex multi-role platforms & ecosystems</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Unlimited screens, multi-role flows, scalable cloud infrastructure and enterprise support SLA.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">iOS + Android + Web (optional)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited screens & roles</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Advanced scalable backend</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">CRM / ERP integrations</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">AWS / GCP cloud infrastructure</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated team of 4+ specialists</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">SLA agreement</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20App%20Development%20-%20Enterprise%20App%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/app-development.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-ui-ux" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-pen-nib"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">UI/UX Design Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">User-centered interface design — Figma wireframes, high-fidelity screens, interactive prototypes and pixel-perfect developer handoff.</p>
+              </div>
+            </div>
+            <a href="services/ui-ux-design.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter UI</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 5-day delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Landing pages & small websites</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Up to 5 screens — wireframes to hi-fi Figma design with developer handoff.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 111,700" data-usd="$399" data-gbp="£311" data-eur="€367">₨ 111,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 5 screens (desktop + mobile)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Wireframes for all screens</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">High-fidelity Figma design</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Clickable prototype</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Developer handoff (Figma + assets)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">2 revisions · 5-day delivery</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Design system</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">UX research</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20UI/UX%20Design%20-%20Starter%20UI%20package%20%28%E2%82%A8%20111%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/ui-ux-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Product Design</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 10–14 days</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Apps, dashboards & full products</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Full product design — research, wireframes, hi-fi, design system and complete handoff.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 363,700" data-usd="$1,299" data-gbp="£1,013" data-eur="€1,195">₨ 363,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 20 screens (desktop + mobile)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">UX research + competitor analysis</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">User flow mapping</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Design system + component library</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Interactive prototype (all flows)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">WCAG AA accessibility check</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">5 revisions · 10–14 days</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20UI/UX%20Design%20-%20Product%20Design%20package%20%28%E2%82%A8%20363%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/ui-ux-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Enterprise Design</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ By scope</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Complex platforms & design systems</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Unlimited screens, full UX research, usability testing, motion design and ongoing retainer.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited screens</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full UX research + user testing</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Enterprise design system</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Motion & micro-interaction design</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">A/B testing strategy</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated design team</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20UI/UX%20Design%20-%20Enterprise%20Design%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/ui-ux-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-graphic" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">Graphic Design Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">Brand identity, logos, social media kits, banners and print materials — visual communication that makes you unforgettable. 5 logo concepts on every project.</p>
+              </div>
+            </div>
+            <a href="services/graphic-design.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Logo Package</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48h first concepts</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">A strategic logo that anchors your brand</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">5 unique concepts, 3 revision rounds, all file formats (AI, EPS, SVG, PNG, PDF).</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 55,700" data-usd="$199" data-gbp="£155" data-eur="€183">₨ 55,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">5 unique logo concepts</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">3 revision rounds</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All variants (colour, mono, reversed)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All file formats</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Brand colour palette (3–5 colours)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Typography recommendation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">1-page brand guide PDF</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48h first concepts</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Graphic%20Design%20-%20Logo%20Package%20package%20%28%E2%82%A8%2055%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/graphic-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Brand Identity</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 7-day delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Complete visual identity system</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Logo + colours + typography + social kit + business card + 10-page brand guidelines.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 167,700" data-usd="$599" data-gbp="£467" data-eur="€551">₨ 167,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Everything in Logo Package</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full colour + typography system</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Brand pattern / texture</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Business card (front + back)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Letterhead + email signature</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Social media profile kit (all platforms)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">10-page brand guidelines PDF</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">5 revisions · 7-day delivery</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Graphic%20Design%20-%20Brand%20Identity%20package%20%28%E2%82%A8%20167%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/graphic-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Full Brand Suite</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ By scope</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Enterprise brand identity + all assets</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Social kit, print materials, packaging, pitch deck, Canva brand kit and 20+ page guidelines.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Everything in Brand Identity</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">12 social media content templates</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Complete print materials suite</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Packaging design (if applicable)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Pitch deck template</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Logo animation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Canva brand kit (client-editable)</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Graphic%20Design%20-%20Full%20Brand%20Suite%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/graphic-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-ecommerce" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">E-Commerce Solutions Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">Full-featured online stores on Shopify & WooCommerce — products, payment gateways (Stripe, bKash, Nagad, SSLCommerz), shipping automation and launch-ready.</p>
+              </div>
+            </div>
+            <a href="services/e-commerce-solutions.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter Store</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 14-day delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Launch your first online store</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Shopify or WooCommerce with theme customisation, 50 products and local payment gateways.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 139,700" data-usd="$499" data-gbp="£389" data-eur="€459">₨ 139,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Shopify or WooCommerce setup</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Premium theme customisation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 50 products uploaded</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">bKash + SSLCommerz + COD</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Shipping zones + rate rules</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + Meta Pixel</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Basic SEO + sitemap</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">14-day delivery</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom design</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Stripe / PayPal</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20E-Commerce%20Solutions%20-%20Starter%20Store%20package%20%28%E2%82%A8%20139%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/e-commerce-solutions.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Growth Store</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 14–21 days</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Custom store built to convert & scale</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Custom design, 200 products, all payment gateways, shipping automation and full analytics stack.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 363,700" data-usd="$1,299" data-gbp="£1,013" data-eur="€1,195">₨ 363,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom Shopify / WooCommerce design</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 200 products</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All payments (Stripe + bKash + Nagad + SSLCommerz + PayPal + COD)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Shipping automation + Pathao/Steadfast</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Abandoned cart email automation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 e-commerce tracking + Pixel + CAPI</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Speed optimisation (90+ PageSpeed)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">30-day support</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20E-Commerce%20Solutions%20-%20Growth%20Store%20package%20%28%E2%82%A8%20363%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/e-commerce-solutions.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Enterprise Store</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ By scope</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Complex catalogues & multi-vendor</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Unlimited products, B2B pricing tiers, multi-vendor marketplace, ERP integration.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited products</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Multi-vendor marketplace</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">B2B wholesale pricing tiers</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom plugin development</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">ERP / inventory integration</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">International multi-currency</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Looker Studio dashboard</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20E-Commerce%20Solutions%20-%20Enterprise%20Store%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/e-commerce-solutions.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-video" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">Video Editing Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">Scroll-stopping video content for ads, Reels, YouTube and brand storytelling. Colour grading, motion graphics, sound design and multi-format export all included.</p>
+              </div>
+            </div>
+            <a href="services/video-editing.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Short-Form Video</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48-hour delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Reels, TikTok & YouTube Shorts</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Up to 90 seconds — professional edit, music sync, captions and 9:16 vertical format.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 13,700" data-usd="$49" data-gbp="£38" data-eur="€45">₨ 13,700</span>
+                    <span class="text-xs font-bold text-slate-500">//video</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 90 seconds</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Professional cut & pacing</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Music sync + audio mix</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Text overlays + captions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">9:16 vertical format</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48h delivery · 2 revisions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Motion graphics</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Colour grading (LUT)</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Video%20Editing%20-%20Short-Form%20Video%20package%20%28%E2%82%A8%2013%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/video-editing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Full Production</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48–72h delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">YouTube, ads & brand videos</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">Up to 10 minutes — full colour grade, motion graphics, sound design, subtitles, multi-format.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 41,700" data-usd="$149" data-gbp="£116" data-eur="€137">₨ 41,700</span>
+                    <span class="text-xs font-bold text-slate-500">//video</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to 10 minutes</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All platforms & formats</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full colour grade (DaVinci)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Motion graphics + lower thirds</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Sound design + royalty-free music</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Subtitles + SRT file</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Multi-format export (16:9, 9:16, 1:1)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Logo intro/outro animation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48–72h · 3 revisions</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Video%20Editing%20-%20Full%20Production%20package%20%28%E2%82%A8%2041%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/video-editing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Monthly Retainer</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 24–48h priority</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">High-volume — best value per video</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">10–50+ videos/month — dedicated editor, consistent brand style, priority 24h turnaround.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">10–50+ videos per month</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All video types & formats</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated editor assigned</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Priority 24–48h turnaround</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Consistent brand style guide</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Monthly strategy call</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited revisions</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Video%20Editing%20-%20Monthly%20Retainer%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/video-editing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-content" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-feather"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">Content Writing Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">SEO-optimised, audience-first copywriting — blog posts, web copy, product descriptions and landing page content. 100% human-written, Copyscape-verified, 48h delivery.</p>
+              </div>
+            </div>
+            <a href="services/content-writing.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter Blog</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48-hour delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">For businesses starting SEO content</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">800–1,000 words, 1 keyword researched, SEO-optimised, plagiarism-checked, 48h delivery.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 13,700" data-usd="$49" data-gbp="£38" data-eur="€45">₨ 13,700</span>
+                    <span class="text-xs font-bold text-slate-500">//article</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">800–1,000 words</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">1 target keyword researched</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">SEO-optimised structure (H1/H2/H3)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Meta title + description</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Copyscape-checked</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48h delivery · 1 revision</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">SERP analysis</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Internal linking</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Content%20Writing%20-%20Starter%20Blog%20package%20%28%E2%82%A8%2013%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/content-writing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Growth Blog</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48-hour delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Serious SEO content that ranks</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">1,500–2,000 words, full SERP analysis, LSI integration, internal links and all on-page SEO.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 27,700" data-usd="$99" data-gbp="£77" data-eur="€91">₨ 27,700</span>
+                    <span class="text-xs font-bold text-slate-500">//article</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">1,500–2,000 words</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full keyword + SERP analysis</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Competitor content gap analysis</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">LSI + semantic keyword integration</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full on-page SEO</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Internal linking (3–5 links)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Image alt text suggestions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Copyscape + Grammarly</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48h delivery · 2 revisions</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Content%20Writing%20-%20Growth%20Blog%20package%20%28%E2%82%A8%2027%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/content-writing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Monthly Retainer</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ Rolling monthly</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Consistent content that builds authority</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">4 blog posts/month + content calendar + keyword research + monthly performance report.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 83,700" data-usd="$299" data-gbp="£233" data-eur="€275">₨ 83,700</span>
+                    <span class="text-xs font-bold text-slate-500">//month</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">4 blog posts/month (1,000–1,500 words)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Keyword research included</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full SEO optimisation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Meta titles + descriptions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Content calendar planning</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Monthly performance report</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated content manager</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Content%20Writing%20-%20Monthly%20Retainer%20package%20%28%E2%82%A8%2083%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/content-writing.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="cat-panel-landing" class="cat-pricing-panel hidden">
+          <div class="clean-card rounded-2xl p-6 sm:p-7 mb-8 border border-slate-200/90 shadow-2xs flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-xl shrink-0">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div>
+                <h3 class="text-xl sm:text-2xl font-black text-slate-900 font-heading">Landing Page Design Packages</h3>
+                <p class="text-slate-600 text-xs sm:text-sm max-w-2xl mt-1 leading-relaxed">CRO-optimised landing pages built for ad traffic — copy, design, build, tracking and CRM integration all in one package. 90+ PageSpeed guaranteed.</p>
+              </div>
+            </div>
+            <a href="services/landing-page-design.html" class="px-4 py-2 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-700 hover:text-blue-600 text-xs font-bold transition flex items-center gap-1.5 shadow-2xs shrink-0">
+              <span>View Full Scope</span>
+              <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter LP</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48-hour delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Single high-converting page</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">CRO copy + custom design + build + GA4/Pixel tracking. 90+ PageSpeed. 48h delivery.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 97,700" data-usd="$349" data-gbp="£272" data-eur="€321">₨ 97,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">1 landing page (custom design)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">CRO copywriting included</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Mobile-first build</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">90+ PageSpeed guarantee</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Form + email notification</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + Meta Pixel tracking</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">48h delivery · 2 revisions</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GoHighLevel / CRM integration</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">A/B testing</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Landing%20Page%20Design%20-%20Starter%20LP%20package%20%28%E2%82%A8%2097%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/landing-page-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+              <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">CRO + CRM</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ 48–72h delivery</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Full funnel with GoHighLevel / WordPress CRM</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">LP + thank you page + CRM + WhatsApp automation + A/B testing + 30-day optimisation.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 223,700" data-usd="$799" data-gbp="£623" data-eur="€735">₨ 223,700</span>
+                    <span class="text-xs font-bold text-slate-500">/one-time</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">LP + thank you page</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full CRO copywriting</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Custom design desktop + mobile</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">90+ PageSpeed guarantee</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GoHighLevel OR FluentCRM integration</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">WhatsApp + email automation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + Meta Pixel + CAPI + GTM</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">A/B testing setup (2 variations)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Hotjar heatmap + 30-day optimisation</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Landing%20Page%20Design%20-%20CRO%20%2B%20CRM%20package%20%28%E2%82%A8%20223%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+                  <i class="fa-brands fa-whatsapp text-base text-white"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/landing-page-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-2xs relative">
+              
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-2">
+                  <span class="text-xs font-black uppercase tracking-wider text-blue-600">Full Funnel Suite</span>
+                  <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ By scope</span>
+                </div>
+                <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Multi-step funnel + complete CRM build</h4>
+                <p class="text-xs text-slate-500 mb-6 leading-relaxed">3–7 page funnel + full GHL CRM + lead scoring + nurture sequences + dashboard.</p>
+                
+                <div class="mb-6 pb-6 border-b border-slate-100">
+                  <div class="flex items-baseline gap-1.5">
+                    <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                    <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+                  </div>
+                  <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Supervision &bull; Full Asset Rights</span>
+                </div>
+
+                <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+                  <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full funnel (3–7 pages)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GoHighLevel / WordPress CRM full setup</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Email + WhatsApp nurture sequence</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Lead scoring + pipeline automation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Looker Studio dashboard</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">A/B testing across all pages</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Monthly CRO retainer available</span></li>
+                </ul>
+              </div>
+
+              <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+                <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%20want%20to%20get%20started%20with%20the%20Landing%20Page%20Design%20-%20Full%20Funnel%20Suite%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+                  <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+                  <span>Order via WhatsApp</span>
+                </a>
+                <a href="services/landing-page-design.html#pricing" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+                  <span>View Dedicated Service Page &rarr;</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VERIFIED CLIENT REVIEWS -->
+  <section class="py-20 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Verified Testimonials</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          What Clients Say <span class="text-gradient-blue">About This Division</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Authentic feedback from CEOs, CMOs, and brand founders in the UK, USA, UAE, and Pakistan.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"Ranknix Online restructured our entire search campaigns. Cost per qualified legal lead plummeted by 52% in 8 weeks. Muhammad Abdullah and his team are extraordinary operators."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=faces" alt="James Whitfield" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">James Whitfield 🇬🇧</h5>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Apex Legal UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"Google Ads CPA dropped from $148 to $69 in 6 weeks. Muhammad Abdullah's team handled our search groups and scaled PMax shopping. Their weekly reporting saved us tens of thousands."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&crop=faces" alt="Michael Kim" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">Michael Kim 🇺🇸</h5>
+              <span class="text-[11px] text-slate-500 block truncate">CMO, Nexus Dynamics USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Austin, TX, USA</span>
+            </div>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"Ranknix Online delivered our custom WordPress portal in 10 days flat. PageSpeed jumped from 42 to 99 on mobile, and bounce rates fell off a cliff. Exceptional design depth."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop&crop=faces" alt="Sarah Jenkins" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">Sarah Jenkins 🇬🇧</h5>
+              <span class="text-[11px] text-slate-500 block truncate">Founder & CEO, Lumina Retail UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Manchester, UK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA BANNER -->
+  <section id="contact" class="py-16 sm:py-20 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white relative z-10 overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <span class="inline-block px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4 border border-blue-400/30">
+        Ready To Accelerate Your Brand?
+      </span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-black font-heading tracking-tight mb-4 leading-tight">
+        Speak Directly With Founder <br><span class="text-blue-400">Muhammad Abdullah</span>
+      </h2>
+      <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
+        We’ll review your business goals, recommend the exact growth package, and provide a comprehensive proposal within 24 hours.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20ready%20to%20get%20started." target="_blank" class="px-7 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-black text-sm shadow-lg shadow-emerald-500/25 transition flex items-center gap-2.5">
+          <i class="fa-brands fa-whatsapp text-xl"></i>
+          <span>Chat on WhatsApp (+92 308 8163940)</span>
+        </a>
+        <button onclick="openModal()" class="px-7 py-4 rounded-xl bg-white hover:bg-slate-100 text-slate-900 font-black text-sm shadow-lg transition flex items-center gap-2">
+          <i class="fa-solid fa-calendar-check text-blue-600"></i>
+          <span>Schedule Strategy Audit</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-900">
+        <div class="flex items-center gap-3">
+          <img src="assets/images/logo.png" alt="Ranknix Online Logo" class="h-10 w-auto">
+          <div>
+            <span class="text-base font-black text-white font-heading">Ranknix Online</span>
+            <span class="block text-[11px] text-slate-500">Founder &amp; CEO: Muhammad Abdullah</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-6 text-xs">
+          <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+          <a href="development.html" class="hover:text-blue-400 transition">Development</a>
+          <a href="marketing.html" class="hover:text-blue-400 transition">Marketing</a>
+          <a href="automation.html" class="hover:text-blue-400 transition">Automation</a>
+          <a href="pricing.html" class="hover:text-blue-400 transition">Pricing Plans</a>
+          <a href="https://wa.me/923088163940" class="hover:text-emerald-400 transition"><i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp</a>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-600">
+        <p>&copy; 2026 Ranknix Online. All rights reserved. Worldwide Digital Agency.</p>
+        <p>Operating across Pakistan, UK, USA, UAE, Canada &amp; Europe.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- STRATEGY CONSULTATION MODAL -->
+  <div id="service-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200">
+      <button onclick="closeModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="mb-5">
+        <span class="text-xs font-black uppercase text-blue-600 tracking-wider">Free Consultation</span>
+        <h3 class="text-2xl font-black text-slate-900 font-heading mt-1">Book Your Growth Audit</h3>
+        <p class="text-xs text-slate-500 mt-1">Direct review by Muhammad Abdullah. Response in &lt; 24h.</p>
+      </div>
+      <form id="service-form" onsubmit="handleModalSubmit(event)" class="space-y-3.5">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Full Name</label>
+          <input type="text" id="lead-name" required placeholder="e.g. James Whitfield / Ali Ahmed" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone Number</label>
+          <input type="text" id="lead-phone" required placeholder="e.g. +44 7911 123456 / +92 300 1234567" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Desired Service / Budget</label>
+          <textarea id="lead-notes" rows="3" placeholder="Tell us about your brand, package interest, and target timeline..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs transition shadow-md shadow-blue-500/20">
+          Submit Inbound Request via WhatsApp &rarr;
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT CONTROLLERS -->
+  <script>
+    function selectCatPricingService(slug) {
+      document.querySelectorAll('.cat-track-pill').forEach(btn => {
+        btn.classList.remove('border-blue-600', 'bg-blue-50/80', 'text-blue-700', 'shadow-xs');
+        btn.classList.add('border-slate-200/90', 'bg-white', 'text-slate-700');
+      });
+
+      const matchingPills = document.querySelectorAll('#cat-pill-' + slug);
+      matchingPills.forEach(p => {
+        p.classList.add('border-blue-600', 'bg-blue-50/80', 'text-blue-700', 'shadow-xs');
+        p.classList.remove('border-slate-200/90', 'bg-white', 'text-slate-700');
+      });
+
+      document.querySelectorAll('.cat-pricing-panel').forEach(p => p.classList.add('hidden'));
+      const target = document.getElementById('cat-panel-' + slug);
+      if (target) {
+        target.classList.remove('hidden');
+      }
+    }
+
+    function changeGlobalCurrency(curr) {
+      try {
+        localStorage.setItem('ranknix_currency', curr);
+      } catch (e) {}
+
+      document.querySelectorAll('[data-curr-pill]').forEach(pill => {
+        if (pill.getAttribute('data-curr-pill') === curr) {
+          pill.classList.add('bg-blue-600', 'text-white');
+          pill.classList.remove('text-slate-700');
+        } else {
+          pill.classList.remove('bg-blue-600', 'text-white');
+          pill.classList.add('text-slate-700');
+        }
+      });
+
+      const activeLabel = document.getElementById('active-currency-label');
+      if (activeLabel) {
+        const icons = { PKR: '🇵🇰 PKR', GBP: '🇬🇧 GBP', USD: '🇺🇸 USD', EUR: '🇪🇺 EUR' };
+        activeLabel.textContent = icons[curr] || curr;
+      }
+
+      document.querySelectorAll('.dynamic-price').forEach(el => {
+        const val = el.getAttribute('data-' + curr.toLowerCase());
+        if (val) el.textContent = val;
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const saved = localStorage.getItem('ranknix_currency') || 'PKR';
+      changeGlobalCurrency(saved);
+
+      const toggleBtn = document.getElementById('mobile-toggle-btn');
+      const drawer = document.getElementById('mobile-drawer');
+      if (toggleBtn && drawer) {
+        toggleBtn.addEventListener('click', () => {
+          drawer.classList.toggle('hidden');
+        });
+      }
+    });
+
+    function openModal() {
+      const m = document.getElementById('service-modal');
+      if (m) m.classList.remove('hidden');
+    }
+    function closeModal() {
+      const m = document.getElementById('service-modal');
+      if (m) m.classList.add('hidden');
+    }
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      const lName = document.getElementById('lead-name').value;
+      const lPhone = document.getElementById('lead-phone').value;
+      const lNotes = document.getElementById('lead-notes').value;
+      const msg = "Hi Ranknix Online! I'm submitting an inquiry for Custom Web & Mobile App.\n\nName: " + lName + "\nPhone: " + lPhone + "\nRequirement: " + lNotes;
+      window.open("https://wa.me/923088163940?text=" + encodeURIComponent(msg), '_blank');
+      closeModal();
+    }
+  </script>
+</body>
+</html>
+

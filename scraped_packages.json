@@ -1,0 +1,1483 @@
+{
+  "web-dev": {
+    "title": "Web  Development",
+    "desc": "WordPress, Shopify & WIX websites built fast, SEO-ready, and designed to convert visitors into customers. Every site is mobile-first, optimised for Core Web Vitals, and delivered with full source access.",
+    "packages": [
+      {
+        "name": "Starter Website",
+        "tag": "Perfect for new businesses & personal brands",
+        "price_usd": "299",
+        "period": "one-time",
+        "card_desc": "Theme-based WordPress, Shopify or WIX — up to 5 pages, brand-matched and mobile-ready.",
+        "features": [
+          "WordPress / Shopify / WIX",
+          "Up to 5 pages",
+          "Premium theme + brand customisation",
+          "Mobile-responsive",
+          "Basic on-page SEO + sitemap",
+          "Contact form + Google Maps",
+          "GA4 + Search Console setup",
+          "7-day delivery · 2 revisions",
+          "Custom design (theme only)",
+          "E-commerce / payments"
+        ],
+        "delivery": "⏱ 7-day delivery",
+        "popular": false
+      },
+      {
+        "name": "Business Website",
+        "tag": "Custom-designed to convert visitors into leads",
+        "price_usd": "799",
+        "period": "one-time",
+        "card_desc": "Fully custom Figma-to-WordPress build — your brand, your layout, conversion-optimised.",
+        "features": [
+          "Custom Figma design → WordPress build",
+          "Up to 10 pages",
+          "Custom UI (not a template)",
+          "Mobile-first · 90+ PageSpeed",
+          "Full on-page SEO + schema markup",
+          "Blog / news section",
+          "GA4 + Meta Pixel + GTM",
+          "Lead forms + CRM connection",
+          "30-day post-launch support",
+          "14-day delivery · 5 revisions"
+        ],
+        "delivery": "⏱ 14-day delivery",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Website",
+        "tag": "Complex multi-page platforms & custom builds",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Large-scale, custom plugins, membership systems, multi-language & advanced integrations.",
+        "features": [
+          "Everything in Business Website",
+          "Unlimited pages",
+          "Custom WordPress plugin development",
+          "Membership / login portal",
+          "Multi-language (WPML)",
+          "Advanced API integrations",
+          "Dedicated dev team",
+          "90-day support + SLA"
+        ],
+        "delivery": "⏱ Timeline by scope",
+        "popular": false
+      }
+    ]
+  },
+  "app-dev": {
+    "title": "App  Development",
+    "desc": "iOS & Android mobile apps using React Native and Flutter — one codebase, two platforms, production-ready. Delivered to App Store and Google Play.",
+    "packages": [
+      {
+        "name": "Starter MVP",
+        "tag": "Validate your idea fast with a lean app",
+        "price_usd": "2,999",
+        "period": "one-time",
+        "card_desc": "React Native or Flutter — up to 8 screens, Firebase backend, both platform submissions.",
+        "features": [
+          "iOS + Android (React Native / Flutter)",
+          "Up to 8 screens",
+          "Full UI/UX design (Figma)",
+          "Firebase backend (auth + DB)",
+          "Push notifications",
+          "App Store + Google Play submission",
+          "6-week delivery · 30-day support",
+          "Custom backend / REST API",
+          "In-app payments"
+        ],
+        "delivery": "⏱ 6-week delivery",
+        "popular": false
+      },
+      {
+        "name": "Growth App",
+        "tag": "Full-featured production app with custom backend",
+        "price_usd": "6,999",
+        "period": "one-time",
+        "card_desc": "Complete app — custom Node.js backend, payments, real-time features and full App Store launch.",
+        "features": [
+          "iOS + Android (React Native / Flutter)",
+          "Up to 20 screens",
+          "Premium UI/UX + design system",
+          "Custom backend (Node.js + PostgreSQL)",
+          "In-app payments (Stripe / bKash)",
+          "Real-time features (chat, notifications)",
+          "Google Maps integration",
+          "App Store + Google Play + ASO",
+          "8–10 weeks · 60-day support"
+        ],
+        "delivery": "⏱ 8–10 weeks",
+        "popular": true
+      },
+      {
+        "name": "Enterprise App",
+        "tag": "Complex multi-role platforms & ecosystems",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited screens, multi-role flows, scalable cloud infrastructure and enterprise support SLA.",
+        "features": [
+          "iOS + Android + Web (optional)",
+          "Unlimited screens & roles",
+          "Advanced scalable backend",
+          "CRM / ERP integrations",
+          "AWS / GCP cloud infrastructure",
+          "Dedicated team of 4+ specialists",
+          "SLA agreement"
+        ],
+        "delivery": "⏱ 12–20 weeks",
+        "popular": false
+      }
+    ]
+  },
+  "ui-ux": {
+    "title": "UI/UX  Design",
+    "desc": "User-centered interface design — Figma wireframes, high-fidelity screens, interactive prototypes and pixel-perfect developer handoff.",
+    "packages": [
+      {
+        "name": "Starter UI",
+        "tag": "Landing pages & small websites",
+        "price_usd": "399",
+        "period": "one-time",
+        "card_desc": "Up to 5 screens — wireframes to hi-fi Figma design with developer handoff.",
+        "features": [
+          "Up to 5 screens (desktop + mobile)",
+          "Wireframes for all screens",
+          "High-fidelity Figma design",
+          "Clickable prototype",
+          "Developer handoff (Figma + assets)",
+          "2 revisions · 5-day delivery",
+          "Design system",
+          "UX research"
+        ],
+        "delivery": "⏱ 5-day delivery",
+        "popular": false
+      },
+      {
+        "name": "Product Design",
+        "tag": "Apps, dashboards & full products",
+        "price_usd": "1,299",
+        "period": "one-time",
+        "card_desc": "Full product design — research, wireframes, hi-fi, design system and complete handoff.",
+        "features": [
+          "Up to 20 screens (desktop + mobile)",
+          "UX research + competitor analysis",
+          "User flow mapping",
+          "Design system + component library",
+          "Interactive prototype (all flows)",
+          "WCAG AA accessibility check",
+          "5 revisions · 10–14 days"
+        ],
+        "delivery": "⏱ 10–14 days",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Design",
+        "tag": "Complex platforms & design systems",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited screens, full UX research, usability testing, motion design and ongoing retainer.",
+        "features": [
+          "Unlimited screens",
+          "Full UX research + user testing",
+          "Enterprise design system",
+          "Motion & micro-interaction design",
+          "A/B testing strategy",
+          "Dedicated design team"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "graphic": {
+    "title": "Graphic  Design",
+    "desc": "Brand identity, logos, social media kits, banners and print materials — visual communication that makes you unforgettable. 5 logo concepts on every project.",
+    "packages": [
+      {
+        "name": "Logo Package",
+        "tag": "A strategic logo that anchors your brand",
+        "price_usd": "199",
+        "period": "one-time",
+        "card_desc": "5 unique concepts, 3 revision rounds, all file formats (AI, EPS, SVG, PNG, PDF).",
+        "features": [
+          "5 unique logo concepts",
+          "3 revision rounds",
+          "All variants (colour, mono, reversed)",
+          "All file formats",
+          "Brand colour palette (3–5 colours)",
+          "Typography recommendation",
+          "1-page brand guide PDF",
+          "48h first concepts"
+        ],
+        "delivery": "⏱ 48h first concepts",
+        "popular": false
+      },
+      {
+        "name": "Brand Identity",
+        "tag": "Complete visual identity system",
+        "price_usd": "599",
+        "period": "one-time",
+        "card_desc": "Logo + colours + typography + social kit + business card + 10-page brand guidelines.",
+        "features": [
+          "Everything in Logo Package",
+          "Full colour + typography system",
+          "Brand pattern / texture",
+          "Business card (front + back)",
+          "Letterhead + email signature",
+          "Social media profile kit (all platforms)",
+          "10-page brand guidelines PDF",
+          "5 revisions · 7-day delivery"
+        ],
+        "delivery": "⏱ 7-day delivery",
+        "popular": true
+      },
+      {
+        "name": "Full Brand Suite",
+        "tag": "Enterprise brand identity + all assets",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Social kit, print materials, packaging, pitch deck, Canva brand kit and 20+ page guidelines.",
+        "features": [
+          "Everything in Brand Identity",
+          "12 social media content templates",
+          "Complete print materials suite",
+          "Packaging design (if applicable)",
+          "Pitch deck template",
+          "Logo animation",
+          "Canva brand kit (client-editable)"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "ecommerce": {
+    "title": "E-commerce  Solutions",
+    "desc": "Full-featured online stores on Shopify & WooCommerce — products, payment gateways (Stripe, bKash, Nagad, SSLCommerz), shipping automation and launch-ready.",
+    "packages": [
+      {
+        "name": "Starter Store",
+        "tag": "Launch your first online store",
+        "price_usd": "499",
+        "period": "one-time",
+        "card_desc": "Shopify or WooCommerce with theme customisation, 50 products and local payment gateways.",
+        "features": [
+          "Shopify or WooCommerce setup",
+          "Premium theme customisation",
+          "Up to 50 products uploaded",
+          "bKash + SSLCommerz + COD",
+          "Shipping zones + rate rules",
+          "GA4 + Meta Pixel",
+          "Basic SEO + sitemap",
+          "14-day delivery",
+          "Custom design",
+          "Stripe / PayPal"
+        ],
+        "delivery": "⏱ 14-day delivery",
+        "popular": false
+      },
+      {
+        "name": "Growth Store",
+        "tag": "Custom store built to convert & scale",
+        "price_usd": "1,299",
+        "period": "one-time",
+        "card_desc": "Custom design, 200 products, all payment gateways, shipping automation and full analytics stack.",
+        "features": [
+          "Custom Shopify / WooCommerce design",
+          "Up to 200 products",
+          "All payments (Stripe + bKash + Nagad + SSLCommerz + PayPal + COD)",
+          "Shipping automation + Pathao/Steadfast",
+          "Abandoned cart email automation",
+          "GA4 e-commerce tracking + Pixel + CAPI",
+          "Speed optimisation (90+ PageSpeed)",
+          "30-day support"
+        ],
+        "delivery": "⏱ 14–21 days",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Store",
+        "tag": "Complex catalogues & multi-vendor",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited products, B2B pricing tiers, multi-vendor marketplace, ERP integration.",
+        "features": [
+          "Unlimited products",
+          "Multi-vendor marketplace",
+          "B2B wholesale pricing tiers",
+          "Custom plugin development",
+          "ERP / inventory integration",
+          "International multi-currency",
+          "Looker Studio dashboard"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "video": {
+    "title": "Video  Editing",
+    "desc": "Scroll-stopping video content for ads, Reels, YouTube and brand storytelling. Colour grading, motion graphics, sound design and multi-format export all included.",
+    "packages": [
+      {
+        "name": "Short-Form Video",
+        "tag": "Reels, TikTok & YouTube Shorts",
+        "price_usd": "49",
+        "period": "/video",
+        "card_desc": "Up to 90 seconds — professional edit, music sync, captions and 9:16 vertical format.",
+        "features": [
+          "Up to 90 seconds",
+          "Professional cut & pacing",
+          "Music sync + audio mix",
+          "Text overlays + captions",
+          "9:16 vertical format",
+          "48h delivery · 2 revisions",
+          "Motion graphics",
+          "Colour grading (LUT)"
+        ],
+        "delivery": "⏱ 48-hour delivery",
+        "popular": false
+      },
+      {
+        "name": "Full Production",
+        "tag": "YouTube, ads & brand videos",
+        "price_usd": "149",
+        "period": "/video",
+        "card_desc": "Up to 10 minutes — full colour grade, motion graphics, sound design, subtitles, multi-format.",
+        "features": [
+          "Up to 10 minutes",
+          "All platforms & formats",
+          "Full colour grade (DaVinci)",
+          "Motion graphics + lower thirds",
+          "Sound design + royalty-free music",
+          "Subtitles + SRT file",
+          "Multi-format export (16:9, 9:16, 1:1)",
+          "Logo intro/outro animation",
+          "48–72h · 3 revisions"
+        ],
+        "delivery": "⏱ 48–72h delivery",
+        "popular": true
+      },
+      {
+        "name": "Monthly Retainer",
+        "tag": "High-volume — best value per video",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "10–50+ videos/month — dedicated editor, consistent brand style, priority 24h turnaround.",
+        "features": [
+          "10–50+ videos per month",
+          "All video types & formats",
+          "Dedicated editor assigned",
+          "Priority 24–48h turnaround",
+          "Consistent brand style guide",
+          "Monthly strategy call",
+          "Unlimited revisions"
+        ],
+        "delivery": "⏱ 24–48h priority",
+        "popular": false
+      }
+    ]
+  },
+  "content": {
+    "title": "Content  Writing",
+    "desc": "SEO-optimised, audience-first copywriting — blog posts, web copy, product descriptions and landing page content. 100% human-written, Copyscape-verified, 48h delivery.",
+    "packages": [
+      {
+        "name": "Starter Blog",
+        "tag": "For businesses starting SEO content",
+        "price_usd": "49",
+        "period": "/article",
+        "card_desc": "800–1,000 words, 1 keyword researched, SEO-optimised, plagiarism-checked, 48h delivery.",
+        "features": [
+          "800–1,000 words",
+          "1 target keyword researched",
+          "SEO-optimised structure (H1/H2/H3)",
+          "Meta title + description",
+          "Copyscape-checked",
+          "48h delivery · 1 revision",
+          "SERP analysis",
+          "Internal linking"
+        ],
+        "delivery": "⏱ 48-hour delivery",
+        "popular": false
+      },
+      {
+        "name": "Growth Blog",
+        "tag": "Serious SEO content that ranks",
+        "price_usd": "99",
+        "period": "/article",
+        "card_desc": "1,500–2,000 words, full SERP analysis, LSI integration, internal links and all on-page SEO.",
+        "features": [
+          "1,500–2,000 words",
+          "Full keyword + SERP analysis",
+          "Competitor content gap analysis",
+          "LSI + semantic keyword integration",
+          "Full on-page SEO",
+          "Internal linking (3–5 links)",
+          "Image alt text suggestions",
+          "Copyscape + Grammarly",
+          "48h delivery · 2 revisions"
+        ],
+        "delivery": "⏱ 48-hour delivery",
+        "popular": true
+      },
+      {
+        "name": "Monthly Retainer",
+        "tag": "Consistent content that builds authority",
+        "price_usd": "299",
+        "period": "/month",
+        "card_desc": "4 blog posts/month + content calendar + keyword research + monthly performance report.",
+        "features": [
+          "4 blog posts/month (1,000–1,500 words)",
+          "Keyword research included",
+          "Full SEO optimisation",
+          "Meta titles + descriptions",
+          "Content calendar planning",
+          "Monthly performance report",
+          "Dedicated content manager"
+        ],
+        "delivery": "⏱ Rolling monthly",
+        "popular": false
+      }
+    ]
+  },
+  "landing": {
+    "title": "Landing Page  Design",
+    "desc": "CRO-optimised landing pages built for ad traffic — copy, design, build, tracking and CRM integration all in one package. 90+ PageSpeed guaranteed.",
+    "packages": [
+      {
+        "name": "Starter LP",
+        "tag": "Single high-converting page",
+        "price_usd": "349",
+        "period": "one-time",
+        "card_desc": "CRO copy + custom design + build + GA4/Pixel tracking. 90+ PageSpeed. 48h delivery.",
+        "features": [
+          "1 landing page (custom design)",
+          "CRO copywriting included",
+          "Mobile-first build",
+          "90+ PageSpeed guarantee",
+          "Form + email notification",
+          "GA4 + Meta Pixel tracking",
+          "48h delivery · 2 revisions",
+          "GoHighLevel / CRM integration",
+          "A/B testing"
+        ],
+        "delivery": "⏱ 48-hour delivery",
+        "popular": false
+      },
+      {
+        "name": "CRO + CRM",
+        "tag": "Full funnel with GoHighLevel / WordPress CRM",
+        "price_usd": "799",
+        "period": "one-time",
+        "card_desc": "LP + thank you page + CRM + WhatsApp automation + A/B testing + 30-day optimisation.",
+        "features": [
+          "LP + thank you page",
+          "Full CRO copywriting",
+          "Custom design desktop + mobile",
+          "90+ PageSpeed guarantee",
+          "GoHighLevel OR FluentCRM integration",
+          "WhatsApp + email automation",
+          "GA4 + Meta Pixel + CAPI + GTM",
+          "A/B testing setup (2 variations)",
+          "Hotjar heatmap + 30-day optimisation"
+        ],
+        "delivery": "⏱ 48–72h delivery",
+        "popular": true
+      },
+      {
+        "name": "Full Funnel Suite",
+        "tag": "Multi-step funnel + complete CRM build",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "3–7 page funnel + full GHL CRM + lead scoring + nurture sequences + dashboard.",
+        "features": [
+          "Full funnel (3–7 pages)",
+          "GoHighLevel / WordPress CRM full setup",
+          "Email + WhatsApp nurture sequence",
+          "Lead scoring + pipeline automation",
+          "Looker Studio dashboard",
+          "A/B testing across all pages",
+          "Monthly CRO retainer available"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "digital-mkt": {
+    "title": "Digital  Marketing",
+    "desc": "Full-service performance marketing — Google Ads, Meta Ads, SEO, social media, analytics and CRO under one roof. One unified strategy, one team, one monthly report.",
+    "packages": [
+      {
+        "name": "Starter Growth",
+        "tag": "2 channels, one strategy",
+        "price_usd": "799",
+        "period": "/month",
+        "card_desc": "Choose 2 marketing channels — managed together with a unified monthly strategy and reporting.",
+        "features": [
+          "Choose 2 channels (Google, Meta, SEO or Social)",
+          "Monthly strategy + content calendar",
+          "GA4 + basic tracking setup",
+          "Monthly performance report",
+          "Dedicated account manager",
+          "Cross-channel attribution dashboard",
+          "CRO + landing page optimisation"
+        ],
+        "delivery": "⏱ Starts within 5 days",
+        "popular": false
+      },
+      {
+        "name": "Full-Funnel Pro",
+        "tag": "Every channel · one team · one dashboard",
+        "price_usd": "1,999",
+        "period": "/month",
+        "card_desc": "All 6 channels (Google + Meta + SEO + Social + Analytics + CRO) under one unified strategy.",
+        "features": [
+          "All 6 channels managed together",
+          "Unified cross-channel strategy",
+          "Full GA4 + GTM + Pixel + CAPI stack",
+          "Looker Studio live dashboard",
+          "Monthly landing page A/B test",
+          "Email automation flows (3/month)",
+          "Weekly performance snapshots",
+          "Monthly strategy call",
+          "Dedicated team of 3 specialists"
+        ],
+        "delivery": "⏱ Starts within 5 days",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Growth",
+        "tag": "Scaling businesses & international markets",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Everything in Full-Funnel Pro + custom ad spend management, international campaigns and SLA-backed reporting.",
+        "features": [
+          "Everything in Full-Funnel Pro",
+          "Custom ad spend management",
+          "International multi-market campaigns",
+          "Advanced attribution modelling",
+          "Dedicated team of 5+ specialists",
+          "Weekly strategy sessions",
+          "SLA-backed performance guarantees"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "seo": {
+    "title": "SEO  Services",
+    "desc": "Local, E-commerce & Global SEO — technical audits, keyword strategy, content and link building that rank you #1 and keep you there. Average +320% organic traffic growth.",
+    "packages": [
+      {
+        "name": "Local SEO",
+        "tag": "Dominate Google Maps in your city",
+        "price_usd": "199",
+        "period": "/month",
+        "card_desc": "Google Business Profile + local citations + review generation + 2 blog posts/month.",
+        "features": [
+          "Google Business Profile optimisation",
+          "10 target keywords",
+          "On-page SEO (5 pages)",
+          "50+ local citations built",
+          "2 blog posts/month",
+          "Review generation strategy",
+          "Monthly ranking report",
+          "Link building",
+          "Technical SEO audit"
+        ],
+        "delivery": "⏱ Results from month 2",
+        "popular": false
+      },
+      {
+        "name": "Growth SEO",
+        "tag": "Serious organic growth — all pillars",
+        "price_usd": "499",
+        "period": "/month",
+        "card_desc": "30 keywords, technical audit + fixes, 4 blog posts, 10 backlinks/month, weekly rankings.",
+        "features": [
+          "30 target keywords",
+          "Full technical SEO audit & fixes",
+          "On-page optimisation (full site)",
+          "4 blog posts/month (1,500+ words)",
+          "Link building (10 backlinks/month)",
+          "Competitor analysis & gap monitoring",
+          "Schema markup implementation",
+          "Core Web Vitals optimisation",
+          "Weekly ranking updates",
+          "Monthly strategy call"
+        ],
+        "delivery": "⏱ Rankings from month 3",
+        "popular": true
+      },
+      {
+        "name": "Enterprise SEO",
+        "tag": "Large sites & international markets",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "International SEO, e-commerce category optimisation, 30+ backlinks/month and digital PR.",
+        "features": [
+          "Unlimited keywords tracked",
+          "International / multilingual SEO",
+          "E-commerce category optimisation",
+          "8+ blog posts/month",
+          "30+ high-authority backlinks/month",
+          "Digital PR campaigns",
+          "Dedicated team of 3 specialists"
+        ],
+        "delivery": "⏱ Custom timeline",
+        "popular": false
+      }
+    ]
+  },
+  "google-ads": {
+    "title": "Google Ads  & Bing Ads",
+    "desc": "Search, Shopping, Display & Performance Max campaigns — certified management that maximises ROAS. Every campaign optimised for the lowest cost per conversion.",
+    "packages": [
+      {
+        "name": "Starter Ads",
+        "tag": "Launch & test Google Ads profitably",
+        "price_usd": "349",
+        "period": "/month",
+        "card_desc": "Up to $2,000 ad spend managed. Search campaigns, keyword research, ad copy and monthly reporting.",
+        "features": [
+          "Google Search campaigns",
+          "Up to $2,000 spend managed",
+          "Keyword research + negatives",
+          "Ad copy (2 variations/group)",
+          "Conversion tracking setup",
+          "Monthly performance report",
+          "Shopping / Display / PMax",
+          "A/B testing"
+        ],
+        "delivery": "⏱ Live in 5 days",
+        "popular": false
+      },
+      {
+        "name": "Growth Ads",
+        "tag": "Multi-campaign ROAS maximisation",
+        "price_usd": "699",
+        "period": "/month",
+        "card_desc": "Up to $10,000 spend. Search + Shopping + Display + PMax — full campaign ecosystem.",
+        "features": [
+          "Search + Shopping + Display + PMax",
+          "Up to $10,000 spend managed",
+          "Full keyword strategy + weekly optimisation",
+          "Ad copy A/B testing",
+          "Audience targeting & remarketing",
+          "Shopping feed setup + optimisation",
+          "GA4 + GTM conversion tracking",
+          "Weekly report + monthly call"
+        ],
+        "delivery": "⏱ Live in 5 days",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Ads",
+        "tag": "$10K+ monthly spend management",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited spend, YouTube campaigns, international campaigns and Bing Ads included.",
+        "features": [
+          "Unlimited ad spend management",
+          "All campaign types + YouTube",
+          "Bing Ads management included",
+          "International multi-market campaigns",
+          "Advanced attribution modelling",
+          "Server-side conversion tracking",
+          "Dedicated team of 3 specialists"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "meta-ads": {
+    "title": "Meta Ads  (Facebook & Instagram)",
+    "desc": "Facebook & Instagram campaigns — full-funnel strategy, creative production, Pixel + CAPI tracking, audience building and retargeting that converts cold traffic into loyal customers.",
+    "packages": [
+      {
+        "name": "Starter Meta Ads",
+        "tag": "Launch profitable Facebook/Instagram ads",
+        "price_usd": "349",
+        "period": "/month",
+        "card_desc": "Up to $2,000 spend managed. 1 campaign, audience research, ad creative and Pixel setup.",
+        "features": [
+          "Facebook + Instagram campaigns",
+          "Up to $2,000 spend managed",
+          "Audience research + targeting",
+          "Ad creative (2 static ads)",
+          "Meta Pixel + basic event tracking",
+          "Monthly performance report",
+          "Retargeting campaigns",
+          "Video ads / Reels ads"
+        ],
+        "delivery": "⏱ Live in 5 days",
+        "popular": false
+      },
+      {
+        "name": "Growth Meta Ads",
+        "tag": "Full-funnel ROAS maximisation",
+        "price_usd": "699",
+        "period": "/month",
+        "card_desc": "Up to $10,000 spend. Prospecting + retargeting + Reels ads + CAPI + full creative production.",
+        "features": [
+          "Facebook + Instagram + Reels Ads",
+          "Up to $10,000 spend managed",
+          "Full funnel (prospecting + retargeting)",
+          "Custom audiences + lookalikes",
+          "Ad creative production (4 ads/month)",
+          "Meta Pixel + CAPI (server-side)",
+          "A/B testing creatives + audiences",
+          "Weekly report + monthly call"
+        ],
+        "delivery": "⏱ Live in 5 days",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Meta Ads",
+        "tag": "$10K+ spend with advanced data stack",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited spend, Advantage+ campaigns, advanced data modelling and full creative team.",
+        "features": [
+          "Unlimited spend management",
+          "Advantage+ Shopping + Broad campaigns",
+          "Advanced audience modelling",
+          "Full creative production team",
+          "Server-side tracking + CRM integration",
+          "Cross-platform attribution",
+          "Dedicated team of 3 specialists"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "social": {
+    "title": "Social Media  Management",
+    "desc": "End-to-end social media management — content creation, graphic design, video editing, Reels, scheduling, community management and analytics across all platforms.",
+    "packages": [
+      {
+        "name": "Basic Social",
+        "tag": "Stay active & consistent",
+        "price_usd": "249",
+        "period": "/month",
+        "card_desc": "2 platforms (Facebook + Instagram) — 12 posts/month, custom graphics, captions and scheduling.",
+        "features": [
+          "2 platforms (FB + Instagram)",
+          "12 posts/month",
+          "Custom graphic design per post",
+          "Caption copywriting",
+          "Hashtag strategy",
+          "Post scheduling",
+          "Monthly analytics report",
+          "Reels / video content",
+          "Community management"
+        ],
+        "delivery": "⏱ Starts in 3 days",
+        "popular": false
+      },
+      {
+        "name": "Growth Social",
+        "tag": "Build an engaged audience fast",
+        "price_usd": "549",
+        "period": "/month",
+        "card_desc": "4 platforms — 20 posts + 8 Reels/month, community management, influencer outreach and weekly reports.",
+        "features": [
+          "4 platforms (FB, IG, TikTok, LinkedIn)",
+          "20 posts + 8 Reels/month",
+          "Professional video editing",
+          "Story + highlight management",
+          "Community management (DMs)",
+          "Influencer outreach (2/month)",
+          "Competitor analysis",
+          "Weekly analytics report",
+          "Content calendar planning"
+        ],
+        "delivery": "⏱ Starts in 3 days",
+        "popular": true
+      },
+      {
+        "name": "Brand Authority",
+        "tag": "Full social domination",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "All platforms, daily posting, full video production team, paid social ads included.",
+        "features": [
+          "All platforms covered",
+          "Daily posting schedule",
+          "Full video production team",
+          "24/7 community management",
+          "Paid social ads included",
+          "Influencer campaign management",
+          "Monthly brand report",
+          "Quarterly strategy sessions"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "analytics": {
+    "title": "Web Analytics  (GA4 & GTM)",
+    "desc": "GA4, GTM, Meta Pixel & CAPI setup — full tracking stack so every lead, sale and conversion is accurately measured and attributed. Never fly blind again.",
+    "packages": [
+      {
+        "name": "Analytics Starter",
+        "tag": "Get your tracking right from day one",
+        "price_usd": "199",
+        "period": "one-time",
+        "card_desc": "GA4 + GTM install, basic event tracking and Google Search Console setup.",
+        "features": [
+          "GA4 property setup + configuration",
+          "GTM container install",
+          "Basic event tracking (clicks, form submits)",
+          "Google Search Console setup",
+          "Google Ads conversion tag",
+          "Meta Pixel basic install",
+          "GA4 30-min walkthrough",
+          "Custom Looker Studio dashboard",
+          "CAPI (server-side)"
+        ],
+        "delivery": "⏱ 48h setup",
+        "popular": false
+      },
+      {
+        "name": "Full Analytics Stack",
+        "tag": "Complete tracking + reporting dashboard",
+        "price_usd": "599",
+        "period": "one-time",
+        "card_desc": "Full GA4 + GTM + Meta Pixel + CAPI + Looker Studio dashboard — every conversion tracked.",
+        "features": [
+          "GA4 full implementation",
+          "GTM advanced tag setup",
+          "Custom conversion event tracking",
+          "Funnel visualisation in GA4",
+          "Meta Pixel + CAPI (server-side)",
+          "Google Ads enhanced conversions",
+          "Custom Looker Studio dashboard",
+          "1-hour training call",
+          "Cross-channel attribution report"
+        ],
+        "delivery": "⏱ 3–5 days setup",
+        "popular": true
+      },
+      {
+        "name": "Enterprise Analytics",
+        "tag": "Advanced attribution & data warehousing",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "BigQuery integration, custom data modelling, multi-touch attribution and monthly analytics maintenance.",
+        "features": [
+          "Everything in Full Stack",
+          "BigQuery data warehouse setup",
+          "Custom data modelling",
+          "Multi-touch attribution modelling",
+          "CRM data integration (HubSpot/Salesforce)",
+          "Predictive analytics setup",
+          "Monthly analytics maintenance + report"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "cro": {
+    "title": "CRO —  Conversion Optimisation",
+    "desc": "Turn more visitors into customers — heatmaps, A/B testing, landing page optimisation and checkout flow improvement. Average 3.2× conversion lift across clients.",
+    "packages": [
+      {
+        "name": "CRO Audit",
+        "tag": "Know exactly what to fix",
+        "price_usd": "299",
+        "period": "one-time",
+        "card_desc": "Full website audit — 87-point UX checklist, heatmap analysis and prioritised fix report.",
+        "features": [
+          "Full site audit (up to 10 pages)",
+          "87-point heuristic UX checklist",
+          "Heatmap setup + 2-week data collection",
+          "Prioritised issues (by revenue impact)",
+          "Quick-win fix recommendations",
+          "45-min results walkthrough call",
+          "A/B test implementation",
+          "Ongoing monthly optimisation"
+        ],
+        "delivery": "⏱ 48h turnaround",
+        "popular": false
+      },
+      {
+        "name": "CRO Growth",
+        "tag": "Test, learn and convert more every month",
+        "price_usd": "599",
+        "period": "/month",
+        "card_desc": "Full audit + 2 A/B tests/month + heatmaps + checkout optimisation + monthly reporting.",
+        "features": [
+          "Full audit + monthly optimisation",
+          "2 A/B tests/month (designed & run)",
+          "Ongoing heatmap + session recording",
+          "Landing page CRO (3 pages/month)",
+          "Checkout flow optimisation",
+          "GA4 + GTM full setup + maintenance",
+          "Monthly report + strategy call",
+          "Dedicated CRO specialist"
+        ],
+        "delivery": "⏱ Results from month 1",
+        "popular": true
+      },
+      {
+        "name": "CRO Enterprise",
+        "tag": "Full-scale experimentation program",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited A/B tests, dedicated CRO team, personalisation engine and custom analytics stack.",
+        "features": [
+          "Unlimited A/B & multivariate tests",
+          "Dedicated CRO team (3 specialists)",
+          "Personalisation & dynamic content",
+          "Full funnel optimisation",
+          "Advanced attribution modelling",
+          "Custom analytics dashboard",
+          "Weekly strategy sessions"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "email": {
+    "title": "Email  Marketing",
+    "desc": "Automated email campaigns, drip sequences and newsletters that nurture leads and keep your customers coming back. Built on Klaviyo, Mailchimp, FluentCRM or ActiveCampaign.",
+    "packages": [
+      {
+        "name": "Email Starter",
+        "tag": "Start building your list & automations",
+        "price_usd": "199",
+        "period": "/month",
+        "card_desc": "1 automation flow + 2 newsletters/month + list setup + basic segmentation.",
+        "features": [
+          "Platform setup (Mailchimp / FluentCRM)",
+          "1 automation flow (welcome sequence)",
+          "2 email newsletters/month",
+          "List segmentation + tags",
+          "Email template design",
+          "Monthly open/click report",
+          "Advanced automations",
+          "A/B subject line testing"
+        ],
+        "delivery": "⏱ Setup in 5 days",
+        "popular": false
+      },
+      {
+        "name": "Email Growth",
+        "tag": "Full email funnel + automation stack",
+        "price_usd": "499",
+        "period": "/month",
+        "card_desc": "5 automation flows + 4 newsletters/month + A/B testing + advanced segmentation + Klaviyo setup.",
+        "features": [
+          "Platform: Klaviyo / ActiveCampaign",
+          "5 automation flows (welcome, nurture, cart, win-back, post-purchase)",
+          "4 email newsletters/month",
+          "A/B subject line + content testing",
+          "Advanced segmentation + personalisation",
+          "Pop-up + sign-up form design",
+          "Monthly performance + revenue report",
+          "Deliverability monitoring"
+        ],
+        "delivery": "⏱ Setup in 5 days",
+        "popular": true
+      },
+      {
+        "name": "Email Enterprise",
+        "tag": "Advanced lifecycle marketing program",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited flows, full CRM integration, predictive send-time, SMS automations and dedicated email team.",
+        "features": [
+          "Unlimited automation flows",
+          "Full CRM integration (HubSpot/Salesforce)",
+          "Predictive send-time + AI personalisation",
+          "SMS + email combined automations",
+          "Revenue attribution per email",
+          "Full list hygiene management",
+          "Dedicated email marketing team"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "legal": {
+    "title": "Legal Data Entry &amp;  Data Analysis",
+    "desc": "Accurate, confidential legal data entry and case data analysis — case files, contracts, and records handled with precision by a trained data team under strict confidentiality.",
+    "packages": [
+      {
+        "name": "Legal Data Basic",
+        "tag": "Small batches, fast turnaround",
+        "price_usd": "149",
+        "period": "one-time",
+        "card_desc": "Up to 500 records entered and QA-checked from case files, contracts or scanned documents.",
+        "features": [
+          "Up to 500 records",
+          "Case files, contracts or scanned docs",
+          "Double-entry QA verification",
+          "NDA + confidentiality agreement",
+          "Delivered in Excel, CSV or your CRM",
+          "5-day turnaround",
+          "Ongoing monthly volume",
+          "Data analysis / reporting"
+        ],
+        "delivery": "⏱ 5-day turnaround",
+        "popular": false
+      },
+      {
+        "name": "Legal Data Pro",
+        "tag": "Ongoing entry + case data analysis",
+        "price_usd": "499",
+        "period": "/month",
+        "card_desc": "Up to 2,500 records/month with weekly QA reports and case data trend analysis.",
+        "features": [
+          "Up to 2,500 records/month",
+          "Dedicated legal data specialist",
+          "Case data analysis + trend reports",
+          "Weekly QA + accuracy reports",
+          "CRM / case management sync",
+          "Strict confidentiality &amp; NDA",
+          "Priority turnaround"
+        ],
+        "delivery": "⏱ Priority turnaround",
+        "popular": true
+      },
+      {
+        "name": "Legal Data Enterprise",
+        "tag": "High-volume firms &amp; legal departments",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited volume, dedicated data analyst team, and SLA-backed accuracy guarantees.",
+        "features": [
+          "Unlimited monthly volume",
+          "Dedicated analyst team",
+          "Custom data analysis dashboards",
+          "Full case management integration",
+          "SLA-backed accuracy guarantee",
+          "24h priority support"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "ghl": {
+    "title": "GoHighLevel Migration &amp;  Automation",
+    "desc": "Full GoHighLevel setup, migration from your old CRM, and workflow automation — pipelines, funnels and follow-ups built and connected for you.",
+    "packages": [
+      {
+        "name": "GHL Setup",
+        "tag": "Get started on GoHighLevel fast",
+        "price_usd": "349",
+        "period": "one-time",
+        "card_desc": "Account setup, 1 pipeline, 3 automations and a calendar/booking flow.",
+        "features": [
+          "Full GoHighLevel account setup",
+          "1 sales pipeline configured",
+          "3 workflow automations",
+          "Calendar / booking setup",
+          "Basic email + SMS templates",
+          "7-day delivery",
+          "CRM migration",
+          "Custom funnel build"
+        ],
+        "delivery": "⏱ 7-day delivery",
+        "popular": false
+      },
+      {
+        "name": "GHL Migration &amp; Growth",
+        "tag": "Full migration + funnels + automation",
+        "price_usd": "799",
+        "period": "one-time",
+        "card_desc": "Complete migration from your old CRM plus custom funnels, pipelines and automated follow-ups.",
+        "features": [
+          "Full migration from old CRM",
+          "Up to 3 pipelines + custom stages",
+          "2 custom funnels built",
+          "10+ workflow automations",
+          "Email + SMS + WhatsApp follow-ups",
+          "Lead scoring setup",
+          "14-day delivery · 30-day support"
+        ],
+        "delivery": "⏱ 14-day delivery",
+        "popular": true
+      },
+      {
+        "name": "GHL Enterprise",
+        "tag": "Multi-location &amp; agency accounts",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Multi-location sub-accounts, white-label setup and a dedicated GoHighLevel administrator.",
+        "features": [
+          "Multi-location / sub-account setup",
+          "White-label configuration",
+          "Unlimited pipelines &amp; funnels",
+          "Advanced automation logic",
+          "Dedicated GHL administrator",
+          "Ongoing optimisation &amp; support"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "zoho": {
+    "title": "Zoho Setup &amp;  Automation",
+    "desc": "Zoho CRM, Books &amp; Suite implementation with custom modules, automation rules and integrations tailored to your business.",
+    "packages": [
+      {
+        "name": "Zoho Starter",
+        "tag": "Core CRM up and running",
+        "price_usd": "299",
+        "period": "one-time",
+        "card_desc": "Zoho CRM account setup with standard modules, pipeline stages and basic automation.",
+        "features": [
+          "Zoho CRM account setup",
+          "Standard modules configured",
+          "1 sales pipeline",
+          "3 workflow rules",
+          "Basic email templates",
+          "7-day delivery",
+          "Custom modules",
+          "Zoho Books integration"
+        ],
+        "delivery": "⏱ 7-day delivery",
+        "popular": false
+      },
+      {
+        "name": "Zoho Growth",
+        "tag": "Custom modules + Books integration",
+        "price_usd": "699",
+        "period": "one-time",
+        "card_desc": "Custom modules and fields, Zoho Books integration, and automation rules across your workflow.",
+        "features": [
+          "Custom modules &amp; fields",
+          "Zoho Books integration",
+          "Up to 10 automation rules",
+          "Custom dashboards &amp; reports",
+          "Third-party app integrations",
+          "Team roles &amp; permissions setup",
+          "14-day delivery · 30-day support"
+        ],
+        "delivery": "⏱ 14-day delivery",
+        "popular": true
+      },
+      {
+        "name": "Zoho One Enterprise",
+        "tag": "Full Zoho One suite rollout",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Multi-department Zoho One rollout with advanced automation, integrations and admin training.",
+        "features": [
+          "Zoho One suite (multi-app) rollout",
+          "Multi-department configuration",
+          "Advanced Deluge scripting",
+          "Full third-party integrations",
+          "Team training &amp; admin handover",
+          "Ongoing support retainer available"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "crm": {
+    "title": "CRM Data Management &amp;  Automation",
+    "desc": "Ongoing CRM data hygiene, deduplication, custom fields and automation across HubSpot, Salesforce, Zoho and GoHighLevel — keep your CRM clean and working for you.",
+    "packages": [
+      {
+        "name": "CRM Basic",
+        "tag": "Monthly cleanup &amp; hygiene",
+        "price_usd": "249",
+        "period": "/month",
+        "card_desc": "Monthly data cleanup, deduplication and standardisation for up to 5,000 records.",
+        "features": [
+          "Up to 5,000 records",
+          "Deduplication + standardisation",
+          "Missing-field completion",
+          "Monthly hygiene report",
+          "1 platform (HubSpot/Zoho/GHL/Salesforce)",
+          "Custom automation rules",
+          "Multi-platform sync"
+        ],
+        "delivery": "⏱ Ongoing monthly",
+        "popular": false
+      },
+      {
+        "name": "CRM Growth",
+        "tag": "Custom fields + workflow automation",
+        "price_usd": "599",
+        "period": "/month",
+        "card_desc": "Up to 20,000 records, custom fields, automation rules and cross-platform integrations.",
+        "features": [
+          "Up to 20,000 records",
+          "Custom fields &amp; layouts",
+          "Automation rule building",
+          "Cross-platform integrations",
+          "Lead scoring &amp; routing rules",
+          "Monthly data health report",
+          "Dedicated CRM specialist"
+        ],
+        "delivery": "⏱ Ongoing monthly",
+        "popular": true
+      },
+      {
+        "name": "CRM Enterprise",
+        "tag": "Dedicated CRM administration",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited records, dedicated CRM admin, and multi-platform sync across your entire stack.",
+        "features": [
+          "Unlimited records",
+          "Dedicated CRM administrator",
+          "Multi-platform sync (2+ CRMs)",
+          "Advanced automation architecture",
+          "Custom reporting dashboards",
+          "Priority support &amp; SLA"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "leadgen": {
+    "title": "Lead  Generation",
+    "desc": "Targeted B2B &amp; B2C lead generation — verified contact lists, outreach-ready data and qualified leads delivered straight into your pipeline.",
+    "packages": [
+      {
+        "name": "Lead Starter",
+        "tag": "Test a new market or niche",
+        "price_usd": "299",
+        "period": "/month",
+        "card_desc": "100 verified leads/month matched to your ideal customer profile.",
+        "features": [
+          "100 verified leads/month",
+          "B2B or B2C targeting",
+          "Email + phone verification",
+          "CSV / CRM-ready delivery",
+          "Monthly quality report",
+          "Outreach sequence setup",
+          "Dedicated SDR support"
+        ],
+        "delivery": "⏱ Ongoing monthly",
+        "popular": false
+      },
+      {
+        "name": "Lead Growth",
+        "tag": "Bigger volume + outreach-ready",
+        "price_usd": "699",
+        "period": "/month",
+        "card_desc": "300 verified leads/month plus outreach sequence setup across email and LinkedIn.",
+        "features": [
+          "300 verified leads/month",
+          "B2B + B2C targeting",
+          "Email + LinkedIn outreach setup",
+          "List segmentation by ICP",
+          "CRM integration",
+          "Weekly delivery batches",
+          "Dedicated lead researcher"
+        ],
+        "delivery": "⏱ Weekly batches",
+        "popular": true
+      },
+      {
+        "name": "Lead Enterprise",
+        "tag": "High-volume pipeline building",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Unlimited monthly volume with a dedicated SDR team handling sourcing and outreach.",
+        "features": [
+          "Unlimited monthly volume",
+          "Dedicated SDR team",
+          "Multi-channel outreach management",
+          "Full CRM &amp; pipeline integration",
+          "Weekly performance reporting",
+          "SLA-backed lead quality"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "research": {
+    "title": "Web  Research",
+    "desc": "In-depth web research and data sourcing — market research, competitor analysis, contact discovery and data enrichment, delivered in a format you can act on.",
+    "packages": [
+      {
+        "name": "Research Basic",
+        "tag": "One-off research project",
+        "price_usd": "199",
+        "period": "one-time",
+        "card_desc": "Up to 20 hours of research — market data, competitor lists or contact discovery.",
+        "features": [
+          "Up to 20 hours of research",
+          "Market research or competitor analysis",
+          "Structured spreadsheet delivery",
+          "Source citations included",
+          "5-day turnaround",
+          "Ongoing monthly research",
+          "Dedicated researcher"
+        ],
+        "delivery": "⏱ 5-day turnaround",
+        "popular": false
+      },
+      {
+        "name": "Research Pro",
+        "tag": "Ongoing monthly research support",
+        "price_usd": "499",
+        "period": "/month",
+        "card_desc": "Up to 60 hours/month with a dedicated researcher covering market, competitor and contact data.",
+        "features": [
+          "Up to 60 hours/month",
+          "Dedicated researcher assigned",
+          "Market + competitor + contact research",
+          "Data enrichment &amp; verification",
+          "Weekly delivery batches",
+          "Custom report formatting"
+        ],
+        "delivery": "⏱ Weekly batches",
+        "popular": true
+      },
+      {
+        "name": "Research Enterprise",
+        "tag": "Ongoing market intelligence team",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "A dedicated research team providing continuous market intelligence and data pipelines.",
+        "features": [
+          "Dedicated research team",
+          "Continuous market intelligence",
+          "Custom data pipeline delivery",
+          "Competitive tracking dashboards",
+          "Priority turnaround"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "excel": {
+    "title": "Microsoft Excel Cleaning &amp;  Formatting",
+    "desc": "Messy spreadsheets turned into clean, formatted, formula-ready workbooks — data cleanup, validation and dashboard-ready sheets.",
+    "packages": [
+      {
+        "name": "Excel Basic",
+        "tag": "Quick cleanup for small sheets",
+        "price_usd": "79",
+        "period": "one-time",
+        "card_desc": "Up to 2,000 rows — cleanup, deduplication and consistent formatting.",
+        "features": [
+          "Up to 2,000 rows",
+          "Data cleanup + deduplication",
+          "Consistent formatting &amp; headers",
+          "Basic formulas (SUM, VLOOKUP)",
+          "48h turnaround",
+          "Dashboard / charts",
+          "VBA / macros"
+        ],
+        "delivery": "⏱ 48h turnaround",
+        "popular": false
+      },
+      {
+        "name": "Excel Pro",
+        "tag": "Cleanup + formulas + dashboard",
+        "price_usd": "249",
+        "period": "one-time",
+        "card_desc": "Up to 10,000 rows with advanced formulas, data validation and a dashboard-ready summary sheet.",
+        "features": [
+          "Up to 10,000 rows",
+          "Advanced formulas (INDEX/MATCH, pivot tables)",
+          "Data validation rules",
+          "Dashboard-ready summary sheet",
+          "Conditional formatting",
+          "3-day turnaround"
+        ],
+        "delivery": "⏱ 3-day turnaround",
+        "popular": true
+      },
+      {
+        "name": "Excel Enterprise",
+        "tag": "Large datasets &amp; automation",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Large-scale datasets, custom VBA/macros, and ongoing monthly spreadsheet support.",
+        "features": [
+          "Unlimited rows / multi-file datasets",
+          "Custom VBA macros &amp; automation",
+          "Interactive dashboards",
+          "Ongoing monthly support retainer",
+          "Priority turnaround"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  },
+  "socialdata": {
+    "title": "Data Collecting from  Social Media",
+    "desc": "Structured data collection from Instagram, Facebook, LinkedIn &amp; TikTok — profiles, engagement and audience insights, compiled and delivered ready to use.",
+    "packages": [
+      {
+        "name": "Social Data Basic",
+        "tag": "One-off data collection",
+        "price_usd": "149",
+        "period": "one-time",
+        "card_desc": "Up to 500 profiles or posts collected from Instagram, Facebook, LinkedIn or TikTok.",
+        "features": [
+          "Up to 500 profiles/posts",
+          "1 platform of your choice",
+          "Structured spreadsheet delivery",
+          "Basic engagement metrics",
+          "5-day turnaround",
+          "Ongoing monthly monitoring",
+          "Multi-platform collection"
+        ],
+        "delivery": "⏱ 5-day turnaround",
+        "popular": false
+      },
+      {
+        "name": "Social Data Pro",
+        "tag": "Ongoing multi-platform monitoring",
+        "price_usd": "399",
+        "period": "/month",
+        "card_desc": "Up to 2,000 records/month across multiple platforms with ongoing audience insight tracking.",
+        "features": [
+          "Up to 2,000 records/month",
+          "Up to 3 platforms combined",
+          "Audience &amp; engagement insights",
+          "Weekly delivery batches",
+          "Trend &amp; hashtag tracking",
+          "Dedicated data collector"
+        ],
+        "delivery": "⏱ Weekly batches",
+        "popular": true
+      },
+      {
+        "name": "Social Data Enterprise",
+        "tag": "Large-scale, compliant collection pipeline",
+        "price_usd": "Custom",
+        "period": "",
+        "card_desc": "Large-scale, platform-compliant data collection with a dedicated pipeline and reporting stack.",
+        "features": [
+          "Unlimited volume & custom queries",
+          "All major platforms (Instagram, LinkedIn, X, TikTok, YouTube)",
+          "Custom data pipeline & API / Webhook delivery",
+          "Clean formatting (CSV, Excel, Google Sheets, JSON)",
+          "Dedicated data analyst & Founder Muhammad Abdullah oversight",
+          "Priority turnaround & 100% data verification"
+        ],
+        "delivery": "⏱ By scope",
+        "popular": false
+      }
+    ]
+  }
+}

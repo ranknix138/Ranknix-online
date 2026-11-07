@@ -1,0 +1,966 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Ads & Bing Ads Services | Ranknix Online - Worldwide Digital Agency</title>
+  <meta name="description" content="When someone searches for your service on Google, they are already ready to buy. We engineer hyper-targeted Google Search, Shopping, Performance Max (PMax), and">
+  <link rel="icon" type="image/png" href="../assets/images/logo.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#0284c7',
+            secondary: '#2563eb',
+            dark: '#0f172a',
+            surface: '#f8fafc',
+          },
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Font Awesome 6 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Smart Geo-Location Multi-Currency Engine -->
+  <script src="../assets/js/currency.js"></script>
+</head>
+<body class="bg-white text-slate-800 antialiased font-sans selection:bg-blue-600 selection:text-white">
+
+      <!-- TOP ANNOUNCEMENT BAR (SLIMLINE - HEIGHT REDUCED) -->
+  <div class="bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white text-[11px] py-1 px-3 border-b border-blue-900/40">
+    <div class="w-full max-w-[1536px] mx-auto flex items-center justify-between gap-2">
+      <div class="flex items-center gap-1.5 overflow-hidden text-ellipsis whitespace-nowrap">
+        <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9px] font-black bg-blue-500/20 text-blue-300 border border-blue-400/30 uppercase tracking-wider">
+          Ranknix Official Service
+        </span>
+        <span class="text-slate-300 text-[11px] truncate">
+          Direct Founder Muhammad Abdullah Oversight &bull; Worldwide Delivery
+        </span>
+      </div>
+      <div class="flex items-center gap-3 text-slate-300 ml-auto shrink-0 text-[11px]">
+        <a href="https://wa.me/923088163940" target="_blank" class="hover:text-emerald-400 transition flex items-center gap-1">
+          <i class="fa-brands fa-whatsapp text-emerald-400 text-xs"></i>
+          <span>+92 308 8163940</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR (SLIMLINE: HEIGHT ~46px, ABSOLUTE ZERO OVERLAP) -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all shadow-2xs">
+    <div class="w-full max-w-[1536px] mx-auto px-3 sm:px-4 lg:px-6">
+      <div class="flex items-center justify-between h-11 sm:h-[46px] gap-2">
+
+        <!-- Left: Brand Logo Lockup (STRICTLY NON-COLLAPSING, SAFE SPACING) -->
+        <a href="../index.html" class="flex items-center gap-2 group shrink-0 min-w-max select-none z-10 mr-2">
+          <img src="../assets/images/logo.png" alt="Ranknix Online Logo" class="h-7 sm:h-7.5 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col justify-center -space-y-0.5">
+            <div class="flex items-center gap-1 leading-none">
+              <span class="text-sm sm:text-base font-black tracking-tight text-slate-900 font-heading">Ranknix</span>
+              <span class="text-sm sm:text-base font-black tracking-tight text-blue-600 font-heading">Online</span>
+            </div>
+            <span class="text-[7.5px] font-extrabold tracking-widest text-slate-400 uppercase leading-none">DIGITAL AGENCY</span>
+          </div>
+        </a>
+
+        <!-- Center: Navigation Links -->
+        <nav class="hidden lg:flex items-center justify-center gap-0.5 xl:gap-1.5 shrink min-w-0">
+          <a href="../index.html" class="nav-link-item px-2 py-1">
+            <i class="fa-solid fa-arrow-left text-slate-400"></i>
+            <span>Home</span>
+          </a>
+          <a href="../pricing.html" class="nav-link-item px-2 py-1">
+            <i class="fa-solid fa-tags text-emerald-600"></i>
+            <span>Pricing Plans</span>
+          </a>
+          <a href="#campaigns" class="nav-link-item px-2 py-1">
+            <i class="fa-solid fa-layer-group text-blue-600"></i>
+            <span>Deliverables</span>
+          </a>
+          <a href="#reviews" class="nav-link-item px-2 py-1">
+            <i class="fa-solid fa-star text-amber-400"></i>
+            <span>Reviews</span>
+          </a>
+          <a href="#contact" class="nav-link-item px-2 py-1">
+            <i class="fa-solid fa-phone text-blue-500"></i>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- Right Side: Currency, WhatsApp & Free Consultation -->
+        <div class="hidden md:flex items-center gap-1 sm:gap-1.5 shrink-0 min-w-max ml-auto pl-1.5 sm:pl-2 border-l border-slate-200 z-10">
+          
+          <!-- Currency Selector Dropdown -->
+          <div class="relative group shrink-0">
+            <button class="flex items-center gap-1 px-2 py-1 rounded-lg bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold hover:bg-slate-100 transition shadow-xs whitespace-nowrap shrink-0">
+              <i class="fa-solid fa-globe text-blue-600 text-xs"></i>
+              <span id="active-currency-label">&#x1F1F5;&#x1F1F0; PKR</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </button>
+            <div class="absolute right-0 mt-1 w-56 max-h-80 overflow-y-auto bg-white border border-slate-200 rounded-xl shadow-2xl py-1 hidden group-hover:block z-50 divide-y divide-slate-100">
+              <div class="px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 bg-slate-50 sticky top-0 flex items-center justify-between">
+                <span>Select Currency</span>
+                <span class="text-[9px] text-blue-600 font-bold">Auto-Detect</span>
+              </div>
+              <div class="py-1">
+                <button onclick="setGlobalCurrency('PKR', true)" data-set-currency="PKR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F5;&#x1F1F0; Pakistan (PKR)</span><span class="font-bold text-slate-500">&#x20A8;</span></button>
+                <button onclick="setGlobalCurrency('AED', true)" data-set-currency="AED" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1EA; UAE / Dubai (AED)</span><span class="font-bold text-slate-500">AED</span></button>
+                <button onclick="setGlobalCurrency('SAR', true)" data-set-currency="SAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F8;&#x1F1E6; Saudi Arabia (SAR)</span><span class="font-bold text-slate-500">SAR</span></button>
+                <button onclick="setGlobalCurrency('GBP', true)" data-set-currency="GBP" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EC;&#x1F1E7; United Kingdom (GBP)</span><span class="font-bold text-slate-500">&pound;</span></button>
+                <button onclick="setGlobalCurrency('USD', true)" data-set-currency="USD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1FA;&#x1F1F8; United States (USD)</span><span class="font-bold text-slate-500">$</span></button>
+                <button onclick="setGlobalCurrency('EUR', true)" data-set-currency="EUR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EA;&#x1F1FA; Europe (EUR)</span><span class="font-bold text-slate-500">&euro;</span></button>
+                <button onclick="setGlobalCurrency('CAD', true)" data-set-currency="CAD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1E6; Canada (CAD)</span><span class="font-bold text-slate-500">CA$</span></button>
+                <button onclick="setGlobalCurrency('AUD', true)" data-set-currency="AUD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1FA; Australia (AUD)</span><span class="font-bold text-slate-500">A$</span></button>
+                <button onclick="setGlobalCurrency('JPY', true)" data-set-currency="JPY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EF;&#x1F1F5; Japan (JPY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('CNY', true)" data-set-currency="CNY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1F3; China (CNY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('RUB', true)" data-set-currency="RUB" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F7;&#x1F1FA; Russia (RUB)</span><span class="font-bold text-slate-500">&#x20BD;</span></button>
+                <button onclick="setGlobalCurrency('INR', true)" data-set-currency="INR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EE;&#x1F1F3; India (INR)</span><span class="font-bold text-slate-500">&#x20B9;</span></button>
+                <button onclick="setGlobalCurrency('TRY', true)" data-set-currency="TRY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F9;&#x1F1F7; Turkey (TRY)</span><span class="font-bold text-slate-500">&#x20BA;</span></button>
+                <button onclick="setGlobalCurrency('QAR', true)" data-set-currency="QAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F6;&#x1F1E6; Qatar (QAR)</span><span class="font-bold text-slate-500">QR</span></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <a href="https://wa.me/923088163940" target="_blank" class="px-2.5 py-1 rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-800 text-xs font-bold transition flex items-center gap-1 shrink-0 whitespace-nowrap">
+            <i class="fa-brands fa-whatsapp text-emerald-600 text-sm"></i>
+            <span>WhatsApp</span>
+          </a>
+
+          <!-- Free Consultation CTA -->
+          <button onclick="openModal()" class="px-3 py-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold transition shadow-xs flex items-center gap-1 shrink-0 whitespace-nowrap">
+            <span>Free Consultation</span>
+            <i class="fa-solid fa-arrow-right text-[9px]"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Toggle Button -->
+        <div class="md:hidden flex items-center gap-1.5 shrink-0">
+          <button onclick="openModal()" class="px-2.5 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold">
+            Audit
+          </button>
+          <button id="mobile-toggle-btn" class="p-1.5 rounded-lg bg-slate-100 text-slate-800 hover:bg-slate-200">
+            <i class="fa-solid fa-bars text-base"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-drawer" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-4 shadow-lg space-y-3 text-sm font-semibold">
+    <a href="../index.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-arrow-left mr-2"></i> Home</a>
+    <a href="../pricing.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-tags mr-2 text-emerald-600"></i> Pricing Plans (All 24)</a>
+    <a href="#campaigns" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-layer-group mr-2"></i> Specializations</a>
+    <a href="#simulation" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-desktop mr-2"></i> Live Proof</a>
+    <a href="#pricing" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-tags mr-2"></i> Pricing Packages</a>
+    <a href="#reviews" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-star mr-2"></i> Client Reviews</a>
+    <a href="#faq" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-circle-question mr-2"></i> FAQs</a>
+    <div class="pt-3 border-t border-slate-100 flex items-center justify-between">
+      <span class="text-xs text-slate-500">Currency:</span>
+      <div class="flex gap-1 text-xs">
+        <button onclick="changePageCurrency('PKR')" class="px-2 py-1 rounded bg-slate-100 font-bold">PKR</button>
+        <button onclick="changePageCurrency('GBP')" class="px-2 py-1 rounded bg-slate-100 font-bold">GBP</button>
+        <button onclick="changePageCurrency('USD')" class="px-2 py-1 rounded bg-slate-100 font-bold">USD</button>
+        <button onclick="changePageCurrency('EUR')" class="px-2 py-1 rounded bg-slate-100 font-bold">EUR</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICE HERO SECTION -->
+  <section class="relative pt-10 pb-16 md:pt-16 md:pb-20 overflow-hidden bg-gradient-to-b from-blue-50/50 via-white to-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Breadcrumb -->
+      <nav class="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <a href="../index.html" class="hover:text-blue-600 transition flex items-center gap-1">
+          <i class="fa-solid fa-house text-[10px]"></i>
+          <span>Home</span>
+        </a>
+        <i class="fa-solid fa-chevron-right text-[9px] text-slate-300"></i>
+        <a href="../index.html#dev-services" class="hover:text-blue-600 transition">
+          Performance Marketing & Growth
+        </a>
+        <i class="fa-solid fa-chevron-right text-[9px] text-slate-300"></i>
+        <span class="text-blue-600 font-bold">Google Ads & Bing Ads</span>
+      </nav>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Left: Hero Copy -->
+        <div class="lg:col-span-7">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100/80 text-blue-800 text-xs font-extrabold uppercase tracking-wider mb-4 border border-blue-200/60 shadow-2xs">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Performance Marketing & Growth</span>
+          </div>
+          
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight leading-[1.15] mb-5">
+            Capture High-Intent Buyers Searching on Google & <span class="text-gradient-blue">Turn Paid Clicks Into High-Value Revenue</span>
+          </h1>
+
+          <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-8 max-w-2xl">
+            When someone searches for your service on Google, they are already ready to buy. We engineer hyper-targeted Google Search, Shopping, Performance Max (PMax), and Microsoft/Bing ad campaigns that ruthlessly filter out wasted spend and capture profitable market share.
+          </p>
+
+          <!-- CTAs -->
+          <div class="flex flex-wrap items-center gap-3.5 mb-8">
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20inquiring%20about%20Google%20Ads%20%26%20Bing%20Ads" target="_blank" class="px-6 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-sm shadow-md shadow-blue-500/25 transition flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i>
+              <span>Get Started via WhatsApp</span>
+            </a>
+            <a href="#pricing" class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 border-2 border-slate-200 text-slate-800 font-bold text-sm shadow-2xs transition flex items-center gap-2">
+              <i class="fa-solid fa-tags text-blue-600"></i>
+              <span>View 3-Tier Packages</span>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-3 text-xs text-slate-500">
+            <div class="flex -space-x-2">
+              <span class="w-7 h-7 rounded-full bg-blue-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">UK</span>
+              <span class="w-7 h-7 rounded-full bg-emerald-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">US</span>
+              <span class="w-7 h-7 rounded-full bg-amber-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">UAE</span>
+              <span class="w-7 h-7 rounded-full bg-indigo-600 text-white font-bold text-[10px] flex items-center justify-center border-2 border-white">PK</span>
+            </div>
+            <span class="font-semibold text-slate-700">Trusted by 50+ Ambitious Brands Across 60+ Countries</span>
+          </div>
+        </div>
+
+        <!-- Right: 4 Stat Cards Grid -->
+        <div class="lg:col-span-5 grid grid-cols-2 gap-3.5">
+          
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">5.4×</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Top ROAS Achieved</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Verified Track Record</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">-38%</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Avg. CPA Reduction</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Verified Track Record</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">75+</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Ad Accounts Scaled</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Verified Track Record</div>
+        </div>
+        <div class="clean-card rounded-2xl p-5 border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div class="text-3xl font-black text-slate-900 font-heading mb-1 text-gradient-blue">4.9★</div>
+          <div class="text-xs font-black text-slate-800 uppercase tracking-wider mb-1">Client Rating</div>
+          <div class="text-[11px] text-slate-500 leading-snug">Verified Track Record</div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALIZED CAMPAIGNS / ARCHITECTURE SECTION -->
+  <section id="campaigns" class="py-20 bg-slate-50/70 relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Specialized Capabilities</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Every Discipline of Google Ads & Bing Ads, <span class="text-gradient-blue">Covered</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          From brand-new setups to complex multi-channel scaling — we execute every discipline with certified technical mastery.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+              <span class="text-xs font-black font-mono text-slate-300">#01</span>
+            </div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 font-heading mb-2">Search Campaigns</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">High-intent text ads shown when prospective customers actively search for your exact solution on Google & Bing. Structured with tight single-theme ad groups, negative keywords, and responsive search ads.</p>
+            <div class="flex flex-wrap gap-1.5 mb-6"><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">RSA</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">DSA</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Call Ads</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Negative KW</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Exact Match</span></div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500 font-semibold">Avg. CTR We Achieve</span>
+            <strong class="text-blue-600 font-black font-heading">4.8% – 7.2%</strong>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <span class="text-xs font-black font-mono text-slate-300">#02</span>
+            </div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 font-heading mb-2">Shopping Campaigns</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Visual product listing ads with image, price, and store reviews displayed right at the top of Google. We manage Merchant Center feed optimization, title enrichment, and smart bidding segmentation.</p>
+            <div class="flex flex-wrap gap-1.5 mb-6"><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Merchant Center</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Feed Rules</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Smart Shopping</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Standard Shopping</span></div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500 font-semibold">Typical ROAS Range</span>
+            <strong class="text-blue-600 font-black font-heading">3.5x – 8.0x</strong>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-image"></i>
+              </div>
+              <span class="text-xs font-black font-mono text-slate-300">#03</span>
+            </div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 font-heading mb-2">Display & Remarketing</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">High-impact visual banner campaigns across 35 million+ websites and YouTube. We build dynamic retargeting funnels that re-engage previous site visitors and abandoners until they convert.</p>
+            <div class="flex flex-wrap gap-1.5 mb-6"><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Dynamic Remarketing</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Custom Intent</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">In-Market</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Topic Placements</span></div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500 font-semibold">Remarketing CPA Drop</span>
+            <strong class="text-blue-600 font-black font-heading">-42% CPA</strong>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:border-blue-300 transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="w-10 h-10 rounded-xl bg-blue-50 border border-blue-200 text-blue-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <span class="text-xs font-black font-mono text-slate-300">#04</span>
+            </div>
+            <h4 class="text-base sm:text-lg font-black text-slate-900 font-heading mb-2">Performance Max (PMax)</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">Google's flagship AI campaign combining Search, Shopping, YouTube, Gmail, Maps, and Display into a unified conversion engine with bespoke asset groups and high-value audience signals.</p>
+            <div class="flex flex-wrap gap-1.5 mb-6"><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Asset Groups</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Audience Signals</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Search Themes</span><span class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 text-[10px] font-bold">Value Bidding</span></div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center justify-between text-xs">
+            <span class="text-slate-500 font-semibold">Conversion Lift</span>
+            <strong class="text-blue-600 font-black font-heading">+28% vs Standard</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE SIMULATION & PROOF PANEL SECTION -->
+  <section id="simulation" class="py-20 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-10">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Live Production Preview</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          How Your Brand Performs <span class="text-gradient-blue">In The Real World</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          An interactive snapshot of how Ranknix Online builds, optimizes, and scales your Google Ads & Bing Ads infrastructure.
+        </p>
+      </div>
+
+      
+        <!-- GOOGLE SEARCH LIVE SIMULATION PANEL -->
+        <div class="clean-card rounded-3xl p-6 sm:p-8 border border-slate-200/90 shadow-lg bg-white relative overflow-hidden">
+          <div class="flex items-center justify-between pb-4 mb-5 border-b border-slate-100 flex-wrap gap-2">
+            <div class="flex items-center gap-2">
+              <span class="w-3 h-3 rounded-full bg-rose-500"></span>
+              <span class="w-3 h-3 rounded-full bg-amber-500"></span>
+              <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
+              <span class="text-xs font-mono text-slate-400 ml-2">google.com/search?q=enterprise+solutions</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-[11px] font-bold">
+                <i class="fa-solid fa-circle-check"></i> Rank #1 Live Ad
+              </span>
+              <span class="px-2.5 py-0.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-[11px] font-bold">
+                Quality Score: 10/10
+              </span>
+            </div>
+          </div>
+
+          <!-- The Simulated Google Ad -->
+          <div class="bg-slate-50/70 p-5 sm:p-6 rounded-2xl border border-slate-200/80">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="px-2 py-0.5 rounded text-[10px] font-black bg-emerald-600 text-white tracking-wider uppercase">Sponsored</span>
+              <span class="text-xs text-slate-500 font-mono">https://www.yourbrand.com/growth</span>
+            </div>
+            <h4 class="text-base sm:text-lg font-bold text-blue-700 hover:underline cursor-pointer mb-1.5">
+              Ranknix Online Growth Partner | High-ROAS Google & Bing Campaigns
+            </h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4">
+              Stop burning budget on wasted clicks. Ranknix Online builds hyper-targeted Google Search & Performance Max campaigns with strict negative keyword shielding, 4.8% CTR, and direct Founder supervision.
+            </p>
+
+            <!-- 4 Sitelinks Grid -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4 pt-3 border-t border-slate-200/60">
+              <div class="p-2.5 rounded-xl bg-white border border-slate-200/80 text-xs font-bold text-blue-700 hover:bg-blue-50 transition cursor-pointer">
+                <span>Free Strategy Audit &rarr;</span>
+                <span class="block text-[10px] text-slate-400 font-normal mt-0.5">30-min consultation</span>
+              </div>
+              <div class="p-2.5 rounded-xl bg-white border border-slate-200/80 text-xs font-bold text-blue-700 hover:bg-blue-50 transition cursor-pointer">
+                <span>Verified Case Studies &rarr;</span>
+                <span class="block text-[10px] text-slate-400 font-normal mt-0.5">3.5x–8x ROAS</span>
+              </div>
+              <div class="p-2.5 rounded-xl bg-white border border-slate-200/80 text-xs font-bold text-blue-700 hover:bg-blue-50 transition cursor-pointer">
+                <span>Transparent Rates &rarr;</span>
+                <span class="block text-[10px] text-slate-400 font-normal mt-0.5">PKR, GBP, USD, EUR</span>
+              </div>
+              <div class="p-2.5 rounded-xl bg-white border border-slate-200/80 text-xs font-bold text-blue-700 hover:bg-blue-50 transition cursor-pointer">
+                <span>WhatsApp Onboard &rarr;</span>
+                <span class="block text-[10px] text-slate-400 font-normal mt-0.5">24hr setup</span>
+              </div>
+            </div>
+
+            <!-- Ad Extensions -->
+            <div class="flex flex-wrap items-center gap-3 text-xs text-slate-500 pt-2 border-t border-slate-200/60">
+              <span class="text-amber-500 font-bold flex items-center gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <span class="text-slate-700 ml-1">5.0 (80+ Client Reviews)</span>
+              </span>
+              <span>&bull;</span>
+              <span class="flex items-center gap-1"><i class="fa-solid fa-shield-check text-blue-600"></i> Certified Google Partner</span>
+              <span>&bull;</span>
+              <span class="flex items-center gap-1"><i class="fa-solid fa-phone text-emerald-600"></i> Call Extensions Enabled</span>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- DELIVERABLES GRID -->
+  <section class="py-20 bg-slate-50/70 relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Full Scope Breakdown</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          What We Build &amp; <span class="text-gradient-blue">Deliver For You</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Everything included in our end-to-end execution. Zero gaps, zero outsourcing, complete code and asset ownership.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">High-Intent Keyword Architecture</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Targeting high-converting exact and phrase match keywords while building exhaustive negative keyword lists to prevent wasted clicks.</p>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-basket-shopping"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">PMax & Shopping Feed Optimization</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Custom titles, descriptions, and category taxonomy for Google Merchant Center feeds that boost impression share.</p>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-align-left"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">High-CTR Responsive Search Ads</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Writing dynamic headlines and persuasive descriptions with site link extensions, callouts, and structured snippets.</p>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">Enhanced Conversion Tracking</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Server-side Google Ads conversion integration passing hashed customer data for maximum smart bidding accuracy.</p>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">Microsoft / Bing Ads Expansion</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Mirroring winning Google campaigns to Bing Ads to capture affluent, desktop-heavy corporate buyers at 30% lower CPCs.</p>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 border border-blue-200/80 text-blue-600 flex items-center justify-center text-xl mb-4">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3 class="text-lg font-black text-slate-900 font-heading mb-2.5">Search Impression Share Defense</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">Outbidding competitors on top-converting brand and service keywords to lock down the #1 sponsored position.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING PACKAGES -->
+  <section id="pricing" class="py-24 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Transparent Investment</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Google Ads & Bing Ads <span class="text-gradient-blue">Packages &amp; Rates</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-6">
+          Clear, fixed rates with guaranteed turnaround days. Select your preferred currency below to see exact regional pricing.
+        </p>
+
+        <!-- Currency Pills inside Sub-Page Pricing -->
+        <div class="inline-flex flex-wrap items-center justify-center gap-2 px-4 py-2 rounded-2xl bg-slate-50 border border-slate-200 text-xs">
+          <span class="text-slate-500 font-semibold"><i class="fa-solid fa-coins text-blue-600 mr-1"></i> Currency:</span>
+          <button onclick="changePageCurrency('PKR')" class="sub-curr-btn px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-white" data-sub-curr="PKR">🇵🇰 PKR</button>
+          <button onclick="changePageCurrency('GBP')" class="sub-curr-btn px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-white" data-sub-curr="GBP">🇬🇧 GBP</button>
+          <button onclick="changePageCurrency('USD')" class="sub-curr-btn px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-white" data-sub-curr="USD">🇺🇸 USD</button>
+          <button onclick="changePageCurrency('EUR')" class="sub-curr-btn px-2.5 py-1 rounded-lg font-bold text-slate-700 hover:bg-white" data-sub-curr="EUR">🇪🇺 EUR</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-xs relative">
+          
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-600">Starter Ads</span>
+              <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ Live in 5 days</span>
+            </div>
+            <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Launch & test Google Ads profitably</h4>
+            <p class="text-xs text-slate-500 mb-6 leading-relaxed">Up to $2,000 ad spend managed. Search campaigns, keyword research, ad copy and monthly reporting.</p>
+            
+            <div class="mb-6 pb-6 border-b border-slate-100">
+              <div class="flex items-baseline gap-1.5">
+                <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 97,700" data-usd="$349" data-gbp="£272" data-eur="€321">₨ 97,700</span>
+                <span class="text-xs font-bold text-slate-500">//month</span>
+              </div>
+              <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Oversight &bull; Guaranteed Turnaround</span>
+            </div>
+            
+            <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Google Search campaigns</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to $2,000 spend managed</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Keyword research + negatives</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Ad copy (2 variations/group)</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Conversion tracking setup</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Monthly performance report</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Shopping / Display / PMax</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">A/B testing</span></li>
+            </ul>
+          </div>
+          
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%27m%20interested%20in%20the%20Google%20Ads%20%26%20Bing%20Ads%20-%20Starter%20Ads%20package%20%28%E2%82%A8%2097%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+              <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+              <span>Order via WhatsApp</span>
+            </a>
+            <button onclick="openModal()" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+              <span>Book Strategy Call &rarr;</span>
+            </button>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-600 shadow-xl relative scale-100 lg:-translate-y-2">
+          <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white text-[11px] font-black uppercase tracking-wider shadow-md">⭐ Most Popular Tier</div>
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-600">Growth Ads</span>
+              <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ Live in 5 days</span>
+            </div>
+            <h4 class="text-lg font-black text-slate-900 font-heading mb-1">Multi-campaign ROAS maximisation</h4>
+            <p class="text-xs text-slate-500 mb-6 leading-relaxed">Up to $10,000 spend. Search + Shopping + Display + PMax — full campaign ecosystem.</p>
+            
+            <div class="mb-6 pb-6 border-b border-slate-100">
+              <div class="flex items-baseline gap-1.5">
+                <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="₨ 195,700" data-usd="$699" data-gbp="£545" data-eur="€643">₨ 195,700</span>
+                <span class="text-xs font-bold text-slate-500">//month</span>
+              </div>
+              <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Oversight &bull; Guaranteed Turnaround</span>
+            </div>
+            
+            <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Search + Shopping + Display + PMax</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Up to $10,000 spend managed</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Full keyword strategy + weekly optimisation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Ad copy A/B testing</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Audience targeting & remarketing</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Shopping feed setup + optimisation</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">GA4 + GTM conversion tracking</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Weekly report + monthly call</span></li>
+            </ul>
+          </div>
+          
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%27m%20interested%20in%20the%20Google%20Ads%20%26%20Bing%20Ads%20-%20Growth%20Ads%20package%20%28%E2%82%A8%20195%2C700%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white shadow-md shadow-blue-500/20">
+              <i class="fa-brands fa-whatsapp text-base text-white"></i>
+              <span>Order via WhatsApp</span>
+            </a>
+            <button onclick="openModal()" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+              <span>Book Strategy Call &rarr;</span>
+            </button>
+          </div>
+        </div>
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border border-slate-200/90 shadow-xs relative">
+          
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-600">Enterprise Ads</span>
+              <span class="text-[11px] font-bold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full">⏱ By scope</span>
+            </div>
+            <h4 class="text-lg font-black text-slate-900 font-heading mb-1">$10K+ monthly spend management</h4>
+            <p class="text-xs text-slate-500 mb-6 leading-relaxed">Unlimited spend, YouTube campaigns, international campaigns and Bing Ads included.</p>
+            
+            <div class="mb-6 pb-6 border-b border-slate-100">
+              <div class="flex items-baseline gap-1.5">
+                <span class="dynamic-price text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight" data-pkr="Custom Quote" data-usd="Custom Quote" data-gbp="Custom Quote" data-eur="Custom Quote">Custom Quote</span>
+                <span class="text-xs font-bold text-slate-500">Custom Scope</span>
+              </div>
+              <span class="text-[11px] text-slate-400 block mt-1">Direct Founder Oversight &bull; Guaranteed Turnaround</span>
+            </div>
+            
+            <ul class="space-y-3 mb-8 text-xs sm:text-[13px] text-slate-700">
+              <li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Unlimited ad spend management</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">All campaign types + YouTube</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Bing Ads management included</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">International multi-market campaigns</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Advanced attribution modelling</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Server-side conversion tracking</span></li><li class="flex items-start gap-2.5"><i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-xs sm:text-sm"></i><span class="leading-snug">Dedicated team of 3 specialists</span></li>
+            </ul>
+          </div>
+          
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online%21%20I%27m%20interested%20in%20the%20Google%20Ads%20%26%20Bing%20Ads%20-%20Enterprise%20Ads%20package%20%28Custom%20Quote%29.%20Please%20share%20onboarding%20details." target="_blank" class="w-full py-3.5 px-4 rounded-xl font-black text-xs sm:text-sm transition flex items-center justify-center gap-2 bg-slate-900 hover:bg-blue-600 text-white shadow-xs">
+              <i class="fa-brands fa-whatsapp text-base text-emerald-400"></i>
+              <span>Order via WhatsApp</span>
+            </a>
+            <button onclick="openModal()" class="w-full py-2 px-3 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition flex items-center justify-center gap-1">
+              <span>Book Strategy Call &rarr;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VERIFIED CLIENT REVIEWS -->
+  <section id="reviews" class="py-20 bg-slate-50/70 relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Verified Testimonials</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          What International Clients Say <span class="text-gradient-blue">About Ranknix Online</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Authentic feedback from CEOs, CMOs, and brand founders in the UK, USA, UAE, Canada, and Pakistan.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"The UI/UX wireframes and Figma design system Ranknix produced were pixel-perfect. Developer handoff took 2 days instead of 3 weeks. Incredible agency."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&h=120&fit=crop&crop=faces" alt="Charlotte Evans" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">Charlotte Evans 🇬🇧</h5>
+              <span class="text-[11px] text-slate-500 block truncate">Head of Product, NorthGate UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Edinburgh, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"Ranknix redesigned our Shopify landing page with custom video sections and upsell drawers. Conversion rate immediately surged from 1.8% to 3.4%."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=120&h=120&fit=crop&crop=faces" alt="Emma Watson-Bell" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">Emma Watson-Bell 🇬🇧</h5>
+              <span class="text-[11px] text-slate-500 block truncate">E-Commerce Strategist, Thorne UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        <div class="clean-card rounded-2xl p-6 sm:p-7 flex flex-col justify-between border border-slate-200/90 shadow-2xs hover:shadow-md transition">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <div class="flex items-center gap-1 text-amber-400 text-sm">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-700 text-xs sm:text-sm leading-relaxed italic mb-6">"Ranknix Online restructured our entire search campaigns. Cost per qualified legal lead plummeted by 52% in 8 weeks. Muhammad Abdullah and his team are extraordinary operators."</p>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=faces" alt="James Whitfield" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h5 class="text-xs font-black text-slate-900 leading-tight truncate">James Whitfield 🇬🇧</h5>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Apex Legal UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQS ACCORDION -->
+  <section id="faq" class="py-20 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Frequently Asked Questions</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Everything You Need To Know <span class="text-gradient-blue">Before Getting Started</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
+          Have more questions? Muhammad Abdullah and our senior technical team are available on WhatsApp 24/7.
+        </p>
+      </div>
+
+      <div>
+        
+        <div class="faq-item clean-card rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs mb-3">
+          <button class="faq-trigger w-full px-6 py-4 sm:py-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span class="flex items-center gap-3">
+              <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs flex items-center justify-center font-bold shrink-0">Q1</span>
+              <span>What makes Google Ads different from Meta (Facebook) Ads?</span>
+            </span>
+            <i class="faq-icon fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-content  px-6 pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3">
+            Meta ads are push marketing (interrupting people while browsing); Google Ads is pull marketing (capturing people who are already actively typing that they want to hire a service or buy a product right now).
+          </div>
+        </div>
+        <div class="faq-item clean-card rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs mb-3">
+          <button class="faq-trigger w-full px-6 py-4 sm:py-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span class="flex items-center gap-3">
+              <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs flex items-center justify-center font-bold shrink-0">Q2</span>
+              <span>Why is my current cost-per-click (CPC) so high?</span>
+            </span>
+            <i class="faq-icon fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3">
+            High CPCs are typically caused by low Quality Scores, poor landing page relevance, broad match keywords triggering irrelevant searches, and lack of negative keyword lists. We fix these bottlenecks immediately.
+          </div>
+        </div>
+        <div class="faq-item clean-card rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs mb-3">
+          <button class="faq-trigger w-full px-6 py-4 sm:py-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span class="flex items-center gap-3">
+              <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs flex items-center justify-center font-bold shrink-0">Q3</span>
+              <span>Do you manage Google Shopping and Performance Max (PMax)?</span>
+            </span>
+            <i class="faq-icon fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3">
+            Yes! For e-commerce stores, we optimize feed titles, high-res images, product categorization, and asset groups to maximize PMax efficiency.
+          </div>
+        </div>
+        <div class="faq-item clean-card rounded-2xl overflow-hidden border border-slate-200/90 shadow-2xs mb-3">
+          <button class="faq-trigger w-full px-6 py-4 sm:py-5 text-left font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-50 transition">
+            <span class="flex items-center gap-3">
+              <span class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs flex items-center justify-center font-bold shrink-0">Q4</span>
+              <span>Is Bing Ads worth it?</span>
+            </span>
+            <i class="faq-icon fa-solid fa-chevron-down text-xs text-slate-400 transition-transform"></i>
+          </button>
+          <div class="faq-content hidden px-6 pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-100 pt-3">
+            Yes! Microsoft/Bing reaches over 1 billion monthly unique visitors, especially affluent desktop users on Windows PCs, often delivering 25% to 40% lower acquisition costs than Google.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA BANNER -->
+  <section id="contact" class="py-16 sm:py-20 bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 text-white relative z-10 overflow-hidden">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <span class="inline-block px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-bold uppercase tracking-wider mb-4 border border-blue-400/30">
+        Start Your Google Ads & Bing Ads Project
+      </span>
+      <h2 class="text-3xl sm:text-4xl md:text-5xl font-black font-heading tracking-tight mb-4 leading-tight">
+        Ready To Accelerate Your Growth With <br><span class="text-blue-400">Ranknix Online</span>?
+      </h2>
+      <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-8 leading-relaxed">
+        Speak directly with Founder Muhammad Abdullah. We’ll analyze your current setup, uncover missed revenue opportunities, and prepare a custom proposal in under 24 hours.
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
+        <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'm%20ready%20to%20start%20my%20Google%20Ads%20%26%20Bing%20Ads%20project." target="_blank" class="px-7 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-600 text-white font-black text-sm shadow-lg shadow-emerald-500/25 transition flex items-center gap-2.5">
+          <i class="fa-brands fa-whatsapp text-xl"></i>
+          <span>Chat on WhatsApp (+92 308 8163940)</span>
+        </a>
+        <button onclick="openModal()" class="px-7 py-4 rounded-xl bg-white hover:bg-slate-100 text-slate-900 font-black text-sm shadow-lg transition flex items-center gap-2">
+          <i class="fa-solid fa-calendar-check text-blue-600"></i>
+          <span>Schedule Free Strategy Call</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- AGENCY FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-8 border-b border-slate-900">
+        <div class="flex items-center gap-3">
+          <img src="../assets/images/logo.png" alt="Ranknix Online Logo" class="h-10 w-auto">
+          <div>
+            <span class="text-base font-black text-white font-heading">Ranknix Online</span>
+            <span class="block text-[11px] text-slate-500">Founder &amp; CEO: Muhammad Abdullah</span>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center justify-center gap-6 text-xs">
+          <a href="../index.html" class="hover:text-blue-400 transition">Home</a>
+          <a href="../index.html#dev-services" class="hover:text-blue-400 transition">All 24 Services</a>
+          <a href="../index.html#pricing" class="hover:text-blue-400 transition">Pricing Plans</a>
+          <a href="../index.html#about" class="hover:text-blue-400 transition">About Founder</a>
+          <a href="https://wa.me/923088163940" class="hover:text-emerald-400 transition"><i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp</a>
+        </div>
+      </div>
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-600">
+        <p>&copy; 2026 Ranknix Online. All rights reserved. Worldwide Digital Agency.</p>
+        <p>Operating across Pakistan, UK, USA, UAE, Canada &amp; Europe.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AUDIT & STRATEGY MODAL -->
+  <div id="service-modal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl relative border border-slate-200">
+      <button onclick="closeModal()" class="absolute top-5 right-5 text-slate-400 hover:text-slate-700 text-lg">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="mb-5">
+        <span class="text-xs font-black uppercase text-blue-600 tracking-wider">Free Consultation</span>
+        <h3 class="text-2xl font-black text-slate-900 font-heading mt-1">Book Your Strategy Audit</h3>
+        <p class="text-xs text-slate-500 mt-1">We’ll review your Google Ads & Bing Ads goals and reply with a custom roadmap in &lt; 24h.</p>
+      </div>
+      <form id="service-form" onsubmit="handleModalSubmit(event)" class="space-y-3.5">
+        <input type="hidden" id="service-name" value="Google Ads & Bing Ads">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Full Name</label>
+          <input type="text" id="lead-name" required placeholder="e.g. James Whitfield / Ali Ahmed" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone Number</label>
+          <input type="text" id="lead-phone" required placeholder="e.g. +44 7911 123456 / +92 300 1234567" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Business Goal / Requirement</label>
+          <textarea id="lead-notes" rows="3" placeholder="Tell us about your brand, budget, and desired timeline..." class="w-full px-3.5 py-2.5 rounded-xl border border-slate-200 text-xs focus:ring-2 focus:ring-blue-600 focus:outline-none"></textarea>
+        </div>
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs transition shadow-md shadow-blue-500/20">
+          Send Inbound Request via WhatsApp &rarr;
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT FOR CURRENCY, FAQS & MODAL -->
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-trigger').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.faq-icon');
+        const isHidden = content.classList.contains('hidden');
+        
+        document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+        document.querySelectorAll('.faq-icon').forEach(i => i.classList.remove('rotate-180'));
+        
+        if (isHidden) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        }
+      });
+    });
+
+    // Currency Switcher
+    function changePageCurrency(curr) {
+      try {
+        localStorage.setItem('ranknix_currency', curr);
+      } catch (e) {}
+
+      const label = document.getElementById('active-currency-label');
+      if (label) {
+        const flags = { PKR: '🇵🇰 PKR', GBP: '🇬🇧 GBP', USD: '🇺🇸 USD', EUR: '🇪🇺 EUR' };
+        label.textContent = flags[curr] || curr;
+      }
+
+      document.querySelectorAll('[data-sub-curr]').forEach(btn => {
+        if (btn.getAttribute('data-sub-curr') === curr) {
+          btn.classList.add('bg-blue-600', 'text-white');
+          btn.classList.remove('text-slate-700');
+        } else {
+          btn.classList.remove('bg-blue-600', 'text-white');
+          btn.classList.add('text-slate-700');
+        }
+      });
+
+      document.querySelectorAll('.dynamic-price').forEach(el => {
+        const val = el.getAttribute('data-' + curr.toLowerCase());
+        if (val) el.textContent = val;
+      });
+    }
+
+    // Auto-run currency on page load
+    document.addEventListener('DOMContentLoaded', () => {
+      const saved = localStorage.getItem('ranknix_currency') || 'PKR';
+      changePageCurrency(saved);
+
+      const toggleBtn = document.getElementById('mobile-toggle-btn');
+      const drawer = document.getElementById('mobile-drawer');
+      if (toggleBtn && drawer) {
+        toggleBtn.addEventListener('click', () => {
+          drawer.classList.toggle('hidden');
+        });
+      }
+    });
+
+    // Modal logic
+    function openModal() {
+      const m = document.getElementById('service-modal');
+      if (m) m.classList.remove('hidden');
+    }
+    function closeModal() {
+      const m = document.getElementById('service-modal');
+      if (m) m.classList.add('hidden');
+    }
+    function handleModalSubmit(e) {
+      e.preventDefault();
+      const sName = document.getElementById('service-name').value;
+      const lName = document.getElementById('lead-name').value;
+      const lPhone = document.getElementById('lead-phone').value;
+      const lNotes = document.getElementById('lead-notes').value;
+      const msg = "Hi Ranknix Online! I'm submitting an inquiry for " + sName + ".\n\nName: " + lName + "\nPhone: " + lPhone + "\nRequirement: " + lNotes;
+      window.open("https://wa.me/923088163940?text=" + encodeURIComponent(msg), '_blank');
+      closeModal();
+    }
+  </script>
+</body>
+</html>
+

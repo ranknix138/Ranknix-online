@@ -1,0 +1,2467 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Ranknix Online | Your Worldwide Full-Service Digital Agency</title>
+  <meta name="description" content="Ranknix Online is your worldwide full-service digital agency founded by Muhammad Abdullah. Custom websites, mobile apps, Shopify, Meta Ads, TikTok Ads, and SEO across every timezone and market.">
+  <meta name="keywords" content="Ranknix Online, Muhammad Abdullah, Worldwide Digital Agency, Web Development, Mobile Apps, Meta Ads, TikTok Ads, Shopify Development, Performance Marketing, SEO Services">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ranknix Online | Worldwide Full-Service Digital Agency">
+  <meta property="og:description" content="Ranknix Online builds, grows, and scales businesses online across the globe. Web, Apps & Marketing.">
+  <meta property="og:image" content="assets/images/logo.png">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f9ff',
+              100: '#e0f2fe',
+              500: '#0284c7',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              accent: '#39a1ff',
+              slate: '#0f172a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- FontAwesome 6 Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- AOS (Animate on Scroll) CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Smart Geo-Location Multi-Currency Engine -->
+  <script src="assets/js/currency.js"></script>
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- Ambient Light Gradients -->
+  <div class="blob-blue top-0 left-10"></div>
+  <div class="blob-purple top-96 right-10"></div>
+
+      <!-- 1. TOP ANNOUNCEMENT BAR (SLIMLINE) -->
+  <div class="bg-gradient-to-r from-blue-600 via-sky-600 to-indigo-600 text-[11px] py-1 px-3 text-center text-white relative z-50 flex items-center justify-center gap-2 shadow-xs">
+    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-black bg-white/25 text-white animate-pulse">ðŸ”¥ SPECIAL OFFER</span>
+    <span>Get a <strong>Free 30-Minute Growth Audit</strong> with Founder Muhammad Abdullah!</span>
+    <button class="open-audit-modal underline hover:text-sky-200 font-bold ml-1 transition">Claim Free Audit &rarr;</button>
+  </div>
+
+  <!-- 2. NAVIGATION BAR (SLIMLINE: HEIGHT ~46px, ABSOLUTE ZERO OVERLAP) -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 transition-all shadow-2xs">
+    <div class="w-full max-w-[1536px] mx-auto px-3 sm:px-4 lg:px-6">
+      <div class="flex items-center justify-between h-11 sm:h-[46px] gap-2">
+        
+        <!-- Left Side: Brand Logo Lockup (STRICTLY NON-COLLAPSING, SAFE SPACING) -->
+        <a href="#" class="flex items-center gap-2 group shrink-0 min-w-max select-none z-10 mr-2">
+          <img src="assets/images/logo.png" alt="Ranknix Online Logo" class="h-7 sm:h-7.5 w-auto object-contain group-hover:scale-105 transition-transform duration-300">
+          <div class="flex flex-col justify-center -space-y-0.5">
+            <div class="flex items-center gap-1 leading-none">
+              <span class="text-sm sm:text-base font-black text-slate-900 tracking-tight font-heading">Ranknix</span>
+              <span class="text-sm sm:text-base font-black text-blue-600 tracking-tight font-heading">Online</span>
+            </div>
+            <span class="text-[7.5px] font-extrabold tracking-widest text-slate-400 uppercase leading-none">DIGITAL AGENCY</span>
+          </div>
+        </a>
+
+        <!-- Center: Navigation Links (COMPACT & BALANCED) -->
+        <nav class="hidden lg:flex items-center justify-center gap-0.5 xl:gap-1.5 shrink min-w-0">
+          <!-- Home (Active) -->
+          <a href="index.html" class="nav-link-item bg-blue-50 text-blue-700 font-bold border border-blue-200/90 rounded-lg">
+            <i class="fa-solid fa-house text-blue-600"></i>
+            <span>Home</span>
+          </a>
+          <!-- Development Link & Dropdown -->
+          <div class="relative group">
+            <a href="development.html" class="nav-link-item flex items-center gap-1 px-2 py-1">
+              <i class="fa-solid fa-code text-blue-600"></i>
+              <span>Development</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Web &amp; App Dev (01â€“08)</span>
+                <span class="text-blue-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/web-development.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-code text-blue-600 w-4"></i> Web Development
+              </a>
+              <a href="services/app-development.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-mobile-screen-button text-blue-600 w-4"></i> App Development
+              </a>
+              <a href="services/ui-ux-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-pen-nib text-blue-600 w-4"></i> UI/UX Design
+              </a>
+              <a href="services/graphic-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-palette text-blue-600 w-4"></i> Graphic Design
+              </a>
+              <a href="services/e-commerce-solutions.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-bag-shopping text-blue-600 w-4"></i> E-Commerce Solutions
+              </a>
+              <a href="services/video-editing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-video text-blue-600 w-4"></i> Video Editing
+              </a>
+              <a href="services/content-writing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-feather text-blue-600 w-4"></i> Content Writing
+              </a>
+              <a href="services/landing-page-design.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-rocket text-blue-600 w-4"></i> Landing Page Design
+              </a>
+            </div>
+          </div>
+
+          <!-- Marketing Link & Dropdown -->
+          <div class="relative group">
+            <a href="marketing.html" class="nav-link-item flex items-center gap-1 px-2 py-1">
+              <i class="fa-solid fa-chart-line text-indigo-600"></i>
+              <span>Marketing</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Marketing &amp; Growth (09â€“16)</span>
+                <span class="text-indigo-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/digital-marketing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-chart-line text-indigo-600 w-4"></i> Digital Marketing
+              </a>
+              <a href="services/seo-services.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-magnifying-glass-chart text-indigo-600 w-4"></i> SEO Services
+              </a>
+              <a href="services/google-ads-bing-ads.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-brands fa-google text-indigo-600 w-4"></i> Google &amp; Bing Ads
+              </a>
+              <a href="services/meta-ads.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-brands fa-meta text-indigo-600 w-4"></i> Meta Ads (FB &amp; IG)
+              </a>
+              <a href="services/social-media-management.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-share-nodes text-indigo-600 w-4"></i> Social Media Management
+              </a>
+              <a href="services/web-analytics.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-chart-pie text-indigo-600 w-4"></i> Web Analytics (GA4)
+              </a>
+              <a href="services/cro-conversion-optimization.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-arrow-trend-up text-indigo-600 w-4"></i> CRO Optimization
+              </a>
+              <a href="services/email-marketing.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-envelope-open-text text-indigo-600 w-4"></i> Email Marketing
+              </a>
+            </div>
+          </div>
+
+          <!-- Automation Link & Dropdown -->
+          <div class="relative group">
+            <a href="automation.html" class="nav-link-item flex items-center gap-1 px-2 py-1">
+              <i class="fa-solid fa-gears text-amber-600"></i>
+              <span>Automation</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </a>
+            <div class="absolute left-0 mt-1 w-64 bg-white border border-slate-200/90 rounded-2xl shadow-xl py-2 hidden group-hover:block z-50">
+              <div class="px-4 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 border-b border-slate-100 flex items-center justify-between">
+                <span>Data &amp; CRM (17â€“24)</span>
+                <span class="text-amber-600 font-bold">8 Services</span>
+              </div>
+              <a href="services/legal-data-entry-data-analysis.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-scale-balanced text-amber-600 w-4"></i> Legal Data Entry
+              </a>
+              <a href="services/gohighlevel-migration-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-arrows-rotate text-amber-600 w-4"></i> GoHighLevel Automation
+              </a>
+              <a href="services/zoho-setup-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-cloud text-amber-600 w-4"></i> Zoho Setup &amp; Sync
+              </a>
+              <a href="services/crm-data-management-automation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-database text-amber-600 w-4"></i> CRM Data Management
+              </a>
+              <a href="services/lead-generation.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-bullseye text-amber-600 w-4"></i> Lead Generation
+              </a>
+              <a href="services/web-research.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-globe text-amber-600 w-4"></i> Web Research
+              </a>
+              <a href="services/excel-cleaning-formatting.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-file-excel text-amber-600 w-4"></i> Excel Cleanup
+              </a>
+              <a href="services/social-media-data-collection.html" class="flex items-center gap-2.5 px-4 py-2 text-xs font-bold text-slate-700 hover:bg-blue-50 hover:text-blue-600 transition">
+                <i class="fa-solid fa-users text-amber-600 w-4"></i> Social Data Collection
+              </a>
+            </div>
+          </div>
+
+          <!-- Pricing Plans Link -->
+          <a href="pricing.html" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-tags text-emerald-600"></i>
+            <span>Pricing Plans</span>
+          </a>
+
+          <!-- Reviews Link -->
+          <a href="#testimonials" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-star text-amber-400"></i>
+            <span>Reviews</span>
+          </a>
+
+          <!-- Contact Link -->
+          <a href="#contact" class="nav-link-item text-slate-700 hover:text-slate-900">
+            <i class="fa-solid fa-phone text-blue-500"></i>
+            <span>Contact</span>
+          </a>
+        </nav>
+
+        <!-- Right Side: Currency, WhatsApp & Free Consultation -->
+        <div class="hidden md:flex items-center gap-1 sm:gap-1.5 shrink-0 min-w-max ml-auto pl-1.5 sm:pl-2 border-l border-slate-200 z-10">
+          
+          <!-- Currency Selector Dropdown -->
+          <div class="relative group shrink-0">
+            <button class="flex items-center gap-1 px-2 py-1 rounded-lg bg-slate-50 border border-slate-200 text-slate-700 text-xs font-bold hover:bg-slate-100 transition shadow-xs whitespace-nowrap shrink-0">
+              <i class="fa-solid fa-globe text-blue-600 text-xs"></i>
+              <span id="active-currency-label">&#x1F1F5;&#x1F1F0; PKR</span>
+              <i class="fa-solid fa-chevron-down text-[8px] text-slate-400 group-hover:rotate-180 transition-transform"></i>
+            </button>
+            <div class="absolute right-0 mt-1 w-56 max-h-80 overflow-y-auto bg-white border border-slate-200 rounded-xl shadow-2xl py-1 hidden group-hover:block z-50 divide-y divide-slate-100">
+              <div class="px-3 py-1.5 text-[10px] font-black uppercase tracking-wider text-slate-400 bg-slate-50 sticky top-0 flex items-center justify-between">
+                <span>Select Currency</span>
+                <span class="text-[9px] text-blue-600 font-bold">Auto-Detect</span>
+              </div>
+              <div class="py-1">
+                <button onclick="setGlobalCurrency('PKR', true)" data-set-currency="PKR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F5;&#x1F1F0; Pakistan (PKR)</span><span class="font-bold text-slate-500">&#x20A8;</span></button>
+                <button onclick="setGlobalCurrency('AED', true)" data-set-currency="AED" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1EA; UAE / Dubai (AED)</span><span class="font-bold text-slate-500">AED</span></button>
+                <button onclick="setGlobalCurrency('SAR', true)" data-set-currency="SAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F8;&#x1F1E6; Saudi Arabia (SAR)</span><span class="font-bold text-slate-500">SAR</span></button>
+                <button onclick="setGlobalCurrency('GBP', true)" data-set-currency="GBP" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EC;&#x1F1E7; United Kingdom (GBP)</span><span class="font-bold text-slate-500">&pound;</span></button>
+                <button onclick="setGlobalCurrency('USD', true)" data-set-currency="USD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1FA;&#x1F1F8; United States (USD)</span><span class="font-bold text-slate-500">$</span></button>
+                <button onclick="setGlobalCurrency('EUR', true)" data-set-currency="EUR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EA;&#x1F1FA; Europe (EUR)</span><span class="font-bold text-slate-500">&euro;</span></button>
+                <button onclick="setGlobalCurrency('CAD', true)" data-set-currency="CAD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1E6; Canada (CAD)</span><span class="font-bold text-slate-500">CA$</span></button>
+                <button onclick="setGlobalCurrency('AUD', true)" data-set-currency="AUD" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E6;&#x1F1FA; Australia (AUD)</span><span class="font-bold text-slate-500">A$</span></button>
+                <button onclick="setGlobalCurrency('JPY', true)" data-set-currency="JPY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EF;&#x1F1F5; Japan (JPY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('CNY', true)" data-set-currency="CNY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1E8;&#x1F1F3; China (CNY)</span><span class="font-bold text-slate-500">&yen;</span></button>
+                <button onclick="setGlobalCurrency('RUB', true)" data-set-currency="RUB" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F7;&#x1F1FA; Russia (RUB)</span><span class="font-bold text-slate-500">&#x20BD;</span></button>
+                <button onclick="setGlobalCurrency('INR', true)" data-set-currency="INR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1EE;&#x1F1F3; India (INR)</span><span class="font-bold text-slate-500">&#x20B9;</span></button>
+                <button onclick="setGlobalCurrency('TRY', true)" data-set-currency="TRY" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F9;&#x1F1F7; Turkey (TRY)</span><span class="font-bold text-slate-500">&#x20BA;</span></button>
+                <button onclick="setGlobalCurrency('QAR', true)" data-set-currency="QAR" class="w-full text-left px-3 py-1.5 text-xs hover:bg-blue-50 flex items-center justify-between transition"><span>&#x1F1F6;&#x1F1E6; Qatar (QAR)</span><span class="font-bold text-slate-500">QR</span></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- WhatsApp Button -->
+          <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20%F0%9F%91%8B%20I'm%20interested%20in%20your%20services." target="_blank" class="px-2.5 py-1 rounded-lg border border-emerald-500/40 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 text-xs font-bold flex items-center gap-1 transition shrink-0 whitespace-nowrap">
+            <i class="fa-brands fa-whatsapp text-emerald-600 text-sm"></i>
+            <span>WhatsApp</span>
+          </a>
+
+          <!-- Free Consultation CTA -->
+          <button class="open-audit-modal px-3 py-1 rounded-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white text-xs font-bold shadow-md shadow-blue-500/25 btn-shimmer transition shrink-0 whitespace-nowrap flex items-center gap-1">
+            <span>Free Consultation</span>
+            <i class="fa-solid fa-arrow-right text-[9px]"></i>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="lg:hidden flex items-center gap-1.5 shrink-0">
+          <button class="open-audit-modal px-2.5 py-1 rounded-lg bg-blue-600 text-white text-xs font-bold whitespace-nowrap flex items-center gap-1">
+            <span>Audit</span>
+          </button>
+          <button id="mobile-menu-btn" class="p-1.5 rounded-lg bg-slate-100 text-slate-800 hover:bg-slate-200 transition" aria-label="Toggle menu">
+            <i class="fa-solid fa-bars-staggered text-base"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-4 shadow-lg space-y-3 text-sm font-semibold">
+    <a href="index.html" class="block py-2 text-blue-600 font-bold"><i class="fa-solid fa-house mr-2"></i> Home</a>
+    <a href="development.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-code mr-2"></i> Development Services (8)</a>
+    <a href="marketing.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-chart-line mr-2"></i> Marketing &amp; Ads (8)</a>
+    <a href="automation.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-gears mr-2"></i> CRM &amp; Automation (8)</a>
+    <a href="pricing.html" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-tags mr-2"></i> Pricing Plans</a>
+    <a href="#testimonials" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-star mr-2"></i> Client Reviews</a>
+    <a href="#contact" class="block py-2 text-slate-700 hover:text-blue-600"><i class="fa-solid fa-phone mr-2"></i> Contact</a>
+  </div>
+
+  <!-- 3. HERO SECTION (UPDATED EXACT COPY + PILLS & STATS IN CLEAN WHITE THEME) -->
+  <section class="relative pt-12 pb-20 md:pt-16 md:pb-28 overflow-hidden bg-gradient-to-b from-blue-50/60 via-white to-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: New Headline, Copy, Pills & 4 Key Stats -->
+        <div class="lg:col-span-7 text-left" data-aos="fade-right">
+          
+          <!-- Trust Badge -->
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 border border-blue-200 text-blue-800 text-xs sm:text-sm font-bold mb-6">
+            <span class="flex h-2.5 w-2.5 relative">
+              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-500 opacity-75"></span>
+              <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-blue-600"></span>
+            </span>
+            <span>One Agency • Every Timezone • Every Market</span>
+          </div>
+
+          <!-- User's Exact Headline -->
+          <h1 class="text-3xl sm:text-5xl lg:text-[52px] font-black text-slate-900 tracking-tight leading-[1.14] mb-5 font-heading">
+            Your Worldwide Full-Service <br>
+            <span class="text-slate-900">Digital Agency</span> <br>
+            <span class="text-gradient-blue font-extrabold">Web, Apps & Marketing</span>
+          </h1>
+
+          <!-- User's Exact Description -->
+          <p class="text-base sm:text-lg text-slate-600 mb-8 max-w-xl leading-relaxed font-normal">
+            <strong>Ranknix Online</strong> builds, grows, and scales businesses online across the globe. From custom websites and mobile apps to performance marketing and SEO — one agency, every timezone, every market.
+          </p>
+
+          <!-- Dual CTA Buttons -->
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 mb-9">
+            <button class="open-audit-modal px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-base shadow-xl shadow-blue-500/25 btn-shimmer transition flex items-center justify-center gap-3">
+              <span>Claim Free Growth Audit</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+            <a href="https://wa.me/923088163940?text=Hi%20Muhammad%20Abdullah!%20%F0%9F%91%8B%20I%20saw%20Ranknix%20Online%20and%20want%20to%20discuss%20services." target="_blank" class="px-7 py-4 rounded-xl border-2 border-emerald-500 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-bold text-base transition flex items-center justify-center gap-2.5 shadow-sm">
+              <i class="fa-brands fa-whatsapp text-emerald-600 text-xl"></i>
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- ======================================================= -->
+          <!-- USER'S SUGGESTION: TECH / SERVICE PILLS & 4 BOLD STATS  -->
+          <!-- ======================================================= -->
+          <div class="pt-6 border-t border-slate-200/90">
+            
+            <!-- Tech / Service Pills (Two Rows) -->
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="hero-tech-pill"><i class="fa-brands fa-wordpress text-sky-500"></i> WordPress</span>
+              <span class="hero-tech-pill"><i class="fa-brands fa-shopify text-emerald-500"></i> Shopify</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-star text-amber-500"></i> WIX</span>
+              <span class="hero-tech-pill"><i class="fa-brands fa-react text-cyan-500"></i> React Native</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-feather text-orange-500"></i> Flutter</span>
+              <span class="hero-tech-pill"><i class="fa-brands fa-google text-red-500"></i> Google Ads</span>
+              <span class="hero-tech-pill"><i class="fa-brands fa-meta text-blue-600"></i> Meta Ads</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-chart-line text-emerald-600"></i> SEO</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-palette text-purple-500"></i> UI/UX</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-clapperboard text-rose-500"></i> Video</span>
+              <span class="hero-tech-pill"><i class="fa-solid fa-pen-nib text-amber-600"></i> Content</span>
+            </div>
+
+            <!-- 4 Bold Stat Counters (150+, 60+, 24, 4.9★) -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 pt-3">
+              <div class="border-r border-slate-200/80 pr-2">
+                <div class="text-3xl sm:text-4xl font-black text-orange-600 font-heading tracking-tight" data-counter-target="150" data-suffix="+">
+                  150+
+                </div>
+                <p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-wider">Projects Delivered</p>
+              </div>
+
+              <div class="border-r border-slate-200/80 pr-2">
+                <div class="text-3xl sm:text-4xl font-black text-orange-600 font-heading tracking-tight" data-counter-target="60" data-suffix="+">
+                  60+
+                </div>
+                <p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-wider">Countries Served</p>
+              </div>
+
+              <div class="border-r border-slate-200/80 pr-2">
+                <div class="text-3xl sm:text-4xl font-black text-orange-600 font-heading tracking-tight" data-counter-target="24">
+                  24
+                </div>
+                <p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-wider">Services</p>
+              </div>
+
+              <div>
+                <div class="text-3xl sm:text-4xl font-black text-orange-600 font-heading tracking-tight flex items-center gap-1">
+                  <span>4.9</span>
+                  <span class="text-2xl text-orange-600">★</span>
+                </div>
+                <p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-wider">Rating</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Right Column: Founder Image Showcase with Floating Animated Badges -->
+        <div class="lg:col-span-5 relative" data-aos="fade-left">
+          
+          <div class="relative mx-auto max-w-sm sm:max-w-md">
+            
+            <!-- Glow background -->
+            <div class="absolute inset-0 bg-gradient-to-tr from-blue-400/20 to-sky-300/30 rounded-3xl filter blur-2xl -z-10"></div>
+
+            <!-- Founder Framed Photo -->
+            <div class="founder-frame bg-white p-2 shadow-2xl">
+              <img src="assets/images/founder.jpg" alt="Muhammad Abdullah - Founder Ranknix Online" class="w-full h-auto object-cover rounded-2xl">
+              
+              <!-- Bottom Overlay Title Bar -->
+              <div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur-md p-3.5 rounded-xl border border-slate-200/80 shadow-lg flex items-center justify-between">
+                <div>
+                  <h4 class="text-sm font-black text-slate-900">Muhammad Abdullah</h4>
+                  <p class="text-[11px] font-bold text-blue-600">Founder & CEO • 5+ Years Exp</p>
+                </div>
+                <div class="w-8 h-8 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center font-bold text-xs">
+                  <i class="fa-solid fa-award"></i>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 1 (Top Left) -->
+            <div class="absolute -top-5 -left-4 sm:-left-6 bg-white p-3 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3 animate-float">
+              <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <div>
+                <span class="block text-xs font-bold text-slate-400 uppercase">Management Exp</span>
+                <span class="text-sm font-black text-slate-900">5+ Years Proven</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2 (Right Middle) -->
+            <div class="absolute top-1/2 -right-4 sm:-right-8 bg-white p-3 rounded-2xl shadow-xl border border-slate-100 flex items-center gap-3 animate-float-reverse">
+              <div class="w-10 h-10 rounded-xl bg-amber-100 text-amber-600 flex items-center justify-center text-lg">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div>
+                <span class="block text-xs font-bold text-slate-400 uppercase">Track Record</span>
+                <span class="text-sm font-black text-slate-900">₨ 65M+ Scaled</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 3.5. TECHNOLOGIES & PLATFORMS WE MASTER (Perpetual Seamless Dual-Track Infinite Marquee) -->
+  <section class="py-7 bg-slate-50/70 overflow-hidden border-y border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 mb-3.5 text-center">
+      <span class="text-xs uppercase tracking-widest text-slate-400 font-extrabold">Technologies & Platforms We Master</span>
+    </div>
+    
+    <div class="marquee-wrapper flex select-none py-1">
+      
+      <!-- Track 1: First Full Set of 21 Technologies -->
+      <div class="marquee-content flex shrink-0 items-center gap-10 sm:gap-12 text-slate-700 font-bold text-sm sm:text-base pr-10 sm:pr-12">
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-shopify text-emerald-600 text-2xl"></i> Shopify Plus</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-google text-red-500 text-2xl"></i> Google Ads</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-meta text-blue-600 text-2xl"></i> Meta Ads (FB & Insta)</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-wordpress text-sky-500 text-2xl"></i> WordPress & Elementor</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-tiktok text-slate-900 text-2xl"></i> TikTok For Business</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-arrows-rotate text-blue-600 text-2xl"></i> GoHighLevel CRM</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-react text-cyan-500 text-2xl"></i> React & Next.js</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-microsoft text-sky-600 text-2xl"></i> Microsoft / Bing Ads</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-magnifying-glass-chart text-emerald-600 text-2xl"></i> SEO & Ahrefs</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-cubes text-emerald-500 text-2xl"></i> Zoho CRM & Books</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-star text-amber-500 text-2xl"></i> WIX Studio</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-bolt text-amber-500 text-2xl"></i> CRO & A/B Testing</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-hubspot text-orange-500 text-2xl"></i> HubSpot Automation</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-feather text-orange-500 text-2xl"></i> Flutter Apps</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-chart-simple text-amber-600 text-2xl"></i> Google Analytics 4 (GA4)</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-salesforce text-sky-500 text-2xl"></i> Salesforce CRM</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-figma text-purple-500 text-2xl"></i> Figma UI/UX</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-file-excel text-emerald-700 text-2xl"></i> Microsoft Excel & BI</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-network-wired text-purple-600 text-2xl"></i> Make & Zapier</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-bag-shopping text-violet-600 text-2xl"></i> WooCommerce</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-stripe text-indigo-600 text-2xl"></i> Stripe Payments</span>
+      </div>
+
+      <!-- Track 2: Identical Twin Set for Seamless Infinite Loop (Never breaks, no gaps) -->
+      <div class="marquee-content flex shrink-0 items-center gap-10 sm:gap-12 text-slate-700 font-bold text-sm sm:text-base pr-10 sm:pr-12" aria-hidden="true">
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-shopify text-emerald-600 text-2xl"></i> Shopify Plus</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-google text-red-500 text-2xl"></i> Google Ads</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-meta text-blue-600 text-2xl"></i> Meta Ads (FB & Insta)</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-wordpress text-sky-500 text-2xl"></i> WordPress & Elementor</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-tiktok text-slate-900 text-2xl"></i> TikTok For Business</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-arrows-rotate text-blue-600 text-2xl"></i> GoHighLevel CRM</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-react text-cyan-500 text-2xl"></i> React & Next.js</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-microsoft text-sky-600 text-2xl"></i> Microsoft / Bing Ads</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-magnifying-glass-chart text-emerald-600 text-2xl"></i> SEO & Ahrefs</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-cubes text-emerald-500 text-2xl"></i> Zoho CRM & Books</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-star text-amber-500 text-2xl"></i> WIX Studio</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-bolt text-amber-500 text-2xl"></i> CRO & A/B Testing</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-hubspot text-orange-500 text-2xl"></i> HubSpot Automation</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-feather text-orange-500 text-2xl"></i> Flutter Apps</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-chart-simple text-amber-600 text-2xl"></i> Google Analytics 4 (GA4)</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-salesforce text-sky-500 text-2xl"></i> Salesforce CRM</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-figma text-purple-500 text-2xl"></i> Figma UI/UX</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-file-excel text-emerald-700 text-2xl"></i> Microsoft Excel & BI</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-network-wired text-purple-600 text-2xl"></i> Make & Zapier</span>
+        <span class="flex items-center gap-2.5"><i class="fa-solid fa-bag-shopping text-violet-600 text-2xl"></i> WooCommerce</span>
+        <span class="flex items-center gap-2.5"><i class="fa-brands fa-stripe text-indigo-600 text-2xl"></i> Stripe Payments</span>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================== -->
+  <!-- 4. CORE SPECIALIZATION DIVISIONS (Clean Gateway to Dedicated Pages) -->
+  <!-- ============================================================== -->
+  <section class="py-16 sm:py-20 bg-white relative z-10 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold mb-3 shadow-2xs">
+          <i class="fa-solid fa-layer-group text-blue-600"></i>
+          <span>Three Dedicated Practice Divisions</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Explore Our <span class="text-gradient-blue">Core Capabilities</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+          Ranknix Online operates 3 specialized engineering and marketing divisions. Click any division below or in the top navigation to view its full services, portfolio deliverables, and packages.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+        
+        <!-- Division 01 Card -->
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-blue-100 hover:border-blue-500 hover:shadow-xl transition-all duration-300 group bg-gradient-to-b from-white to-blue-50/30">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <span class="text-xs font-black uppercase tracking-wider text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Division 01</span>
+              <div class="w-12 h-12 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-3 group-hover:text-blue-600 transition-colors">
+              Web &amp; App Development
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
+              Shopify Plus, WordPress, custom React &amp; Next.js platforms, mobile apps (Flutter &amp; React Native), and high-converting landing pages engineered for speed and conversion.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">Shopify</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">WordPress</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">React Native</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">UI/UX Figma</span>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="development.html" class="w-full py-3 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-md shadow-blue-500/20">
+              <span>Explore Development Division (8 Services)</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+            <a href="pricing.html?service=web-dev" class="w-full py-2 text-center text-xs font-bold text-slate-500 hover:text-blue-600 transition">
+              View Dev Pricing Packages &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Division 02 Card -->
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-indigo-100 hover:border-indigo-500 hover:shadow-xl transition-all duration-300 group bg-gradient-to-b from-white to-indigo-50/30">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <span class="text-xs font-black uppercase tracking-wider text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full border border-indigo-200">Division 02</span>
+              <div class="w-12 h-12 rounded-2xl bg-indigo-600 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-3 group-hover:text-indigo-600 transition-colors">
+              Performance Marketing &amp; Paid Ads
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
+              Data-driven Google &amp; Bing Ads, Meta Ads (Facebook &amp; Instagram), TikTok campaigns, technical SEO, and Conversion Rate Optimization with direct founder oversight.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">Google Ads</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">Meta CAPI</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">SEO Rank</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">GA4 Analytics</span>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="marketing.html" class="w-full py-3 px-4 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-md shadow-indigo-500/20">
+              <span>Explore Marketing Division (8 Services)</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+            <a href="pricing.html?service=google-ads" class="w-full py-2 text-center text-xs font-bold text-slate-500 hover:text-indigo-600 transition">
+              View Marketing Pricing Packages &rarr;
+            </a>
+          </div>
+        </div>
+
+        <!-- Division 03 Card -->
+        <div class="clean-card rounded-3xl p-7 sm:p-8 flex flex-col justify-between border-2 border-amber-100 hover:border-amber-500 hover:shadow-xl transition-all duration-300 group bg-gradient-to-b from-white to-amber-50/30">
+          <div>
+            <div class="flex items-center justify-between mb-5">
+              <span class="text-xs font-black uppercase tracking-wider text-amber-700 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Division 03</span>
+              <div class="w-12 h-12 rounded-2xl bg-amber-600 text-white flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                <i class="fa-solid fa-gears"></i>
+              </div>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-3 group-hover:text-amber-600 transition-colors">
+              CRM, Data &amp; Automation
+            </h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
+              Zoho CRM deployment, GoHighLevel agency migrations, automated sales workflows, verified B2B lead generation lists, and custom Excel cleaning pipelines. Zero manual bottlenecks.
+            </p>
+            <div class="flex flex-wrap gap-1.5 mb-6">
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">Zoho CRM</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">GoHighLevel</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">B2B Leads</span>
+              <span class="px-2 py-0.5 rounded-md bg-white border border-slate-200 text-slate-700 text-[11px] font-bold">Zapier &amp; Make</span>
+            </div>
+          </div>
+          <div class="pt-4 border-t border-slate-100 flex flex-col gap-2">
+            <a href="automation.html" class="w-full py-3 px-4 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-black text-xs sm:text-sm text-center transition flex items-center justify-center gap-2 shadow-md shadow-amber-500/20">
+              <span>Explore Automation Division (8 Services)</span>
+              <i class="fa-solid fa-arrow-right text-xs"></i>
+            </a>
+            <a href="pricing.html?service=zoho" class="w-full py-2 text-center text-xs font-bold text-slate-500 hover:text-amber-600 transition">
+              View Automation Pricing Packages &rarr;
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+<section id="results" class="py-24 bg-slate-50/60 relative z-10 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6" data-aos="fade-up">
+        <div>
+          <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Real Proven Results</span>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight">
+            Case Studies & <span class="text-gradient-blue">Success Stories</span>
+          </h2>
+        </div>
+        <p class="text-slate-600 max-w-md text-sm sm:text-base">
+          Actual campaign and engineering milestones scaled by Muhammad Abdullah and the Ranknix Online team.
+        </p>
+      </div>
+
+      <!-- Case Studies Grid (1: Development, 2: Performance Marketing / Google Ads, 3: CRM Automation) -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Case 1: Web & App Development -->
+        <div class="clean-card rounded-2xl overflow-hidden flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-6 sm:p-8">
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 border border-blue-200">Web & App Development</span>
+              <span>D2C E-Commerce</span>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-2">Shopify & Custom Web App: Scaled to ₨ 6.2M / Month</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              Rebuilt sluggish legacy store into a lightning-fast custom Shopify store with Next.js landing pages, 1-page checkout, and conversion rate optimization (CRO).
+            </p>
+            <div class="grid grid-cols-2 gap-4 py-4 border-y border-slate-100 my-4 text-center">
+              <div>
+                <span class="block text-2xl font-black text-emerald-600">+185%</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Conversion Lift</span>
+              </div>
+              <div>
+                <span class="block text-2xl font-black text-blue-600">1.1s</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Page Load Speed</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-slate-50 border-t border-slate-100 text-xs text-slate-600">
+            <strong>Services:</strong> Shopify Plus • Next.js Landing Page • 1-Page Checkout • CRO
+          </div>
+        </div>
+
+        <!-- Case 2: Performance Marketing & Google/Meta Ads -->
+        <div class="clean-card rounded-2xl overflow-hidden flex flex-col justify-between" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-6 sm:p-8">
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 border border-purple-200">Performance Marketing</span>
+              <span>Google & Meta Ads</span>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-2">6.8x Google & Meta Ads ROAS — ₨ 18.5M+ Revenue</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              High-intent Google Search & Shopping campaigns combined with precision Meta & TikTok Ads targeting high-LTV buyers across Pakistan, UAE & UK markets.
+            </p>
+            <div class="grid grid-cols-2 gap-4 py-4 border-y border-slate-100 my-4 text-center">
+              <div>
+                <span class="block text-2xl font-black text-emerald-600">6.8x</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Campaign ROAS</span>
+              </div>
+              <div>
+                <span class="block text-2xl font-black text-purple-600">-42%</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Customer CAC</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-slate-50 border-t border-slate-100 text-xs text-slate-600">
+            <strong>Services:</strong> Google Ads • Meta Advantage+ • TikTok Ads • Creative Testing
+          </div>
+        </div>
+
+        <!-- Case 3: Data, CRM & Back-Office Automation -->
+        <div class="clean-card rounded-2xl overflow-hidden flex flex-col justify-between" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-6 sm:p-8">
+            <div class="flex items-center justify-between text-xs font-bold text-slate-500 mb-4">
+              <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 border border-amber-200">CRM & Automation</span>
+              <span>GoHighLevel & Zoho</span>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 font-heading mb-2">2,800+ Verified Leads & 85% Automation via CRM</h3>
+            <p class="text-slate-600 text-xs sm:text-sm mb-6 leading-relaxed">
+              Full GoHighLevel migration with custom Zoho CRM pipelines. Automated instant WhatsApp & email follow-ups within 60 seconds, closing high-ticket deals on autopilot.
+            </p>
+            <div class="grid grid-cols-2 gap-4 py-4 border-y border-slate-100 my-4 text-center">
+              <div>
+                <span class="block text-2xl font-black text-emerald-600">2,800+</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Qualified Leads</span>
+              </div>
+              <div>
+                <span class="block text-2xl font-black text-amber-600">85%</span>
+                <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider">Manual Work Saved</span>
+              </div>
+            </div>
+          </div>
+          <div class="p-5 bg-slate-50 border-t border-slate-100 text-xs text-slate-600">
+            <strong>Services:</strong> GoHighLevel Pipelines • Zoho CRM • WhatsApp Automation • Workflows
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- 8. ABOUT RANKNIX ONLINE & LIVE IN 60+ COUNTRIES SECTION -->
+  <section id="about" class="py-20 bg-white relative overflow-hidden border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="max-w-4xl mx-auto text-center" data-aos="fade-up">
+        <span class="inline-block px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-bold uppercase tracking-wider mb-3">
+          About Ranknix Online
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight leading-tight mb-6">
+          The World's Most Complete <br><span class="text-gradient-blue">Digital Agency</span>
+        </h2>
+        
+        <p class="text-slate-600 text-base sm:text-lg leading-relaxed mb-6">
+          Founded in Pakistan and serving ambitious clients worldwide, <strong>Ranknix Online</strong> is a global full-service digital agency trusted by businesses across <strong>60+ countries</strong>. We combine world-class engineering, high-converting design, and revenue-focused performance marketing under one unified roof.
+        </p>
+        <p class="text-slate-500 text-sm sm:text-base leading-relaxed mb-10 max-w-3xl mx-auto">
+          From startups in the US, UK, UAE, and Australia to e-commerce brands in Europe and Asia — we deliver results that matter in every timezone. Direct access to Founder Muhammad Abdullah, zero generic templates, guaranteed code ownership, and transparent growth.
+        </p>
+
+        <!-- 4 Pillars Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10 text-left">
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-2xs">
+            <span class="text-xs font-black text-blue-600 uppercase font-mono block mb-1">01 / Oversight</span>
+            <h4 class="text-sm font-bold text-slate-900 mb-1">Direct Founder Access</h4>
+            <p class="text-[11px] text-slate-500 leading-snug">Personal supervision by Muhammad Abdullah on every project.</p>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-2xs">
+            <span class="text-xs font-black text-blue-600 uppercase font-mono block mb-1">02 / Ownership</span>
+            <h4 class="text-sm font-bold text-slate-900 mb-1">100% Asset Rights</h4>
+            <p class="text-[11px] text-slate-500 leading-snug">Full source code, hosting, and ad accounts always remain yours.</p>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-2xs">
+            <span class="text-xs font-black text-blue-600 uppercase font-mono block mb-1">03 / Global Scale</span>
+            <h4 class="text-sm font-bold text-slate-900 mb-1">Every Timezone</h4>
+            <p class="text-[11px] text-slate-500 leading-snug">Active support across UK, USA, UAE, and European business hours.</p>
+          </div>
+          <div class="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 shadow-2xs">
+            <span class="text-xs font-black text-blue-600 uppercase font-mono block mb-1">04 / Clarity</span>
+            <h4 class="text-sm font-bold text-slate-900 mb-1">Fixed Multi-Currency</h4>
+            <p class="text-[11px] text-slate-500 leading-snug">Zero surprise invoices. Transparent PKR, GBP, USD, and EUR rates.</p>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-wrap items-center justify-center gap-3.5">
+          <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20I'd%20like%20to%20work%20with%20you." target="_blank" class="px-6 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-black text-sm shadow-md shadow-blue-500/25 transition flex items-center gap-2">
+            <i class="fa-solid fa-rocket"></i>
+            <span>Work With Us</span>
+          </a>
+          <a href="#services" class="px-6 py-3.5 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 text-slate-800 font-bold text-sm shadow-2xs transition flex items-center gap-2">
+            <i class="fa-solid fa-grid-2 text-blue-600"></i>
+            <span>Explore All 24 Services</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- 9. MEET THE FOUNDER SECTION (MUHAMMAD ABDULLAH - 5+ YEARS EXPERIENCE) -->
+  <section id="founder" class="py-24 bg-slate-50/60 relative z-10 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="clean-card rounded-3xl p-8 sm:p-12 lg:p-16 relative overflow-hidden" data-aos="fade-up">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Founder Image Column -->
+          <div class="lg:col-span-5 text-center">
+            <div class="relative inline-block mx-auto">
+              <div class="absolute inset-0 bg-blue-500/20 rounded-3xl filter blur-xl"></div>
+              <img src="assets/images/founder.jpg" alt="Muhammad Abdullah - Founder Ranknix Online" class="relative z-10 w-72 sm:w-80 h-auto rounded-3xl shadow-2xl border-4 border-white object-cover mx-auto">
+              
+              <div class="mt-4 text-center">
+                <span class="inline-block px-3 py-1 rounded-full bg-blue-100 text-blue-800 text-xs font-black tracking-wide">
+                  FOUNDER & CEO
+                </span>
+                <h4 class="text-2xl font-black text-slate-900 mt-1">Muhammad Abdullah</h4>
+                <p class="text-xs font-bold text-slate-500 mt-0.5">5+ Years Experience in Performance Marketing & Business Management</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Founder Bio & Vision -->
+          <div class="lg:col-span-7">
+            <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Leadership & Proven Track Record</span>
+            <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-6">
+              "We Unite High-Performance Code With <br class="hidden sm:inline">
+              <span class="text-gradient-blue">Aggressive Revenue-Driven Marketing</span>"
+            </h2>
+            <p class="text-slate-600 text-base leading-relaxed mb-4">
+              Hello! I'm <strong>Muhammad Abdullah</strong>, Founder & CEO of <strong>Ranknix Online</strong>. Over the past <strong>5+ years</strong> working in performance marketing and business management, I have seen hundreds of businesses face the exact same frustrating hurdle:
+            </p>
+            <p class="text-slate-600 text-base leading-relaxed mb-6 italic border-l-4 border-blue-600 pl-4 bg-blue-50/50 py-2">
+              "Development agencies build pretty websites that don't convert paid traffic, while marketing agencies burn ad spend on broken landing pages."
+            </p>
+            <p class="text-slate-600 text-base leading-relaxed mb-8">
+              At <strong>Ranknix Online</strong>, we broke that barrier. We are a single, unified growth powerhouse. We write the code, engineer the funnels, optimize the checkout experience, and execute multi-channel Meta, TikTok, and Google ad campaigns that deliver maximum ROAS. Every project is personally overseen to ensure institutional-grade quality.
+            </p>
+
+            <div class="flex flex-wrap items-center gap-4">
+              <button class="open-audit-modal px-7 py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-lg shadow-blue-500/20 btn-shimmer transition">
+                Book a Strategy Session &rarr;
+              </button>
+              <a href="https://wa.me/923088163940?text=Hi%20Muhammad%20Abdullah!%20%F0%9F%91%8B%20I'd%20like%20to%20discuss%20a%20project%20directly%20with%20you." target="_blank" class="px-6 py-3.5 rounded-xl border-2 border-emerald-500 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 font-bold text-sm transition flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-emerald-600 text-lg"></i>
+                <span>Direct WhatsApp Contact</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- 10. REVIEWS & TESTIMONIALS -->
+  
+  <!-- 9. REVIEWS & TESTIMONIALS (INFINITE AUTO-SCROLLING MARQUEE WITH 18 VERIFIED REVIEWS) -->
+  
+  <!-- 7. REVIEWS & TESTIMONIALS (SINGLE CONTINUOUS AUTO-SCROLLING MARQUEE LINE) -->
+  <section id="testimonials" class="py-20 sm:py-24 bg-slate-50/70 relative z-10 border-t border-slate-200/80 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10">
+      <div class="text-center max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/80 text-blue-700 text-xs font-bold mb-3 shadow-2xs">
+          <i class="fa-solid fa-star text-amber-500"></i>
+          <span>150+ Projects Delivered Across 60+ Countries</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Trusted By Ambitious Brands <span class="text-gradient-blue">Around The World</span>
+        </h2>
+        <p class="text-slate-600 text-sm sm:text-base leading-relaxed max-w-2xl mx-auto">
+          From high-growth startups in London and Austin to market leaders in Dubai and Pakistan — here is what founders and CMOs say about partnering with Ranknix Online.
+        </p>
+      </div>
+    </div>
+
+    <!-- EXACTLY ONE SINGLE CONTINUOUS MARQUEE LINE (Smooth Infinite Scroll) -->
+    <div class="marquee-wrapper relative w-full overflow-hidden py-3">
+      <div class="marquee-content flex gap-6 hover:[animation-play-state:paused]" style="animation: scrollInfinite 60s linear infinite; width: max-content;">
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online restructured our entire search campaigns. Cost per qualified legal lead plummeted by 52% in 8 weeks. Muhammad Abdullah and his team are extraordinary operators."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=faces" alt="James Whitfield" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">James Whitfield 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Apex Legal UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Google Ads CPA dropped from $148 to $69 in 6 weeks. Muhammad Abdullah's team handled our search groups and scaled PMax shopping. Their weekly reporting saved us tens of thousands."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&crop=faces" alt="Michael Kim" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Michael Kim 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CMO, Nexus Dynamics USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Austin, TX, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online delivered our custom WordPress portal in 10 days flat. PageSpeed jumped from 42 to 99 on mobile, and bounce rates fell off a cliff. Exceptional design depth."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop&crop=faces" alt="Sarah Jenkins" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Sarah Jenkins 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder & CEO, Lumina Retail UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Manchester, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Zero bloated page builders, clean semantic code, and seamless API connections to our internal CRM. The site handles hundreds of concurrent quote requests effortlessly."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop&crop=faces" alt="David Miller" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">David Miller 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CTO, BluePeak Logistics USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Chicago, IL, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Our direct-to-consumer store scaled from $18k to $72k/month at a 4.4x blended ROAS using Ranknix Online's Advantage+ catalog setup and UGC video hooks. Total game-changer."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&fit=crop&crop=faces" alt="Rachel Foster" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Rachel Foster 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">E-Commerce VP, Aura Living USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">San Diego, CA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Server-side CAPI integration recovered all attribution lost after iOS updates. The Ranknix team tests creatives systematically every week, identifying winning ad angles fast."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop&crop=faces" alt="Oliver Hughes" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Oliver Hughes 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Growth Director, Peak Digital UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Bristol, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "High-ticket lead generation for luxury UAE real estate. We received over 380 verified WhatsApp buyer leads in the first month alone with zero junk inquiries."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&h=120&fit=crop&crop=faces" alt="Tariq Al-Mansoor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Tariq Al-Mansoor 🇦🇪</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Palm Luxe Realty UAE</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Dubai, UAE</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "The UI/UX wireframes and Figma design system Ranknix produced were pixel-perfect. Developer handoff took 2 days instead of 3 weeks. Incredible agency."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&h=120&fit=crop&crop=faces" alt="Charlotte Evans" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Charlotte Evans 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Head of Product, NorthGate UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Edinburgh, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Our cross-platform Flutter mobile app was delivered to both App Store and Google Play on time. Real-time Firebase chat and notifications work flawlessly."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&h=120&fit=crop&crop=faces" alt="Marcus Vance" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Marcus Vance 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CTO, Hyperion Cloud USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Seattle, WA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "They built our e-commerce multi-vendor platform with custom checkout drawers and automated payment gateways. Extremely satisfied with both the delivery speed and support."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=120&h=120&fit=crop&crop=faces" alt="Hamza Farooq" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Hamza Farooq 🇵🇰</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CEO, Velora Fashion PK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Running Google and Bing Ads together after their recommendation delivered 38% more B2B conversions at a significantly lower CPA. Professional team."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=120&h=120&fit=crop&crop=faces" alt="Riya Sharma" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Riya Sharma 🇨🇦</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Growth Lead, CloudFlow Canada</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Toronto, Canada</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Automated our entire customer onboarding with Zoho CRM and WhatsApp webhooks. Saved our sales reps at least 25 hours every single week."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=120&h=120&fit=crop&crop=faces" alt="Liam O'Connor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Liam O'Connor 🇦🇺</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Horizon Solar</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Sydney, Australia</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix redesigned our Shopify landing page with custom video sections and upsell drawers. Conversion rate immediately surged from 1.8% to 3.4%."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=120&h=120&fit=crop&crop=faces" alt="Emma Watson-Bell" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Emma Watson-Bell 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">E-Commerce Strategist, Thorne UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Confidential financial data analysis and Excel dashboard cleanup handled with surgical accuracy. Muhammad Abdullah personally supervised delivery."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&h=120&fit=crop&crop=faces" alt="Alexander Wright" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Alexander Wright 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Wright Capital USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">New York, NY, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Fast, dependable, and always available on WhatsApp. Ranknix Online is our go-to partner for all digital automation and marketing infrastructure."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&h=120&fit=crop&crop=faces" alt="Kareem Al-Hassan" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Kareem Al-Hassan 🇦🇪</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Director of Ops, Gulf Logistics UAE</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Abu Dhabi, UAE</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Short-form video editing and TikTok Ads production is top tier. The retention curves on our ads tripled, resulting in record-breaking revenue."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534751516642-a171ef2ef63a?w=120&h=120&fit=crop&crop=faces" alt="Sophie Taylor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Sophie Taylor 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Marketing VP, Velocity Media UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Birmingham, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online represents the highest standard of technical and creative talent. Professional communication, transparent pricing, and stellar execution."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=120&h=120&fit=crop&crop=faces" alt="Usman Tariq" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Usman Tariq 🇵🇰</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Director, Crescent Global PK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Karachi, Pakistan</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Full GoHighLevel migration, custom funnel build, and email automation completed in under 7 days. Can't recommend them highly enough."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=120&h=120&fit=crop&crop=faces" alt="Benjamin Scott" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Benjamin Scott 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Apex SaaS USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Boston, MA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online restructured our entire search campaigns. Cost per qualified legal lead plummeted by 52% in 8 weeks. Muhammad Abdullah and his team are extraordinary operators."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=120&h=120&fit=crop&crop=faces" alt="James Whitfield" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">James Whitfield 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Apex Legal UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Google Ads CPA dropped from $148 to $69 in 6 weeks. Muhammad Abdullah's team handled our search groups and scaled PMax shopping. Their weekly reporting saved us tens of thousands."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&h=120&fit=crop&crop=faces" alt="Michael Kim" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Michael Kim 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CMO, Nexus Dynamics USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Austin, TX, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online delivered our custom WordPress portal in 10 days flat. PageSpeed jumped from 42 to 99 on mobile, and bounce rates fell off a cliff. Exceptional design depth."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=120&h=120&fit=crop&crop=faces" alt="Sarah Jenkins" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Sarah Jenkins 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder & CEO, Lumina Retail UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Manchester, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Zero bloated page builders, clean semantic code, and seamless API connections to our internal CRM. The site handles hundreds of concurrent quote requests effortlessly."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=120&h=120&fit=crop&crop=faces" alt="David Miller" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">David Miller 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CTO, BluePeak Logistics USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Chicago, IL, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Our direct-to-consumer store scaled from $18k to $72k/month at a 4.4x blended ROAS using Ranknix Online's Advantage+ catalog setup and UGC video hooks. Total game-changer."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=120&h=120&fit=crop&crop=faces" alt="Rachel Foster" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Rachel Foster 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">E-Commerce VP, Aura Living USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">San Diego, CA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Server-side CAPI integration recovered all attribution lost after iOS updates. The Ranknix team tests creatives systematically every week, identifying winning ad angles fast."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=120&h=120&fit=crop&crop=faces" alt="Oliver Hughes" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Oliver Hughes 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Growth Director, Peak Digital UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Bristol, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "High-ticket lead generation for luxury UAE real estate. We received over 380 verified WhatsApp buyer leads in the first month alone with zero junk inquiries."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=120&h=120&fit=crop&crop=faces" alt="Tariq Al-Mansoor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Tariq Al-Mansoor 🇦🇪</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Palm Luxe Realty UAE</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Dubai, UAE</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "The UI/UX wireframes and Figma design system Ranknix produced were pixel-perfect. Developer handoff took 2 days instead of 3 weeks. Incredible agency."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=120&h=120&fit=crop&crop=faces" alt="Charlotte Evans" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Charlotte Evans 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Head of Product, NorthGate UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Edinburgh, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Our cross-platform Flutter mobile app was delivered to both App Store and Google Play on time. Real-time Firebase chat and notifications work flawlessly."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=120&h=120&fit=crop&crop=faces" alt="Marcus Vance" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Marcus Vance 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CTO, Hyperion Cloud USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Seattle, WA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "They built our e-commerce multi-vendor platform with custom checkout drawers and automated payment gateways. Extremely satisfied with both the delivery speed and support."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=120&h=120&fit=crop&crop=faces" alt="Hamza Farooq" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Hamza Farooq 🇵🇰</h4>
+              <span class="text-[11px] text-slate-500 block truncate">CEO, Velora Fashion PK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Lahore, Pakistan</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Running Google and Bing Ads together after their recommendation delivered 38% more B2B conversions at a significantly lower CPA. Professional team."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=120&h=120&fit=crop&crop=faces" alt="Riya Sharma" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Riya Sharma 🇨🇦</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Growth Lead, CloudFlow Canada</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Toronto, Canada</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Automated our entire customer onboarding with Zoho CRM and WhatsApp webhooks. Saved our sales reps at least 25 hours every single week."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=120&h=120&fit=crop&crop=faces" alt="Liam O'Connor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Liam O'Connor 🇦🇺</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Horizon Solar</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Sydney, Australia</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix redesigned our Shopify landing page with custom video sections and upsell drawers. Conversion rate immediately surged from 1.8% to 3.4%."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=120&h=120&fit=crop&crop=faces" alt="Emma Watson-Bell" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Emma Watson-Bell 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">E-Commerce Strategist, Thorne UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">London, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Confidential financial data analysis and Excel dashboard cleanup handled with surgical accuracy. Muhammad Abdullah personally supervised delivery."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=120&h=120&fit=crop&crop=faces" alt="Alexander Wright" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Alexander Wright 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Partner, Wright Capital USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">New York, NY, USA</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Fast, dependable, and always available on WhatsApp. Ranknix Online is our go-to partner for all digital automation and marketing infrastructure."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=120&h=120&fit=crop&crop=faces" alt="Kareem Al-Hassan" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Kareem Al-Hassan 🇦🇪</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Director of Ops, Gulf Logistics UAE</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Abu Dhabi, UAE</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Short-form video editing and TikTok Ads production is top tier. The retention curves on our ads tripled, resulting in record-breaking revenue."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1534751516642-a171ef2ef63a?w=120&h=120&fit=crop&crop=faces" alt="Sophie Taylor" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Sophie Taylor 🇬🇧</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Marketing VP, Velocity Media UK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Birmingham, UK</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Ranknix Online represents the highest standard of technical and creative talent. Professional communication, transparent pricing, and stellar execution."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=120&h=120&fit=crop&crop=faces" alt="Usman Tariq" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Usman Tariq 🇵🇰</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Managing Director, Crescent Global PK</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Karachi, Pakistan</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="review-card flex-shrink-0 w-[340px] sm:w-[380px] p-6 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:shadow-lg hover:border-blue-400 transition-all duration-300 flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <div class="flex items-center gap-1 text-amber-400 text-xs">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-[10px] font-bold border border-emerald-200">
+                <i class="fa-solid fa-circle-check text-[9px]"></i> Verified Client
+              </span>
+            </div>
+            <p class="text-slate-600 text-xs sm:text-[13px] leading-relaxed italic mb-5">
+              "Full GoHighLevel migration, custom funnel build, and email automation completed in under 7 days. Can't recommend them highly enough."
+            </p>
+          </div>
+          <div class="pt-3.5 border-t border-slate-100 flex items-center gap-3">
+            <div class="relative shrink-0">
+              <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=120&h=120&fit=crop&crop=faces" alt="Benjamin Scott" class="w-11 h-11 rounded-full object-cover border-2 border-blue-100 shadow-2xs">
+              <span class="absolute bottom-0 right-0 w-3 h-3 rounded-full bg-emerald-500 border-2 border-white"></span>
+            </div>
+            <div class="overflow-hidden">
+              <h4 class="text-xs font-black text-slate-900 leading-tight truncate">Benjamin Scott 🇺🇸</h4>
+              <span class="text-[11px] text-slate-500 block truncate">Founder, Apex SaaS USA</span>
+              <span class="text-[10px] text-blue-600 font-mono block">Boston, MA, USA</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Bottom Metric Bar -->
+    <div class="max-w-4xl mx-auto px-4 mt-10 text-center">
+      <div class="inline-flex flex-wrap items-center justify-center gap-4 sm:gap-8 px-6 py-3 rounded-2xl bg-white border border-slate-200 shadow-2xs text-xs font-bold text-slate-700">
+        <span class="flex items-center gap-1.5 text-amber-500">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <span class="text-slate-900 font-black ml-1">4.9 / 5.0</span>
+        </span>
+        <span class="text-slate-300 hidden sm:inline">|</span>
+        <span>🇬🇧 99% UK &amp; Western SLA On-Time Delivery</span>
+        <span class="text-slate-300 hidden sm:inline">|</span>
+        <span>💬 Direct 24/7 Founder WhatsApp Access</span>
+      </div>
+    </div>
+  </section>
+    
+    
+
+<!-- 11. PRICING SECTION (DYNAMIC GEO-CURRENCY) -->
+  <!-- 11. PRICING SECTION (24-SERVICE MASTER INTERACTIVE SHOWCASE) -->
+<!-- 11. PRICING SECTION (24-SERVICE MASTER INTERACTIVE SHOWCASE) -->
+
+  <!-- 10. PRICING SECTION (AUTO-SCROLLING 24-SERVICE MARQUEE + DYNAMIC 3-TIER PACKAGES) -->
+  
+    
+
+<!-- 12. FAQ ACCORDION -->
+  <section id="faq" class="py-24 bg-white relative z-10 border-t border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center mb-16" data-aos="fade-up">
+        <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Frequently Asked Questions</span>
+        <h2 class="text-3xl sm:text-4xl font-black text-slate-900 font-heading tracking-tight mb-3">
+          Have Questions? <span class="text-gradient-blue">Here Are Quick Answers</span>
+        </h2>
+      </div>
+
+      <div class="space-y-4 max-w-4xl mx-auto" data-aos="fade-up">
+        
+        <!-- FAQ 1: Google Ads & Bing Ads (Heavy Marketing Focus) -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-brands fa-google text-red-500 text-lg shrink-0"></i>
+              <span>How does Ranknix Online generate 4x–8x ROAS on Google Ads & Microsoft/Bing Ads?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            We target high-intent "ready-to-buy" search queries and Google Shopping feeds with exact match structures, aggressive negative keyword lists (to stop wasted budget), and custom high-converting landing pages. Every dollar spent is tracked via Google Analytics 4 (GA4) with conversion value bidding, ensuring maximum profit and high return on ad spend.
+          </div>
+        </div>
+
+        <!-- FAQ 2: Meta Ads (Facebook & Instagram) -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-brands fa-meta text-blue-600 text-lg shrink-0"></i>
+              <span>How do you scale Meta (Facebook & Instagram) Ads profitably without burning budget?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            We use a battle-tested creative-testing sprint: testing 5–10 fresh creative angles (video hooks, UGC, carousel, direct-response copy) with small budgets first. Once winning creatives hit target CPA, we scale them using CBO (Campaign Budget Optimization) and Advantage+ campaigns, integrated with Meta Conversion API (CAPI) for 100% accurate tracking even after iOS privacy updates.
+          </div>
+        </div>
+
+        <!-- FAQ 3: TikTok Ads for E-Commerce & Local Brands -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-brands fa-tiktok text-slate-900 text-lg shrink-0"></i>
+              <span>Are TikTok Ads effective for Pakistani and international e-commerce stores?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            Absolutely. TikTok is currently the highest-converting discovery channel for fashion, cosmetics, gadgets, and impulse buys. We script and edit scroll-stopping UGC (User-Generated Content) creatives, run Spark Ads and TikTok Shop funnels, delivering impulse sales at a cost-per-click typically 30% to 50% cheaper than traditional platforms.
+          </div>
+        </div>
+
+        <!-- FAQ 4: Minimum Ad Budget & Spend -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-solid fa-wallet text-emerald-600 text-lg shrink-0"></i>
+              <span>What minimum ad budget do I need to start marketing with Ranknix Online?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            For local Pakistan e-commerce testing, we recommend starting with a minimum ad spend of ₨ 35,000 to ₨ 60,000 per month across Meta or TikTok. For UK, US, or UAE campaigns, £25–£40 or $30–$50 per day is ideal for the initial learning phase. We never burn budget — we prove profitability with small spend before scaling aggressively.
+          </div>
+        </div>
+
+        <!-- FAQ 5: Web & E-Commerce Development -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-solid fa-code text-blue-600 text-lg shrink-0"></i>
+              <span>What platforms do you build custom websites and apps on, and how fast is delivery?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            We build custom online stores and websites on Shopify Plus, WordPress & Elementor, WIX Studio, and modern React/Next.js/Flutter frameworks. A standard high-converting Shopify store or WordPress business website is typically delivered within 3 to 7 working days, fully mobile-responsive, lightning-fast (under 1.5s load time), SEO-optimized, and integrated with payment gateways and WhatsApp.
+          </div>
+        </div>
+
+        <!-- FAQ 6: CRM & Automation (GoHighLevel, Zoho, HubSpot) -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-solid fa-arrows-rotate text-blue-600 text-lg shrink-0"></i>
+              <span>How do GoHighLevel, Zoho, and CRM automations help my business?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            When a lead fills out your form or sends a message, our automation system responds instantly within 60 seconds via WhatsApp, SMS, or email, tags the lead, assigns it to your sales rep, and moves them down the pipeline automatically. This eliminates manual data entry, prevents lost leads, and increases booking rates by up to 300%.
+          </div>
+        </div>
+
+        <!-- FAQ 7: Contracts & Full Service Stack -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-solid fa-shield-halved text-emerald-600 text-lg shrink-0"></i>
+              <span>Do you lock clients into long-term contracts, and how do you charge?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            No long-term lock-ins. All our monthly marketing and retainer plans are month-to-month, meaning we earn your business every 30 days through transparent, verified results. Our development projects are one-time fixed pricing with zero hidden fees.
+          </div>
+        </div>
+
+        <!-- FAQ 8: Founder Communication & Reporting -->
+        <div class="faq-item clean-card rounded-2xl overflow-hidden">
+          <button class="faq-trigger w-full px-6 py-5 text-left font-bold text-slate-900 text-base sm:text-lg flex items-center justify-between gap-4">
+            <span class="flex items-center gap-3">
+              <i class="fa-solid fa-user-tie text-violet-600 text-lg shrink-0"></i>
+              <span>How will Muhammad Abdullah and the Ranknix team communicate and report results?</span>
+            </span>
+            <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300 faq-icon shrink-0"></i>
+          </button>
+          <div class="faq-content px-6 text-slate-600 text-sm pb-5 leading-relaxed">
+            You get direct access to a private WhatsApp group with Founder Muhammad Abdullah, your dedicated media buyer, and lead developer. You receive real-time updates, daily ad health monitoring, and a comprehensive weekly visual performance report tracking spend, ROAS, leads, sales, and the upcoming scaling roadmap.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- 12. CONTACT SECTION & LEAD FORM -->
+  <section id="contact" class="py-24 bg-slate-50/70 relative z-10 border-t border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="clean-card rounded-3xl p-8 sm:p-12 lg:p-16 border border-slate-200 relative overflow-hidden" data-aos="fade-up">
+        
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
+          <!-- Contact Info -->
+          <div>
+            <span class="text-xs sm:text-sm font-extrabold text-blue-600 tracking-wider uppercase mb-2 inline-block">Contact Ranknix Online</span>
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 font-heading tracking-tight mb-6 leading-tight">
+              Ready To Scale Your Brand To The <span class="text-gradient-blue">Next Level?</span>
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-8">
+              Fill out the quick form or click the WhatsApp button to chat directly with Founder Muhammad Abdullah and our senior growth team. We typically reply within 10 minutes.
+            </p>
+
+            <div class="space-y-4">
+              <!-- WhatsApp Link -->
+              <a href="https://wa.me/923088163940" target="_blank" class="flex items-center gap-4 text-slate-700 hover:text-emerald-600 transition group">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl group-hover:bg-emerald-600 group-hover:text-white transition">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-slate-400 font-bold block uppercase">Direct WhatsApp</span>
+                  <span class="text-base font-black text-slate-900">+92 308 8163940</span>
+                </div>
+              </a>
+
+              <!-- Email -->
+              <div class="flex items-center gap-4 text-slate-700">
+                <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-slate-400 font-bold block uppercase">Official Email</span>
+                  <span class="text-base font-black text-slate-900">contact@ranknix.online</span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="flex items-center gap-4 text-slate-700">
+                <div class="w-12 h-12 rounded-2xl bg-sky-100 text-sky-600 flex items-center justify-center text-xl">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <span class="text-xs text-slate-400 font-bold block uppercase">Direct Phone</span>
+                  <span class="text-base font-black text-slate-900">+92 308 8163940</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Lead Form -->
+          <div class="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-lg">
+            <h3 class="text-xl font-black text-slate-900 mb-1 font-heading">Request A Fast Callback</h3>
+            <p class="text-xs text-slate-500 mb-6">Leave your details and we'll reach out on WhatsApp right away.</p>
+
+            <form id="contact-form" class="space-y-4">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1.5">Your Full Name *</label>
+                <input type="text" name="name" required placeholder="e.g. Ali Raza" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-blue-500 transition shadow-sm">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1.5">WhatsApp Number *</label>
+                <input type="tel" name="phone" required placeholder="e.g. 0308 8163940" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-blue-500 transition shadow-sm">
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1.5">Service You Are Interested In</label>
+                <select name="service" class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:border-blue-500 transition shadow-sm font-medium">
+                  <optgroup label="Development & Design">
+                    <option value="Web Development (WordPress/Shopify)">Web Development (WordPress/Shopify)</option>
+                    <option value="Mobile App Development">Mobile App Development (React Native / Flutter)</option>
+                    <option value="UI/UX & Graphic Design">UI/UX & Graphic Design</option>
+                    <option value="Landing Page Design (CRO)">Landing Page Design (CRO Optimized)</option>
+                  </optgroup>
+                  <optgroup label="Performance Marketing">
+                    <option value="Meta (Facebook & Instagram) Ads">Meta (Facebook & Instagram) Ads</option>
+                    <option value="TikTok Ads & UGC Video Marketing">TikTok Ads & UGC Video Marketing</option>
+                    <option value="Google & Bing Ads (PMax/Search)">Google & Bing Ads (PMax/Search)</option>
+                    <option value="SEO Services & Technical Audit">SEO Services & Technical Audit</option>
+                    <option value="Complete Agency Growth Package">Complete Growth Package (Web + Ads)</option>
+                  </optgroup>
+                  <optgroup label="Data, CRM & Automation">
+                    <option value="GoHighLevel Migration & Automation">GoHighLevel Migration & Automation</option>
+                    <option value="Legal Data Entry & Data Analysis">Legal Data Entry & Data Analysis</option>
+                    <option value="Zoho Setup & CRM Automation">Zoho Setup & CRM Automation</option>
+                    <option value="B2B Lead Generation & Web Research">B2B Lead Generation & Web Research</option>
+                    <option value="Excel Cleanup & Social Data Sourcing">Excel Cleanup & Social Data Sourcing</option>
+                  </optgroup>
+                </select>
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1.5">Brief Message or Brand URL (Optional)</label>
+                <textarea name="message" rows="3" placeholder="Tell us about your brand and current revenue goals..." class="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-sm focus:outline-none focus:border-blue-500 transition shadow-sm"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm shadow-xl shadow-blue-500/25 btn-shimmer transition flex items-center justify-center gap-2">
+                <span>Send to Muhammad Abdullah via WhatsApp</span>
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+<!-- 13. FOOTER -->
+  <footer class="border-t border-slate-200 bg-slate-900 pt-16 pb-12 text-slate-400 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+        
+        <!-- Brand Col (Stacked: Ranknix on top, Online directly below with minimal space) -->
+        <div class="lg:col-span-2">
+          <a href="#" class="flex items-center gap-3 mb-4">
+            <img src="assets/images/logo.png" alt="Ranknix Online" class="h-11 w-auto">
+            <div class="flex flex-col justify-center -space-y-1">
+              <span class="text-xl sm:text-[23px] font-black text-white tracking-tight font-heading leading-tight whitespace-nowrap">
+                Ranknix
+              </span>
+              <span class="text-xl sm:text-[23px] font-black text-blue-500 tracking-tight font-heading leading-tight whitespace-nowrap">
+                Online
+              </span>
+              <span class="logo-agency-text pt-0.5 leading-none">
+                DIGITAL AGENCY
+              </span>
+            </div>
+          </a>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm mb-6">
+            Ranknix Online is a premier worldwide digital agency founded by Muhammad Abdullah, uniting cutting-edge web & mobile engineering with high-ROAS performance marketing.
+          </p>
+          <div class="flex items-center gap-3 text-slate-400">
+            <a href="https://facebook.com" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center hover:text-blue-400 transition"><i class="fa-brands fa-facebook-f text-sm"></i></a>
+            <a href="https://instagram.com" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center hover:text-pink-400 transition"><i class="fa-brands fa-instagram text-sm"></i></a>
+            <a href="https://tiktok.com" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center hover:text-white transition"><i class="fa-brands fa-tiktok text-sm"></i></a>
+            <a href="https://linkedin.com" target="_blank" class="w-9 h-9 rounded-lg bg-slate-800 flex items-center justify-center hover:text-blue-400 transition"><i class="fa-brands fa-linkedin-in text-sm"></i></a>
+          </div>
+        </div>
+
+        <!-- Links Col 1 -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Development</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400">
+            <li><a href="#dev-services" class="hover:text-white transition">Web Development</a></li>
+            <li><a href="#dev-services" class="hover:text-white transition">Mobile App Development</a></li>
+            <li><a href="#dev-services" class="hover:text-white transition">Shopify & E-Commerce</a></li>
+            <li><a href="#dev-services" class="hover:text-white transition">UI/UX Design</a></li>
+            <li><a href="#dev-services" class="hover:text-white transition">Landing Page Design (CRO)</a></li>
+          </ul>
+        </div>
+
+        <!-- Links Col 2 -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Marketing</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400">
+            <li><a href="#marketing-services" class="hover:text-white transition">Meta (Facebook/Insta) Ads</a></li>
+            <li><a href="#marketing-services" class="hover:text-white transition">Google & Bing Ads</a></li>
+            <li><a href="#marketing-services" class="hover:text-white transition">SEO Services (Local & Global)</a></li>
+            <li><a href="#marketing-services" class="hover:text-white transition">Social Media Management</a></li>
+            <li><a href="#marketing-services" class="hover:text-white transition">Email Automation</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Col -->
+        <div>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Leadership & Contact</h4>
+          <ul class="space-y-2.5 text-xs text-slate-400">
+            <li class="text-white font-bold">Muhammad Abdullah (Founder & CEO)</li>
+            <li>WhatsApp: +92 308 8163940</li>
+            <li>Phone: +92 308 8163940</li>
+            <li>Email: contact@ranknix.online</li>
+            <li class="pt-2"><a href="https://wa.me/923088163940" target="_blank" class="text-emerald-400 font-bold hover:underline flex items-center gap-1.5"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
+        <p>&copy; 2026 Ranknix Online. Founded & Led by Muhammad Abdullah. All rights reserved.</p>
+        <div class="flex items-center gap-6">
+          <a href="#" class="hover:text-white transition">Privacy Policy</a>
+          <a href="#" class="hover:text-white transition">Terms of Service</a>
+          <a href="#" class="hover:text-white transition">Refund Policy</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 14. FLOATING WHATSAPP BUTTON (PULSING) -->
+  <div class="fixed bottom-6 right-6 z-50 flex items-center gap-3">
+    <!-- Tooltip -->
+    <a href="https://wa.me/923088163940?text=Hi%20Muhammad%20Abdullah!%20%F0%9F%91%8B%20I'm%20interested%20in%20Ranknix%20Online%20services." target="_blank" class="hidden sm:flex items-center gap-2 px-3.5 py-2 rounded-full bg-white border border-emerald-400 text-emerald-800 text-xs font-bold shadow-xl hover:bg-emerald-50 transition">
+      <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+      <span>Chat with Muhammad Abdullah</span>
+    </a>
+
+    <!-- WhatsApp Floating Action Button -->
+    <a href="https://wa.me/923088163940?text=Hi%20Muhammad%20Abdullah!%20%F0%9F%91%8B%20I'm%20interested%20in%20Ranknix%20Online%20services." target="_blank" class="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center text-3xl shadow-2xl whatsapp-pulse hover:scale-110 transition-transform" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
+  </div>
+
+  <!-- 15. STRATEGY AUDIT POPUP MODAL -->
+  <div id="audit-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm hidden opacity-0 transition-opacity">
+    <div class="bg-white border border-slate-200 rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl modal-content">
+      
+      <!-- Close Button -->
+      <button class="close-audit-modal absolute top-5 right-5 w-8 h-8 rounded-full bg-slate-100 text-slate-500 hover:text-slate-900 hover:bg-slate-200 flex items-center justify-center transition">
+        <i class="fa-solid fa-xmark text-sm"></i>
+      </button>
+
+      <div class="mb-6">
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-[11px] font-black bg-blue-100 text-blue-800 mb-2">
+          Ranknix Online Consultation
+        </span>
+        <h3 class="text-2xl font-black text-slate-900 font-heading">Claim Free Growth Audit</h3>
+        <p class="text-xs text-slate-500 mt-1">
+          Tell us about your brand and Muhammad Abdullah will analyze your ads, website, and growth opportunities.
+        </p>
+      </div>
+
+      <form id="modal-lead-form" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Your Name *</label>
+          <input type="text" name="name" required placeholder="Ali Khan" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-xs sm:text-sm focus:outline-none focus:border-blue-500 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">WhatsApp / Phone Number *</label>
+          <input type="tel" name="phone" required placeholder="0308 8163940" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-xs sm:text-sm focus:outline-none focus:border-blue-500 transition">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-700 mb-1">Brand Name / Website URL</label>
+          <input type="text" name="business" placeholder="mybrand.com / Instagram handle" class="w-full px-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 text-xs sm:text-sm focus:outline-none focus:border-blue-500 transition">
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Primary Goal</label>
+            <select name="service" class="w-full px-3 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:outline-none focus:border-blue-500 transition font-medium">
+              <option value="New Website or App Development">Web / App Development</option>
+              <option value="Scale E-Commerce Orders (Shopify)">Shopify E-Commerce</option>
+              <option value="Meta Ads (FB & Insta) Scaling">Meta Ads Scaling</option>
+              <option value="TikTok Ads & UGC Scaling">TikTok Ads Scaling</option>
+              <option value="Google Ads & SEO Dominance">Google Ads & SEO</option>
+              <option value="Full Agency Growth Package">Full Agency Growth Package</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-xs font-bold text-slate-700 mb-1">Monthly Budget</label>
+            <select name="budget" class="w-full px-3 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:outline-none focus:border-blue-500 transition font-medium">
+              <option value="Starter (₨ 30k-50k / £150 / $200)">Starter Budget</option>
+              <option value="Growth (₨ 50k-150k / £350 / $500)">Growth Budget</option>
+              <option value="Scale (₨ 150k-500k / £1,000 / $1,500)">Scale Budget</option>
+              <option value="Enterprise (₨ 500k+ / £3,000+ / $4,000+)">Enterprise Budget</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm shadow-xl shadow-blue-500/25 btn-shimmer transition mt-2">
+          Submit & Connect on WhatsApp &rarr;
+        </button>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- AOS (Animate on Scroll) JS CDN -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Main JavaScript -->
+  <script src="assets/js/main.js"></script>
+
+
+<!-- JAVASCRIPT CONTROLLERS FOR LIVE SEARCH, UNIFIED SERVICES & PRICING TRACK -->
+<script>
+// 1. DATA DICTIONARY FOR LIVE SEARCH
+const ALL_SERVICES_SEARCH_DATA = [
+  { key: 'web-dev', name: 'Web Development', cat: 'Development', url: 'services/web-development.html', icon: 'fa-solid fa-code', keywords: 'wordpress shopify wix react nextjs frontend website speed core vitals' },
+  { key: 'app-dev', name: 'App Development', cat: 'Development', url: 'services/app-development.html', icon: 'fa-solid fa-mobile-screen-button', keywords: 'ios android react native flutter mobile app firebase' },
+  { key: 'ui-ux', name: 'UI/UX Design', cat: 'Development', url: 'services/ui-ux-design.html', icon: 'fa-solid fa-pen-nib', keywords: 'figma wireframe prototype user interface user experience' },
+  { key: 'graphic', name: 'Graphic Design', cat: 'Development', url: 'services/graphic-design.html', icon: 'fa-solid fa-palette', keywords: 'branding logo social banners brand guidelines packaging' },
+  { key: 'ecommerce', name: 'E-Commerce Solutions', cat: 'Development', url: 'services/e-commerce-solutions.html', icon: 'fa-solid fa-bag-shopping', keywords: 'shopify store woocommerce checkout upsell payment gateway catalog' },
+  { key: 'video', name: 'Video Editing', cat: 'Development', url: 'services/video-editing.html', icon: 'fa-solid fa-video', keywords: 'tiktok reels premiere capcut ugc video ads sound design motion' },
+  { key: 'content', name: 'Content Writing', cat: 'Development', url: 'services/content-writing.html', icon: 'fa-solid fa-feather', keywords: 'seo articles copywriting website content blogs technical writing' },
+  { key: 'landing', name: 'Landing Page Design', cat: 'Development', url: 'services/landing-page-design.html', icon: 'fa-solid fa-rocket', keywords: 'high converting figma elementor clickfunnels lead gen page sales page' },
+  { key: 'digital-mkt', name: 'Digital Marketing', cat: 'Marketing', url: 'services/digital-marketing.html', icon: 'fa-solid fa-chart-line', keywords: 'full funnel growth strategy multi channel roas acquisition' },
+  { key: 'seo', name: 'SEO Services', cat: 'Marketing', url: 'services/seo-services.html', icon: 'fa-solid fa-magnifying-glass-chart', keywords: 'search engine optimization google rank backlinks onpage technical schema' },
+  { key: 'google-ads', name: 'Google Ads & Bing Ads', cat: 'Marketing', url: 'services/google-ads-bing-ads.html', icon: 'fa-brands fa-google', keywords: 'ppc search ads shopping pmax performance max display cpa roas' },
+  { key: 'meta-ads', name: 'Meta Ads (Facebook & Instagram)', cat: 'Marketing', url: 'services/meta-ads.html', icon: 'fa-brands fa-meta', keywords: 'facebook ads instagram advantage plus capi server gtm scaling' },
+  { key: 'social', name: 'Social Media Management', cat: 'Marketing', url: 'services/social-media-management.html', icon: 'fa-solid fa-share-nodes', keywords: 'instagram tiktok linkedin content calendar engagement scheduling' },
+  { key: 'analytics', name: 'Web Analytics (GA4 & GTM)', cat: 'Marketing', url: 'services/web-analytics.html', icon: 'fa-solid fa-chart-pie', keywords: 'google analytics 4 tag manager conversion tracking data layer ecommerce' },
+  { key: 'cro', name: 'CRO Conversion Optimization', cat: 'Marketing', url: 'services/cro-conversion-optimization.html', icon: 'fa-solid fa-arrow-trend-up', keywords: 'conversion rate optimization split testing heatmaps bounce reduction' },
+  { key: 'email', name: 'Email Marketing', cat: 'Marketing', url: 'services/email-marketing.html', icon: 'fa-solid fa-envelope-open-text', keywords: 'klaviyo mailchimp flows automation abandoned cart newsletters' },
+  { key: 'legal', name: 'Legal Data Entry & Analysis', cat: 'Automation', url: 'services/legal-data-entry-data-analysis.html', icon: 'fa-solid fa-scale-balanced', keywords: 'legal data records analysis confidential case management contracts' },
+  { key: 'ghl', name: 'GoHighLevel Migration & Automation', cat: 'Automation', url: 'services/gohighlevel-migration-automation.html', icon: 'fa-solid fa-bolt', keywords: 'ghl crm funnels workflows pipelines snapshot sms automation' },
+  { key: 'zoho', name: 'Zoho Setup & Automation', cat: 'Automation', url: 'services/zoho-setup-automation.html', icon: 'fa-solid fa-cubes', keywords: 'zoho crm books creator flow webhook custom modules' },
+  { key: 'crm', name: 'CRM Data Management & Automation', cat: 'Automation', url: 'services/crm-data-management-automation.html', icon: 'fa-solid fa-database', keywords: 'hubspot salesforce data cleanup deduplication field mapping' },
+  { key: 'leadgen', name: 'B2B Lead Generation', cat: 'Automation', url: 'services/lead-generation.html', icon: 'fa-solid fa-bullseye', keywords: 'prospecting verified email lists linkedin c-suite contacts b2b pipeline' },
+  { key: 'research', name: 'Web Research & Intelligence', cat: 'Automation', url: 'services/web-research.html', icon: 'fa-solid fa-magnifying-glass', keywords: 'market research competitor analysis data sourcing directory scraping' },
+  { key: 'excel', name: 'Microsoft Excel Cleaning & Formatting', cat: 'Automation', url: 'services/excel-cleaning-formatting.html', icon: 'fa-solid fa-file-excel', keywords: 'spreadsheet cleanup formulas vlookup macros pivot tables formatting' },
+  { key: 'socialdata', name: 'Social Media Data Collection', cat: 'Automation', url: 'services/social-media-data-collection.html', icon: 'fa-solid fa-network-wired', keywords: 'data scraping profiles engagement metrics csv json sheets' }
+];
+
+// 2. LIVE SEARCH CONTROLLER
+function handleLiveServiceSearch(val) {
+  const dropdown = document.getElementById('hero-search-results');
+  if (!dropdown) return;
+  const q = val.trim().toLowerCase();
+  if (!q) {
+    dropdown.classList.add('hidden');
+    dropdown.innerHTML = '';
+    return;
+  }
+
+  const matches = ALL_SERVICES_SEARCH_DATA.filter(s => 
+    s.name.toLowerCase().includes(q) || 
+    s.cat.toLowerCase().includes(q) || 
+    s.keywords.toLowerCase().includes(q)
+  );
+
+  if (matches.length === 0) {
+    dropdown.innerHTML = '<div class="p-4 text-center text-xs text-slate-500 font-semibold">No services found for "' + val + '". Try typing "Web", "Ads", "Shopify", or "CRM".</div>';
+    dropdown.classList.remove('hidden');
+    return;
+  }
+
+  let html = '<div class="p-2 space-y-1">';
+  matches.forEach(m => {
+    html += `
+    <div class="flex items-center justify-between p-2.5 rounded-xl hover:bg-blue-50/80 transition group">
+      <a href="${m.url}" class="flex items-center gap-3 flex-1 min-w-0">
+        <div class="w-8 h-8 rounded-lg bg-blue-100/80 text-blue-600 flex items-center justify-center text-xs shrink-0 group-hover:bg-blue-600 group-hover:text-white transition">
+          <i class="${m.icon}"></i>
+        </div>
+        <div class="truncate">
+          <h5 class="text-xs font-black text-slate-900 group-hover:text-blue-600 transition truncate">${m.name}</h5>
+          <span class="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">${m.cat}</span>
+        </div>
+      </a>
+      <div class="flex items-center gap-1.5 shrink-0 ml-2">
+        <a href="${m.url}" class="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-600 hover:text-white text-[11px] font-bold transition">Details &rarr;</a>
+        <button onclick="window.location.href='pricing.html?service=${m.key}'); document.getElementById('hero-search-results').classList.add('hidden');" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-[11px] font-bold transition">Pricing</button>
+      </div>
+    </div>`;
+  });
+  html += '</div>';
+
+  dropdown.innerHTML = html;
+  dropdown.classList.remove('hidden');
+}
+
+function quickSelectService(key) {
+  const match = ALL_SERVICES_SEARCH_DATA.find(s => s.key === key);
+  if (match) {
+    window.location.href = match.url;
+  }
+}
+
+function submitSearchFirstMatch() {
+  const input = document.getElementById('hero-search-input');
+  if (!input) return;
+  const q = input.value.trim().toLowerCase();
+  if (!q) return;
+  const match = ALL_SERVICES_SEARCH_DATA.find(s => 
+    s.name.toLowerCase().includes(q) || 
+    s.keywords.toLowerCase().includes(q)
+  );
+  if (match) {
+    window.location.href = match.url;
+  }
+}
+
+// Close search dropdown on outside click
+document.addEventListener('click', (e) => {
+  const input = document.getElementById('hero-search-input');
+  const dropdown = document.getElementById('hero-search-results');
+  if (dropdown && !dropdown.contains(e.target) && e.target !== input) {
+    dropdown.classList.add('hidden');
+  }
+});
+
+// 3. UNIFIED SERVICES CATEGORY SWITCHER (#services)
+function switchServiceCategory(cat) {
+  document.querySelectorAll('.cat-tab-btn').forEach(btn => {
+    btn.classList.remove('bg-blue-600', 'text-white', 'shadow-md');
+    btn.classList.add('text-slate-700');
+  });
+  const activeBtn = document.getElementById('cat-tab-' + cat);
+  if (activeBtn) {
+    activeBtn.classList.add('bg-blue-600', 'text-white', 'shadow-md');
+    activeBtn.classList.remove('text-slate-700');
+  }
+
+  document.querySelectorAll('.cat-panel').forEach(p => p.classList.add('hidden'));
+  const activePanel = document.getElementById('cat-panel-' + cat);
+  if (activePanel) {
+    activePanel.classList.remove('hidden');
+  }
+}
+
+// 4. PRICING MARQUEE TRACK CONTROLLER (#pricing)
+function selectTrackService(slug) {
+  // Update track pill styling
+  document.querySelectorAll('.track-pill').forEach(btn => {
+    btn.classList.remove('border-blue-600', 'bg-blue-50/80', 'text-blue-700', 'shadow-xs');
+    btn.classList.add('border-slate-200/90', 'bg-white', 'text-slate-700');
+  });
+
+  const matchingPills = document.querySelectorAll('#track-pill-' + slug);
+  matchingPills.forEach(p => {
+    p.classList.add('border-blue-600', 'bg-blue-50/80', 'text-blue-700', 'shadow-xs');
+    p.classList.remove('border-slate-200/90', 'bg-white', 'text-slate-700');
+  });
+
+  // Show target panel
+  document.querySelectorAll('.track-pricing-panel').forEach(p => p.classList.add('hidden'));
+  const target = document.getElementById('track-panel-' + slug);
+  if (target) {
+    target.classList.remove('hidden');
+  }
+}
+
+function jumpToServicePricing(slug) {
+  const sec = document.getElementById('pricing');
+  if (sec) {
+    sec.scrollIntoView({ behavior: 'smooth' });
+  }
+  selectTrackService(slug);
+}
+
+function scrollTrackPrev() {
+  const container = document.getElementById('pricing-marquee-container');
+  if (container) container.scrollBy({ left: -280, behavior: 'smooth' });
+}
+
+function scrollTrackNext() {
+  const container = document.getElementById('pricing-marquee-container');
+  if (container) container.scrollBy({ left: 280, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
+
