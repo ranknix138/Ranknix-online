@@ -69,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initModal();
   initWhatsAppButtons();
   initLeadForms();
+  initMobileBottomNav();
 });
 
 // 1. INITIALIZE AOS ANIMATION ON SCROLL
@@ -354,3 +355,56 @@ function initLeadForms() {
     });
   }
 }
+
+// 10. MOBILE BOTTOM NAVIGATION ACTIVE TRACKER
+function initMobileBottomNav() {
+  const mbnLinks = document.querySelectorAll('.mbn-link');
+  if (!mbnLinks.length) return;
+
+  const currentPath = window.location.pathname.toLowerCase();
+  const isHome = currentPath === '/' || currentPath.endsWith('index.html') || currentPath === '';
+
+  function updateActive() {
+    let activeFound = false;
+
+    // Check if scrolled to testimonials on homepage
+    if (isHome) {
+      const testimonials = document.getElementById('testimonials');
+      if (testimonials) {
+        const rect = testimonials.getBoundingClientRect();
+        if (rect.top <= window.innerHeight * 0.45 && rect.bottom >= window.innerHeight * 0.2) {
+          mbnLinks.forEach(l => l.classList.toggle('active', l.dataset.page === 'reviews'));
+          return;
+        }
+      }
+    }
+
+    mbnLinks.forEach(link => {
+      const page = link.dataset.page;
+      let isActive = false;
+      if (page === 'home' && isHome && (!window.location.hash || window.location.hash !== '#testimonials')) {
+        isActive = true;
+      } else if (page === 'development' && currentPath.includes('development')) {
+        isActive = true;
+      } else if (page === 'marketing' && currentPath.includes('marketing')) {
+        isActive = true;
+      } else if (page === 'automation' && currentPath.includes('automation')) {
+        isActive = true;
+      } else if (page === 'pricing' && currentPath.includes('pricing')) {
+        isActive = true;
+      }
+
+      link.classList.toggle('active', isActive);
+      if (isActive) activeFound = true;
+    });
+
+    if (!activeFound && isHome) {
+      const homeLink = document.querySelector('.mbn-link[data-page="home"]');
+      if (homeLink) homeLink.classList.add('active');
+    }
+  }
+
+  window.addEventListener('scroll', updateActive, { passive: true });
+  updateActive();
+}
+
