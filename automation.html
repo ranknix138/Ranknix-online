@@ -35,9 +35,131 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=3.5">
   <!-- Smart Geo-Location Multi-Currency Engine -->
   <script src="assets/js/currency.js"></script>
+<style id="rafirit-exact-style">
+.fcall, .fwa, .mbn { display: none; }
+@media (max-width: 768px) {
+  body { padding-bottom: 74px !important; }
+  .fcall, .fwa {
+    display: flex !important;
+    position: fixed;
+    z-index: 99998;
+    width: 3.1rem;
+    height: 3.1rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s;
+    text-decoration: none !important;
+    -webkit-tap-highlight-color: transparent;
+    bottom: calc(64px + .85rem);
+  }
+  .fcall { left: 1rem; background: #FF4C00; box-shadow: 0 4px 1.2rem rgba(255, 76, 0, .4); }
+  .fwa { right: 1rem; background: #25D366; box-shadow: 0 4px 1.2rem rgba(37, 211, 102, .45); }
+  .fcall svg, .fwa svg { width: 1.35rem; height: 1.35rem; fill: #ffffff; stroke: none; }
+  .fcall:hover, .fcall:active { transform: scale(1.1) rotate(-8deg); box-shadow: 0 6px 1.8rem rgba(255, 76, 0, .6); }
+  .fwa:hover, .fwa:active { transform: scale(1.1) rotate(8deg); box-shadow: 0 6px 1.8rem rgba(37, 211, 102, .6); }
+
+  .mbn {
+    display: flex !important;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    height: 64px;
+    background: rgba(10, 8, 6, .97);
+    border-top: 1px solid rgba(255, 76, 0, .3);
+    backdrop-filter: blur(20px) saturate(1.3);
+    -webkit-backdrop-filter: blur(20px) saturate(1.3);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .mbn::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 15%;
+    right: 15%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #FF4C00, #FF6B2B, transparent);
+    opacity: .7;
+  }
+  .mbni { display: flex; justify-content: space-around; align-items: center; height: 100%; width: 100%; }
+  .mbnit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .25rem;
+    padding: .3rem .5rem;
+    color: #8c827a;
+    transition: color .25s, transform .25s;
+    text-decoration: none !important;
+    flex: 1;
+    min-height: 44px;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .mbnit::before {
+    content: '';
+    position: absolute;
+    top: .2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: .3rem;
+    height: .3rem;
+    border-radius: 50%;
+    background: #FF4C00;
+    opacity: 0;
+    transition: opacity .25s;
+  }
+  .mbnit.active::before, .mbnit:hover::before { opacity: 1; }
+  .mbnit.active, .mbnit:hover { color: #FF4C00 !important; }
+  .mbnico {
+    line-height: 1;
+    transition: transform .25s cubic-bezier(.22, 1, .36, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mbnico svg { width: 22px; height: 22px; stroke: currentColor; transition: stroke .25s; }
+  .mbnit.active .mbnico { transform: translateY(-2px) scale(1.12); }
+  .mbnit.active .mbnico svg { stroke: #FF4C00 !important; }
+  .mbnlbl {
+    font-size: .52rem;
+    font-weight: 700;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-top: .1rem;
+    line-height: 1;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 769px) { .mbn, .fcall, .fwa { display: none !important; } }
+
+/* Review cards text wrap fix */
+.marquee-content .review-card, .review-card {
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  box-sizing: border-box !important;
+  max-width: 90vw !important;
+}
+.marquee-content .review-card p, .review-card p {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
+  display: block !important;
+}
+.review-card .truncate {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+</style>
 </head>
 <body class="bg-white text-slate-800 antialiased font-sans selection:bg-blue-600 selection:text-white">
 
@@ -2015,43 +2137,112 @@
     }
   </script>
 
-<!-- Mobile Floating Action Buttons (Call & WhatsApp - rafirit style) -->
-<div class="mobile-floating-actions md:hidden">
-  <a href="tel:+923088163940" class="mobile-floating-btn mobile-floating-call" aria-label="Call Now">
-    <i class="fa-solid fa-phone text-base"></i>
-  </a>
-  <a href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20%F0%9F%91%8B%20I'm%20interested%20in%20your%20services." target="_blank" class="mobile-floating-btn mobile-floating-wa" aria-label="WhatsApp">
-    <i class="fa-brands fa-whatsapp text-2xl"></i>
-  </a>
-</div>
 
-<!-- Mobile Bottom Navigation Bar (rafirit style) -->
-<nav class="mobile-bottom-nav md:hidden" aria-label="Mobile Bottom Navigation">
-  <a href="index.html" class="mbn-link" data-page="home">
-    <span class="mbn-icon"><i class="fa-solid fa-house"></i></span>
-    <span class="mbn-label">Home</span>
-  </a>
-  <a href="development.html" class="mbn-link" data-page="development">
-    <span class="mbn-icon"><i class="fa-solid fa-code"></i></span>
-    <span class="mbn-label">Dev</span>
-  </a>
-  <a href="marketing.html" class="mbn-link" data-page="marketing">
-    <span class="mbn-icon"><i class="fa-solid fa-chart-line"></i></span>
-    <span class="mbn-label">Marketing</span>
-  </a>
-  <a href="automation.html" class="mbn-link" data-page="automation">
-    <span class="mbn-icon"><i class="fa-solid fa-gears"></i></span>
-    <span class="mbn-label">Automation</span>
-  </a>
-  <a href="pricing.html" class="mbn-link" data-page="pricing">
-    <span class="mbn-icon"><i class="fa-solid fa-tags"></i></span>
-    <span class="mbn-label">Pricing</span>
-  </a>
-  <a href="index.html#testimonials" class="mbn-link" data-page="reviews">
-    <span class="mbn-icon"><i class="fa-solid fa-star"></i></span>
-    <span class="mbn-label">Reviews</span>
-  </a>
+<!-- Floating Buttons: Call & WhatsApp (Rafirit Style) -->
+<a class="fcall" href="tel:+923088163940" aria-label="Call us">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/>
+  </svg>
+</a>
+
+<a class="fwa" href="https://wa.me/923088163940?text=Hi%20Ranknix%20Online!%20%F0%9F%91%8B%20I'm%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+  </svg>
+</a>
+
+<!-- Mobile Bottom Navigation Bar (Exact Rafirit Style) -->
+<nav class="mbn" aria-label="Mobile bottom navigation">
+  <div class="mbni">
+    <!-- Home -->
+    <a class="mbnit" href="index.html" data-target="home">
+      <span class="mbnico">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9.75L12 3l9 6.75V21a1 1 0 01-1 1H5a1 1 0 01-1-1V9.75z"/>
+          <path d="M9 22V12h6v10"/>
+        </svg>
+      </span>
+      <span class="mbnlbl">Home</span>
+    </a>
+
+    <!-- Services -->
+    <a class="mbnit" href="development.html" data-target="services">
+      <span class="mbnico">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+          <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+          <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+          <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+        </svg>
+      </span>
+      <span class="mbnlbl">Services</span>
+    </a>
+
+    <!-- Packages -->
+    <a class="mbnit" href="pricing.html" data-target="packages">
+      <span class="mbnico">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/>
+          <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+          <line x1="12" y1="22.08" x2="12" y2="12"/>
+        </svg>
+      </span>
+      <span class="mbnlbl">Packages</span>
+    </a>
+
+    <!-- Reviews -->
+    <a class="mbnit" href="index.html#testimonials" data-target="testimonials">
+      <span class="mbnico">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+      </span>
+      <span class="mbnlbl">Reviews</span>
+    </a>
+
+    <!-- Contact -->
+    <a class="mbnit" href="index.html#contact" data-target="contact">
+      <span class="mbnico">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.95 10.5 19.79 19.79 0 01.88 1.82 2 2 0 012.88 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0121.1 14l-.18 2.92z"/>
+        </svg>
+      </span>
+      <span class="mbnlbl">Contact</span>
+    </a>
+  </div>
 </nav>
+
+<script>
+(function() {
+  var path = window.location.pathname.toLowerCase();
+  var isHome = path === '/' || path.endsWith('index.html') || path === '';
+  var links = document.querySelectorAll('.mbnit');
+  function upd() {
+    var hash = window.location.hash;
+    if (isHome) {
+      var sec = document.getElementById('testimonials');
+      if (sec) {
+        var r = sec.getBoundingClientRect();
+        if (r.top <= window.innerHeight * 0.45 && r.bottom >= window.innerHeight * 0.2) {
+          links.forEach(function(l) { l.classList.toggle('active', l.getAttribute('data-target') === 'testimonials'); });
+          return;
+        }
+      }
+    }
+    links.forEach(function(l) {
+      var t = l.getAttribute('data-target');
+      var act = false;
+      if (t === 'home' && isHome && hash !== '#testimonials' && hash !== '#contact') act = true;
+      else if (t === 'services' && (path.includes('development') || path.includes('services') || path.includes('marketing') || path.includes('automation'))) act = true;
+      else if (t === 'packages' && path.includes('pricing')) act = true;
+      else if (t === 'contact' && hash === '#contact') act = true;
+      l.classList.toggle('active', act);
+    });
+  }
+  window.addEventListener('scroll', upd, { passive: true });
+  upd();
+})();
+</script>
 </body>
 </html>
 
