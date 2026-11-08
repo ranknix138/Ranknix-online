@@ -894,3 +894,5 @@ h1, h2, h3, h4, .font-heading {
   overflow: hidden !important;
   text-overflow: ellipsis !important;
 }
+/* Hard guarantee no mobile call button displays */
+.mobile-floating-call, .fcall, .mobile-floating-actions { display: none !important; visibility: hidden !important; pointer-events: none !important; }

@@ -1,0 +1,82 @@
+﻿================================================================================
+           COMPLETE WHATSAPP BUSINESS SETUP KIT (RANKNIX ONLINE)
+================================================================================
+
+1. PROFILE PHOTO (DP):
+   File: D:\Ranknix_WhatsApp_DP_White.png  (ya D:\Ranknix_WhatsApp_DP_Dark.png)
+   *Circle-Safe: Will NOT cut rocket or swoosh!
+
+
+2. COVER PHOTO (BACKGROUND BANNER V2 - REDESIGNED & DP-SAFE):
+   File: D:\Ranknix_WhatsApp_Cover_Banner.png
+   *Key text and logo are placed on top & right, so the bottom-left DP never blocks them!
+
+
+3. BUSINESS PROFILE DETAILS (Copy & Paste):
+--------------------------------------------------------------------------------
+- Business Name:
+  Ranknix Online
+
+- Category:
+  Web Designer  (OR: Internet Marketing Service)
+
+- Description (About Business):
+  Ranknix Online is your worldwide full-service digital agency. We specialize in building modern custom websites, AI automated autoblogs, high-converting e-commerce stores, and custom web applications. From seamless API integrations to SEO and performance optimization, our team delivers scalable digital solutions that grow your business. Let's build your next digital asset!
+
+- Business Address:
+  Bahawalpur, Punjab, Pakistan  (OR: Worldwide Digital Services)
+
+- Business Hours:
+  Always Open  (OR: Mon - Sat: 09:00 AM - 10:00 PM)
+
+- Email:
+  contact@ranknix.online  (OR: abdullahraees0138@gmail.com)
+
+- Website:
+  https://ranknix.online
+
+
+4. WHATSAPP CATALOG ITEMS (PRICES IN USD ONLY):
+--------------------------------------------------------------------------------
+
+[SERVICE 1]
+- Item Name: Automated AI News & Autoblog Websites
+- Price: $95 USD
+- Description:
+  Fully automated WordPress news portal integrated with target RSS feeds and OpenAI / Gemini AI to generate and publish unique, SEO-friendly articles 24/7 on complete autopilot. AdSense ready with responsive mobile design.
+- Image: D:\Catalog_Images\Catalog_1_Automated_AI_Autoblog.png
+- Link: https://ranknix.online
+
+[SERVICE 2]
+- Item Name: Custom WordPress & Business Websites
+- Price: $120 USD
+- Description:
+  High-performance, modern business website designed with Elementor Pro. Mobile responsive, lightning-fast loading speed, contact forms, interactive UI, and complete on-page SEO setup.
+- Image: D:\Catalog_Images\Catalog_2_WordPress_Business_Websites.png
+- Link: https://ranknix.online
+
+[SERVICE 3]
+- Item Name: E-Commerce & WooCommerce Online Stores
+- Price: $150 USD
+- Description:
+  Complete online store setup with payment gateway integration, product variations, inventory tracking, secure checkout, and mobile-friendly shopping experience.
+- Image: D:\Catalog_Images\Catalog_3_Ecommerce_WooCommerce_Stores.png
+- Link: https://ranknix.online
+
+[SERVICE 4]
+- Item Name: Full-Stack Web Development & Custom Web Apps
+- Price: $250 USD
+- Description:
+  Custom web application architecture using React, Node.js, Python, PHP, and Supabase. Clean code, scalable databases, and seamless third-party API integrations.
+- Image: D:\Catalog_Images\Catalog_4_FullStack_Web_Development.png
+- Link: https://ranknix.online
+
+[SERVICE 5]
+- Item Name: Website Speed & SEO Optimization
+- Price: $50 USD
+- Description:
+  Boost your site speed to 90+ on Google PageSpeed Insights. Comprehensive caching, image compression, database cleanup, Core Web Vitals fix, and technical SEO setup.
+- Image: D:\Catalog_Images\Catalog_5_Speed_SEO_Optimization.png
+- Link: https://ranknix.online
+
+================================================================================

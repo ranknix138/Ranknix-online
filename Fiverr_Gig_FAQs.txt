@@ -1,0 +1,44 @@
+﻿================================================================================
+            FIVERR GIG FREQUENTLY ASKED QUESTIONS (FAQS)
+================================================================================
+
+[FAQ 1]
+Question:
+Will the website update and publish articles completely automatically?
+
+Answer:
+Yes! Once the website is set up with your target RSS feeds, it will automatically fetch, rewrite with AI, and publish new articles on autopilot according to your custom schedule (e.g., every 30 minutes, hourly, or daily) without any manual effort.
+
+
+[FAQ 2]
+Question:
+Do you guarantee Google AdSense approval and passive earnings?
+
+Answer:
+No. We build the website following 100% of Google AdSense friendly guidelines (clean navigation, essential legal pages, responsive design, and unique AI rewritten posts). However, actual AdSense approval and earnings are determined solely by Google's policies and your website traffic. No developer can guarantee Google's independent approval.
+
+
+[FAQ 3]
+Question:
+What do I need to provide to get started?
+
+Answer:
+You only need a Domain and Web Hosting (with WordPress installed or cPanel access). If you want automatic AI article rewriting, you will also provide your OpenAI or Google Gemini API key (I can guide you on getting one easily for free or minimal cost).
+
+
+[FAQ 4]
+Question:
+Is the AI-generated content safe from duplicate content penalties?
+
+Answer:
+Yes. The automated system passes raw RSS feeds through ChatGPT / Gemini AI prompts that rewrite, summarize, and generate unique headlines and paragraphs, ensuring the content is fresh, readable, and SEO-friendly.
+
+
+[FAQ 5]
+Question:
+Can I choose my own niche and news sources?
+
+Answer:
+Absolutely! You can choose any niche such as Technology, AI, Crypto & Finance, Health, Sports, or World News. You can share your own preferred RSS feed links, or I can select authoritative, high-traffic sources for you.
+
+================================================================================

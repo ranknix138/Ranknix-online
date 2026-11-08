@@ -1,0 +1,78 @@
+﻿=============================================================
+           FIVERR PROFILE SETUP DETAILS (ABID / AGENCY)
+=============================================================
+
+1. DISPLAY NAME:
+   Abid R.  (ya Abid | Ranknix)
+
+-------------------------------------------------------------
+2. PROFESSIONAL TITLE / TAGLINE (Under 70 Chars):
+   WordPress Developer & AI Website Automation Specialist
+
+-------------------------------------------------------------
+3. LANGUAGES:
+   - English: Fluent (ya Bilingual)
+   - Urdu: Native / Bilingual
+   - Punjabi: Conversational
+   - German: Basic (Optional)
+
+-------------------------------------------------------------
+4. ABOUT ME / DESCRIPTION (Exact 545 Characters - Under 600 Limit):
+Hi, I'm Abid—a tech enthusiast with a BS in IT from The Islamia University of Bahawalpur and lead developer at our digital solutions team. 
+
+I specialize in building high-performing WordPress websites, responsive business portals, and fully automated AI autoblogs (RSS feeds + ChatGPT/Gemini). Whether you need custom Elementor design, speed optimization, or a 24/7 autopilot news portal, my team and I deliver clean, secure, and modern results that actually grow your business.
+
+Let’s connect and bring your vision to life!
+
+-------------------------------------------------------------
+5. SKILLS TO ADD (Set all to "Expert"):
+   - WordPress
+   - Elementor
+   - Elementor Pro
+   - Web Development
+   - Website Design
+   - Automated Website
+   - RSS Feed Integration
+   - AI Content Generation
+   - Responsive Web Design
+   - HTML5
+   - CSS3
+   - PHP
+   - WooCommerce
+   - Website Speed Optimization
+   - SEO Optimization
+
+-------------------------------------------------------------
+6. EDUCATION:
+   - Country: Pakistan
+   - College/University: The Islamia University of Bahawalpur
+   - Title: B.Sc. (ya BS)
+   - Major: Information Technology
+   - Year: 2026 (ya 2025)
+
+-------------------------------------------------------------
+7. CERTIFICATIONS:
+   Certificate 1:
+   - Certificate: WordPress Development
+   - From: DigiSkills.pk - Ministry of IT Pakistan
+   - Year: 2024
+
+   Certificate 2:
+   - Certificate: Freelancing & Professional Client Management
+   - From: DigiSkills Training Program
+   - Year: 2024
+
+   Certificate 3:
+   - Certificate: Search Engine Optimization (SEO)
+   - From: DigiSkills.pk
+   - Year: 2024
+
+-------------------------------------------------------------
+8. WORK EXPERIENCE (If prompted):
+   - Title: Lead WordPress & Automation Developer
+   - Company: Ranknix Solutions (ya Freelance)
+   - Duration: 2023 - Present
+   - Description:
+   Leading web development projects focused on custom WordPress websites, automated RSS news aggregators, AI API integrations (OpenAI/Gemini), and technical SEO for international clients.
+
+=============================================================

@@ -1,0 +1,13 @@
+================================================================================
+              FIVERR GIG BUYER REQUIREMENTS (SHORT & DIRECT)
+================================================================================
+
+Please provide the following details to get started:
+
+1. WordPress Login (URL, Username & Password) or cPanel/Hosting access.
+2. Website Niche & Categories (e.g., Tech, Crypto, Health, News).
+3. Preferred RSS News Feeds (Optional - I can pick top feeds for you).
+4. OpenAI or Gemini API Key (For AI content rewriting).
+5. Logo & Website Name (If available).
+
+================================================================================

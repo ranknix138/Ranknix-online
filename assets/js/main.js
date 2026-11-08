@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Ranknix Online - Main Interactive Script
  * Auto Geo-Currency Detection (PKR, GBP, USD, EUR) + Counter Animations
  */
@@ -8,9 +8,9 @@ const AGENCY_CONFIG = {
   tagline: "Digital Agency",
   founderName: "Muhammad Abdullah",
   founderExp: "5+ Years Experience in Performance Marketing & Management",
-  whatsappNumber: "923088163940", // User's WhatsApp number without leading +
+  whatsappNumber: "923359276673", // User's WhatsApp number without leading +
   email: "contact@ranknix.online",
-  phone: "+92 308 8163940",
+  phone: "+92 335 9276673",
   defaultCurrency: "PKR"
 };
 
